@@ -1,0 +1,32 @@
+header{
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 5rem;
+  font-size: .8rem;
+}
+.logo{
+  width: 40%;
+}
+header .content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+}
+nav ul li.active{
+  padding: 0.6rem 1.7rem;
+  background-color: #DBDFD0;
+  border-radius: 30px;
+}
+
+nav ul li a {
+  font-size: 16px;
+  font-weight: 500;
+}

@@ -1,0 +1,21 @@
+.contact-card {
+  background-color: #474747;
+  border-radius: 0.75rem;
+  color: white;
+  position: absolute;
+  right: -2rem;
+  bottom: 2rem;
+  width: 25.6285rem;
+}
+
+.contact-card .card-box {
+  padding: 3.12rem;
+}
+
+.contact-card .card-box h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.875rem; /* 125% */
+  letter-spacing: -0.045rem;
+  padding-bottom: 2.81rem;
+}

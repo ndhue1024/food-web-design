@@ -1,0 +1,14 @@
+.services .container {
+  padding: 7.5rem;
+}
+
+.services .container h1 {
+  width: 50%;
+}
+
+.services .container .service-options {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 0 1rem;
+}
