@@ -1,0 +1,11 @@
+.menu {
+  text-align: center;
+  padding: 5.7rem 9.5rem 7.5rem 5.7rem;
+}
+
+.menu .box {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
