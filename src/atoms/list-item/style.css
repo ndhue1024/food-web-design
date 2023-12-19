@@ -1,11 +1,13 @@
 .info-contact {
   color: white;
   padding: 0.43rem 0;
+  display: flex;
+  align-items: center;
 }
 
 .info-contact .info-contact-content {
   padding-left: 1.5rem;
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 400;
   line-height: 1.5rem;
   color: #F9F9F7;

@@ -1,0 +1,78 @@
+footer {
+  background-color: #474747;
+}
+
+footer .footer-container {
+  padding: 7.5rem 9.5rem 5.31rem 9.5rem;
+}
+
+footer .footer-container .top {
+  display: flex;
+  justify-content: space-between;
+  gap: 8.44rem;
+}
+
+footer .top .box-1 p {
+  color: #ADB29E;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+  padding: 1.88rem 0;
+}
+
+footer .icon-footer {
+  color: white;
+  padding: 0.5rem;
+  width: 2.1875rem !important;
+  height: 2.1875rem !important;
+  background-color: #AD343E;
+  border-radius: 100%;
+  margin-right: 0.75rem;
+}
+
+footer .top .box-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 7.5rem;
+}
+
+footer .top h4 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+footer .top .box-2 ul li {
+  padding-top: 1.25rem;
+}
+
+footer .top .box-2 ul li a {
+  color: #DBDFD0;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+footer .top .box-3 .img {
+  padding-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+footer .top .box-3 .img img {
+  border-radius: 0.75rem;
+}
+
+footer .bottom {
+  margin-top: 6.25rem;
+  padding: 1.88rem;
+  border-top: 1px solid #414536;
+  text-align: center;
+}
+
+footer .bottom p {
+  color:#ADB29E;
+  font-size: 1rem;
+  font-weight: 400;
+}

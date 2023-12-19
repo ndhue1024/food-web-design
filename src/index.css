@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -5,7 +8,7 @@
 }
 html,body{
   margin: auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 ul {
   list-style: none;
@@ -13,4 +16,7 @@ ul {
 a{
   text-decoration: none;
   color: black;
+}
+.main-title{
+  font-family: 'Playfair Display', serif;
 }

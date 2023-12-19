@@ -1,0 +1,23 @@
+.blog {
+  padding: 7.5rem 9.5rem;
+  background-color: #F9F9F7;
+}
+
+.blog .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog .blog-content {
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.blog .blog-content .others-blog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding-left: 1.5rem;
+}

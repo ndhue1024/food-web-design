@@ -1,0 +1,10 @@
+.testimonial .container {
+  padding: 6.13rem 9.5rem;
+}
+
+.testimonial .container .list-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 1.5rem;
+  padding-top: 4rem;
+}

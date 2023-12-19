@@ -1,0 +1,16 @@
+.btn-red {
+  color: white;
+  padding: 0.4rem;
+  width: 2rem !important;
+  height: 2rem !important;
+  background-color: #AD343E;
+  border-radius: 100%;
+  margin-right: 1.5rem;
+}
+
+.btn-reg {
+  color: #F9F9F7;
+  padding: 0.4rem;
+  background-color: transparent;
+  margin-right: 1.5rem;
+}

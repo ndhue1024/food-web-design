@@ -2,8 +2,8 @@ import React from 'react'
 import './style.css'
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  title: string;
-  isRed: boolean;
+  title?: string;
+  isRed?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = ({ title, isRed, ...props }) => {

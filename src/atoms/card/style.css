@@ -1,0 +1,54 @@
+.card-box {
+  background-color: white;
+  border-radius: 0.8rem;
+}
+
+.card-box .card-container .img img {
+  width: 100%;
+}
+
+.card-box .card-container .title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875rem; /* 125% */
+  letter-spacing: -0.045rem;
+  padding-bottom: 0.94rem;
+}
+
+.card-box .card-container .detail {
+  color: #414536;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+/* BLOG */
+
+.card-box .card-container .card-blog-content {
+  padding: 1.6rem 1.56rem 0.8rem 1.56rem;
+}
+
+.card-box .card-container .card-blog-content.remarkable {
+  padding: 2rem 2.19rem 3.11rem 2.19rem;
+}
+
+.card-box .card-container .blog-title {
+  color: #737865;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.card-box .card-container .blog-detail {
+  color: #2C2F24;
+  font-weight: 600;
+  line-height: 1.625rem;
+  font-size: 1.125rem;
+}
+
+.card-box .card-container .card-blog-content .blog-text {
+  color: #5a5d51;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  padding-top: 0.8rem;
+}
