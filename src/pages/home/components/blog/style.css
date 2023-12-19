@@ -21,3 +21,91 @@
   gap: 1.5rem;
   padding-left: 1.5rem;
 }
+
+.card-box .card-container .card-blog-content {
+  padding: 1.6rem 1.56rem 0.8rem 1.56rem;
+}
+
+.card-box .card-container .card-blog-content.remarkable {
+  padding: 2rem 2.19rem 3.11rem 2.19rem;
+}
+
+.card-box .card-container .blog-title {
+  color: #737865;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.card-box .card-container .blog-detail {
+  color: #2C2F24;
+  font-weight: 600;
+  line-height: 1.625rem;
+  font-size: 1.125rem;
+}
+
+.card-box .card-container .card-blog-content .blog-text {
+  color: #5a5d51;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  padding-top: 0.8rem;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 550px) {
+  .blog {
+    padding: 2.5rem 2rem;
+  }
+  
+  .blog .heading {
+    display: block;
+    text-align: center;
+  }
+  
+  .blog .heading button {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 0.8rem 1rem;
+  }
+
+  .blog .heading h1.main-title {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .blog .blog-content {
+    padding-top: 1.5rem;
+    display: block;
+  }
+  
+  .blog .blog-content .remarkable-blog {
+    margin-bottom: 1.5rem;
+  }
+  
+  .blog .blog-content .others-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding-left: 0;
+  }
+
+  .card-box .card-container .blog-detail {
+    font-size: 0.8rem;
+    line-height: 1.125rem;
+    text-align: left;
+  }
+
+  .card-box .card-container .card-blog-content {
+    padding: 1.2rem 0.8rem;
+  }
+
+  .card-box .card-container .blog-title {
+    font-size: 0.7rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .card-box .card-container .card-blog-content .blog-text {
+    font-size: 0.75rem;
+  }
+}

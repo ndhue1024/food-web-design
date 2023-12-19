@@ -2,11 +2,15 @@ import React from 'react';
 import './style.css';
 import Button from '../../atoms/button';
 
+import ReorderOutlinedIcon from '@mui/icons-material/ReorderOutlined';
+
 export const Header = () => {
   return (
-    <header className='header'>
+    <header className='header' id="header">
       <div className="logo">
-        <img src="./assets/logo-header.png" alt="logo" />
+        <a href="/">
+          <img src="./assets/logo-header.png" alt="logo" />
+        </a>
       </div>
       <div className="content">
         <nav className="navbar">
@@ -22,6 +26,8 @@ export const Header = () => {
           <Button title="Book A Table" isRed={false} />
         </div>
       </div>
+      {/* MOBILE */}
+      <ReorderOutlinedIcon className='mobile-icon' />
     </header>
   )
 }

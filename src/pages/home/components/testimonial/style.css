@@ -1,5 +1,6 @@
 .testimonial .container {
   padding: 6.13rem 9.5rem;
+  text-align: justify;
 }
 
 .testimonial .container .list-card {
@@ -7,4 +8,50 @@
   justify-content: space-between;
   gap: 0 1.5rem;
   padding-top: 4rem;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 550px) {
+  .testimonial .container {
+    padding: 2.5rem 2rem;
+  }
+  .testimonial .container h1.main-title {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  
+  .testimonial .container .list-card {
+    display: block;
+    padding-top: 0;
+  }
+
+  .testimonial .container .card-item {
+    margin: 1.5rem 0;
+  }
+
+  .testimonial .container .card-item .card-item-container {
+    padding: 1.5rem 2.5rem;
+  }
+
+  .testimonial .container .card-item .card-item-container .title {
+    font-size: 1.2rem;
+  }
+
+  .testimonial .container .card-item-container .text {
+    padding-top: 0.8rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 1.2rem;
+    font-size: 0.8rem;
+    line-height: 1.35rem;
+  }
+
+  .testimonial .container .user-container .avatar img {
+    scale: 80%;
+  }
+  
+  .testimonial .container .user-container .user-info h5, .testimonial .container .user-container .user-info p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+  }
 }

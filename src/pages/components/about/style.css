@@ -1,5 +1,6 @@
 .about {
   background-color: #F9F9F7;
+  text-align: justify;
 }
 
 .about .container {
@@ -12,11 +13,12 @@
 .about .container .contact-card {
   background-color: #474747;
   border-radius: 0.75rem;
-  color: white;
+  color: #F9F9F7;
   position: absolute;
   right: -2rem;
   bottom: 2rem;
   width: 25.6285rem;
+  text-align: left;
 }
 
 .about .container .contact-card .contact-card-box {
@@ -29,6 +31,12 @@
   line-height: 1.875rem; /* 125% */
   letter-spacing: -0.045rem;
   padding-bottom: 2.81rem;
+}
+
+.about .container .contact-card .contact-card-box a:hover .info-contact p {
+  color: #AD343E;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
 }
 
 .about .container .content {
@@ -66,4 +74,82 @@
 
 .about .container .img img {
   padding-right: 2rem;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 550px) {
+  .about .container {
+    padding: 2.5rem 2rem;
+    display: block;
+  }
+  .about .container h1.main-title {
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+  .about .container .img {
+    height: 22rem;
+  }
+  .about .container .contact-card {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -15%;
+    width: 18rem;
+  }
+  
+  .about .container .contact-card .contact-card-box {
+    padding: 1.5rem;
+  }
+  
+  .about .container .contact-card .contact-card-box h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.045rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .about .container .info-contact .info-contact-content {
+    padding-left: 1rem;
+  }
+
+  .about .container .content {
+    padding: 5.7rem 0;
+  }
+  
+  .about .container .content p {
+    padding-top: 1.2rem;
+  }
+  
+  .about .container .content .content-1 {
+    color: #2C2F24;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.65rem;
+  }
+  
+  .about .container .content .content-2 {
+    color: #5c6053;
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+  }
+  
+  .about .container .content .about-button {
+    padding-top: 1.5rem;
+  }
+  
+  .about .container .img img {
+    padding-right: 0;
+  }
+
+  .about .container .about-button {
+    text-align: center;
+  }
+
+  .about .container .about-button button {
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 0.8rem 1rem;
+  }
 }

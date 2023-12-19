@@ -9,3 +9,52 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
+
+.menu-button .isRed {
+  background: transparent;
+  border: 1px solid transparent;
+  color: #AD343E;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 550px) {
+  .menu {
+    padding: 2.5rem 2rem; 
+  }
+  
+  .menu .box {
+    padding-top: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu h1.main-title {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .menu .box .menu-item .box-item {
+    margin: 1rem;
+  }
+  
+  .menu .box .menu-item .box-item img {
+    padding-bottom: 0;
+    width: 40%;
+  }
+  
+  .menu .box .menu-item h2 {
+    font-size: 1rem;
+    padding-bottom: 0;
+  }
+  
+  .menu .box .menu-item p {
+    font-size: 0.7rem;
+    line-height: 1.1rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .menu .box button {
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 0.8rem 1rem;
+  }
+}

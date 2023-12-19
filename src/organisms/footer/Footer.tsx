@@ -7,7 +7,9 @@ export const Footer = () => {
       <div className="footer-container">
         <div className="top">
           <div className="box-1">
-            <img src="./assets/logo-footer.png" alt="logo-footer" />
+            <a href="#header">
+              <img src="./assets/logo-footer.png" alt="logo-footer" />
+            </a>
             <p>In the new era of technology we look a in the future with certainty and pride to for our company and.</p>
             <div className="icon-list">
               {/* Twitter icon */}

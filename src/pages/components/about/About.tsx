@@ -17,21 +17,27 @@ export const About = () => {
             <div className="contact-card-box">
               <h3>Come and visit us</h3>
               <div className="list-contact">
-                <ListItem
-                  Icon={PhoneOutlinedIcon}
-                  content="(414) 857 - 0107"
-                  isRed={false}
-                />
-                <ListItem
-                  Icon={EmailOutlinedIcon}
-                  content="happytummy@restaurant.com"
-                  isRed={false}
-                />
-                <ListItem
-                  Icon={FmdGoodOutlinedIcon}
-                  content="837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles"
-                  isRed={false}
-                />
+                <a href="/">
+                  <ListItem
+                    Icon={PhoneOutlinedIcon}
+                    content="(414) 857 - 0107"
+                    isRed={false}
+                  />
+                </a>
+                <a href="/">
+                  <ListItem
+                    Icon={EmailOutlinedIcon}
+                    content="happytummy@restaurant.com"
+                    isRed={false}
+                  />
+                </a>
+                <a href="/">
+                  <ListItem
+                    Icon={FmdGoodOutlinedIcon}
+                    content="837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles"
+                    isRed={false}
+                  />
+                </a>
               </div>
             </div>
           </section>
