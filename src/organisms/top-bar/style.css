@@ -62,6 +62,9 @@
   }
 }
 @media only screen and (max-width: 550px) {
+  .top-bar {
+    padding: 0.3rem;
+  }
   .top-bar .info {
     display: block;
   }
@@ -72,5 +75,14 @@
   .top-bar .info .info-contact-content {
     padding-left: 0.5rem;
     font-size: 0.75rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .top-bar .info {
+    display: block;
+  }
+  .top-bar .icon-footer {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
   }
 }

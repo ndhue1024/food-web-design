@@ -65,4 +65,8 @@ header .mobile-icon {
   header .content {
     display: none;
   }
+
+  header .logo img {
+    width: 100%;
+  }
 }
