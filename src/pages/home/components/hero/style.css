@@ -69,7 +69,7 @@
 }
 @media only screen and (max-width: 1420px) {
   .carousel {
-    height: 43.125rem;
+    height: 40.125rem;
   }
   .carousel .content {
     padding: 2rem 22rem;
@@ -94,7 +94,7 @@
 
 @media only screen and (max-width: 1199px) {
   .carousel {
-    height: 34.125rem;
+    height: 32.125rem;
   }
   .carousel .content {
     padding: 2rem 17rem;
@@ -121,11 +121,17 @@
     padding: 2rem 10rem;
   }
   .carousel {
-    height: 30.125rem;
+    height: 28.125rem;
   }
   .carousel .content h1 {
     font-size: 4.25rem;
     line-height: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 868px) {
+  .carousel {
+    height: 27rem;
   }
 }
 
