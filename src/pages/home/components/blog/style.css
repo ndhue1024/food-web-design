@@ -53,6 +53,43 @@
 }
 
 /* RESPONSIVE */
+/* DESKTOP */
+@media only screen and (max-width: 1520px) {
+  .blog {
+    padding: 5.5rem 7.5rem;
+  }
+  .blog .heading button {
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+  }
+  .blog .heading h1.main-title {
+    font-size: 2.8rem;
+    line-height: 3rem;
+  }
+
+  .blog .blog-content {
+    padding-top: 2.5rem;
+  }
+
+  .card-box .card-container .blog-title {
+    font-size: 0.78rem;
+    padding-bottom: 0.3rem;
+  }
+
+  .card-box .card-container .blog-detail {
+    font-size: 0.87rem;
+    line-height: 1.3rem;
+  }
+
+  .card-box .card-container .card-blog-content {
+    padding: 1.45rem 1.2rem;
+  }
+  .card-box .card-container .card-blog-content .blog-text {
+    font-size: 0.8rem;
+    padding-top: 0.3rem;
+  }
+}
 @media only screen and (max-width: 550px) {
   .blog {
     padding: 2.5rem 2rem;

@@ -32,7 +32,7 @@ export const Services = () => {
 
           <Card
             src="./assets/group-friend-1.png"
-            title="Caterings"
+            title="Events"
             detail="In the new era of technology we look in the future with certainty for life."
             isService={true}
           />

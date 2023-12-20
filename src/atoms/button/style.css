@@ -1,19 +1,19 @@
 button {
   cursor: pointer;
   background: transparent;
-  padding: 1.25rem 2rem;
+  padding: 1.125rem 2rem;
   border-radius: 7.375rem;
   font-weight: 800;
   font-size: 1rem;
   font-family: 'DM Sans', sans-serif;
-  border: 1px solid black;
+  border: 2px solid black;
   transition: ease-in-out;
   transition-duration: 0.3s;
 }
 
 button:hover {
   background-color: #AD343E;
-  border: 1px solid #AD343E;
+  border: 2px solid #AD343E;
   color: white;
   transition: ease-in-out;
   transition-duration: 0.3s;
@@ -22,16 +22,16 @@ button:hover {
 .isRed {
   background-color: #AD343E;
   color: white;
-  border: 1px solid #AD343E;
+  border: 2px solid #AD343E;
 }
 button.isRed:hover {
   background-color: transparent;
   color: black;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 .no-bg {
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   color: #AD343E;
   font-size: 1rem;
 }

@@ -11,6 +11,26 @@
 }
 
 /* RESPONSIVE */
+/* DESKTOP */
+@media only screen and (max-width: 1520px) {
+  .testimonial .container {
+    padding: 5.5rem 7.5rem;
+  }
+  .testimonial h1.main-title {
+    font-size: 2.8rem;
+    line-height: 3rem;
+  }
+  .testimonial .container .list-card {
+    padding-top: 2.5rem;
+  }
+  .testimonial .card-item .card-item-container .title {
+    font-size: 1.19rem;
+  }
+  .testimonial .card-item .card-item-container .text {
+    font-size: 0.95rem;
+  }
+}
+/* MOBILE */
 @media only screen and (max-width: 550px) {
   .testimonial .container {
     padding: 2.5rem 2rem;

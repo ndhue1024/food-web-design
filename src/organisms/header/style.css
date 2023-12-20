@@ -22,9 +22,9 @@ nav ul {
   gap: 2.5rem;
 }
 nav ul li.active{
-  padding: 0.6rem 1.7rem;
+  padding: 0.65rem 1.7rem;
   background-color: #DBDFD0;
-  border-radius: 30px;
+  border-radius: 2rem;
 }
 
 nav ul li a:hover {
@@ -34,8 +34,8 @@ nav ul li a:hover {
 }
 
 nav ul li a {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 /* MOBILE */
@@ -48,14 +48,18 @@ header .mobile-icon {
 }
 
 /* RESPONSIVE */
-@media only screen and (max-width: 991px) {
+
+@media only screen and (max-width: 1520px) {
+  header button {
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 1199px) {
   header{
     justify-content: space-between;
     padding: 0.8rem 1rem;
-  }
-
-  .logo img {
-    width: 100%;
   }
 
   header .mobile-icon {

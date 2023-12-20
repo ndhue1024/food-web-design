@@ -19,6 +19,28 @@
 }
 
 /* RESPONSIVE */
+@media only screen and (max-width: 1520px) {
+  .services .container {
+    padding: 5.5rem 7.5rem;
+  }
+  .services .container h1.main-title {
+    width: 60%;
+    font-size: 2.8rem;
+    line-height: 3rem;
+  }
+  .services .container .service-options {
+    padding-top: 1.5rem;
+  }
+  .services .container .card-box .card-container .title {
+    font-size: 1.3rem;
+    padding: 0.5rem 0;
+  }
+
+  .services .container .card-box .card-container .detail {
+    font-size: 0.86rem;
+  }
+}
+
 @media only screen and (max-width: 550px) {
   .services .container {
     padding: 2.5rem 2rem;
@@ -46,5 +68,4 @@
   .services .container .card-box .card-container .detail {
     font-size: 0.85rem;
   }
-
 }

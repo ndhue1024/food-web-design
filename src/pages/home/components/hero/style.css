@@ -40,6 +40,33 @@
 }
 
 /* RESPONSIVE */
+
+/* DESKTOP */
+@media only screen and (max-width: 1520px) {
+  .carousel .content {
+    padding: 2rem 20rem;
+  }
+  .carousel .content h1 {
+    font-size: 5rem;
+    line-height: 4rem;
+    padding-bottom: 1rem;
+  }
+  .carousel .content p {
+    font-size: 1.1rem;
+    padding: 1rem 0;
+    line-height: 1.5rem;
+    font-weight: 400;
+  }
+  .carousel .button-container {
+    padding-top: 0.5rem;
+  }
+  .carousel .content button {
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+  }
+}
+/* MOBILE */
 @media only screen and (max-width: 550px) {
   .carousel {
     height: auto;
