@@ -119,6 +119,9 @@ footer .bottom p {
   footer .top .box-3 .img {
     padding-right: 5rem;
   }
+  footer .top .box-2 {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 550px) {
