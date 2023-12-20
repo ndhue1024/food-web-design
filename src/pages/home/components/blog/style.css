@@ -53,7 +53,6 @@
 }
 
 /* RESPONSIVE */
-/* DESKTOP */
 @media only screen and (max-width: 1520px) {
   .blog {
     padding: 5.5rem 7.5rem;
@@ -90,14 +89,42 @@
     padding-top: 0.3rem;
   }
 }
-@media only screen and (max-width: 550px) {
-  .blog {
-    padding: 2.5rem 2rem;
+
+@media only screen and (max-width: 991px) {
+  .blog .blog-content .others-blog {
+    gap: 1rem;
+    padding-left: 1rem;
   }
-  
+}
+
+@media only screen and (max-width: 768px) {
+  .blog .blog-content {
+    display: block;
+  }
+  .blog .heading h1.main-title {
+    font-size: 2.2rem;
+  }
+  .blog .blog-content .remarkable-blog {
+    margin-bottom: 1.5rem;
+  }
+  .blog .blog-content .others-blog {
+    padding-left: 0;
+  }
   .blog .heading {
     display: block;
     text-align: center;
+  }
+  .blog .heading button {
+    margin-top: 1.5rem;
+    font-weight: 600;
+    font-size: 0.75rem;
+    padding: 0.85rem 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .blog {
+    padding: 2.5rem 2rem;
   }
   
   .blog .heading button {
@@ -113,11 +140,6 @@
   }
   .blog .blog-content {
     padding-top: 1.5rem;
-    display: block;
-  }
-  
-  .blog .blog-content .remarkable-blog {
-    margin-bottom: 1.5rem;
   }
   
   .blog .blog-content .others-blog {

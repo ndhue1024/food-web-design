@@ -1,10 +1,53 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 import { Title } from "../../../../atoms/title";
 import Button from "../../../../atoms/button";
 import { Card } from "../../../../atoms/card";
 
+interface BlogType {
+  id: string;
+  img: string;
+  date: string;
+  title: string;
+  text?: string;
+  isRemarkable?: boolean;
+}
+
 export const Blog = () => {
+  const [blogs, setBlogs] = useState<BlogType[]>([]);
+  const [remarkableBlog, setRemarkableBlog] = useState<BlogType>();
+
+  // Get Blog List
+  const getBlogs = () => {
+    fetch('https://65816b993dfdd1b11c4339d2.mockapi.io/blog')
+    .then(response => {
+      return response.json();
+    })
+    .then((data: BlogType[]) => {
+      setBlogs(data.filter(blog => blog.isRemarkable === false));
+      setRemarkableBlog(data.find(blog => blog.isRemarkable === true));
+    })
+    .catch(error => console.log(error))
+  }
+
+  useEffect(() => {
+    getBlogs();
+  }, []);
+
+  const renderOtherBlog = () => {
+    return (
+      blogs?.map(blog => (
+        <Card
+            key={blog.id}
+            src={`./assets/${blog?.img}`}
+            title={blog.date}
+            detail={blog.title}
+            isBlog={true}
+          />
+      ))
+    )
+  }
+
   return (
     <section className="blog">
       <div className="heading">
@@ -14,40 +57,14 @@ export const Blog = () => {
       <div className="blog-content">
         <div className="remarkable-blog">
           <Card
-              src="./assets/remark-blog.png"
-              title="January 3, 2023"
-              detail="The secret tips & tricks to prepare a perfect burger & pizza for our customers"
-              isRemarkable="Lorem ipsum dolor sit amet consectetur of a adipiscing elitilmim semper adipiscing massa gravida nisi cras enim quis nibholm varius amet gravida ut facilisis neque egestas."
+              src={`./assets/${remarkableBlog?.img}`}
+              title={remarkableBlog?.date}
+              detail={remarkableBlog?.title}
+              isRemarkable={remarkableBlog?.text}
             />
         </div>
         <div className="others-blog">
-          <Card
-            src="./assets/blog1.png"
-            title="January 3, 2023"
-            detail="How to prepare the perfect french fries in an air fryer"
-            isBlog={true}
-          />
-
-          <Card
-            src="./assets/blog2.png"
-            title="January 3, 2023"
-            detail="How to prepare delicious chicken tenders"
-            isBlog={true}
-          />
-
-          <Card
-            src="./assets/blog3.png"
-            title="January 3, 2023"
-            detail="7 delicious cheesecake recipes you can prepare"
-            isBlog={true}
-          />
-
-          <Card
-            src="./assets/blog4.png"
-            title="January 3, 2023"
-            detail="5 great pizza restaurants you should visit this city"
-            isBlog={true}
-          />
+          {renderOtherBlog()}
         </div>
       </div>
     </section>

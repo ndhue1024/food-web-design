@@ -30,6 +30,25 @@
     font-size: 0.95rem;
   }
 }
+
+@media only screen and (max-width: 991px) {
+  .testimonial .container .list-card {
+    padding-top: 1.5rem;
+  }
+  .testimonial .container .list-card {
+    display: block;
+  }
+  .testimonial .container .list-card .card-item {
+    margin: 1.5rem 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .testimonial h1.main-title {
+    font-size: 2.2rem;
+  }
+}
+
 /* MOBILE */
 @media only screen and (max-width: 550px) {
   .testimonial .container {
@@ -42,16 +61,7 @@
   }
   
   .testimonial .container .list-card {
-    display: block;
     padding-top: 0;
-  }
-
-  .testimonial .container .card-item {
-    margin: 1.5rem 0;
-  }
-
-  .testimonial .container .card-item .card-item-container {
-    padding: 1.5rem 2.5rem;
   }
 
   .testimonial .container .card-item .card-item-container .title {
@@ -65,13 +75,8 @@
     font-size: 0.8rem;
     line-height: 1.35rem;
   }
-
-  .testimonial .container .user-container .avatar img {
-    scale: 80%;
+  .testimonial .user-container .user-info h5, .testimonial .user-container .user-info p {
+    font-size: 0.9rem;
   }
   
-  .testimonial .container .user-container .user-info h5, .testimonial .container .user-container .user-info p {
-    font-size: 0.85rem;
-    line-height: 1.2rem;
-  }
 }

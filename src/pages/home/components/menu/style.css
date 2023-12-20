@@ -49,16 +49,18 @@
     padding: 1rem 1.5rem;
   }
 }
+
+@media only screen and (max-width: 991px) {
+  .menu .box {
+    padding-top: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media only screen and (max-width: 550px) {
   .menu {
     padding: 2.5rem 2rem; 
   }
   
-  .menu .box {
-    padding-top: 1.5rem;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .menu h1.main-title {
     text-align: center;
     font-size: 2rem;

@@ -30,10 +30,10 @@
   font-weight: 700;
   line-height: 1.875rem; /* 125% */
   letter-spacing: -0.045rem;
-  padding-bottom: 2.81rem;
+  padding-bottom: 2rem;
 }
 
-.about .container .contact-card .contact-card-box a:hover .info-contact p {
+.about .container .contact-card .contact-card-box a:hover .info-contact, .about .container .contact-card .contact-card-box a:hover .info-contact p {
   color: #AD343E;
   transition: ease-in-out;
   transition-duration: 0.2s;
@@ -148,11 +148,31 @@
   }
 }
 
+@media only screen and (max-width: 991px) {
+  .about .container h1.main-title {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .about .container {
+    display: block;
+  }
+  .about .container h1.main-title {
+    font-size: 2.2rem;
+  }
+  .about .container .contact-card {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -10%;
+  }
+}
 
 @media only screen and (max-width: 550px) {
   .about .container {
-    padding: 2.5rem 2rem;
-    display: block;
+    padding: 2.5rem 2rem 0 2rem;
   }
   .about .container h1.main-title {
     text-align: center;
@@ -163,10 +183,6 @@
     height: 22rem;
   }
   .about .container .contact-card {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
     bottom: -15%;
     width: 18rem;
   }
@@ -187,7 +203,7 @@
   }
 
   .about .container .content {
-    padding: 5.7rem 0;
+    padding: 5.7rem 0 2.5rem 0;
   }
   
   .about .container .content p {

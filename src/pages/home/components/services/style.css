@@ -41,6 +41,24 @@
   }
 }
 
+@media only screen and (max-width: 991px) {
+  .services .container h1.main-title {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .services .container .service-options {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+  }
+  .services .container h1.main-title {
+    font-size: 2.2rem;
+  }
+}
+
 @media only screen and (max-width: 550px) {
   .services .container {
     padding: 2.5rem 2rem;
@@ -52,20 +70,13 @@
     font-size: 2rem;
     line-height: 2rem;
   }
-  
-  .services .container .service-options {
-    padding-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 1rem;
-  }
 
   .services .container .card-box .card-container .title {
     padding: 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .services .container .card-box .card-container .detail {
-    font-size: 0.85rem;
+    font-size: 0.68rem;
   }
 }
