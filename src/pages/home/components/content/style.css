@@ -1,13 +1,13 @@
 .content-web {
   background-color: #F9F9F7;
-  text-align: justify;
 }
 
 .content-web .container {
   padding: 7.5rem 9.5rem;
   display: grid;
-  grid-template-columns: 8fr 4fr;
+  grid-template-columns: 2fr 1fr;
   align-items: center;
+  gap: 5.6rem;
 }
 
 .content-web .container h1.main-title {
@@ -19,47 +19,48 @@
 }
 
 .content-web .container .img .img-left {
-  padding-right: 1.5rem;
+  padding-right: 1rem;
   margin-top: -1.5rem;
 }
 
 .content-web .container .img .img-right .img-3 {
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 
 .content-web .container .detail .text {
   color: #414536;
-  font-size: 1rem;
+  font-size: 0.92rem;
   font-weight: 400;
   line-height: 1.5rem;
   padding-top: 1rem;
 }
 
+.content-web .container .detail .info-content {
+  font-size: 1.125rem;
+}
+
 .content-web .container .detail .list {
-  padding-top: 3.12rem;
+  padding-top: 2.5rem;
 }
 
 /* RESPONSIVE */
 @media only screen and (max-width: 1520px) {
-  .content-web .container {
-    grid-template-columns: 7fr 5fr;
-    padding: 5.5rem 7.5rem;
-    gap: 2rem;
-  }
   .content-web .container .img img {
     width: 100%;
-  }
-
-  .content-web .container h1.main-title {
-    font-size: 2.8rem;
-    line-height: 3rem;
   }
   .content-web .container .detail .text {
     font-size: 0.9rem;
   }
+  .content-web .container .detail .info-content {
+    font-size: 1.025rem;
+  }
+  .content-web .container h1.main-title {
+    font-size: 2.8rem;
+    line-height: 3rem;
+  }
   
   .content-web .container .img .img-left {
-    padding-right: 1rem;
+    padding-right: 0.8rem;
     width: 60%;
   }
 
@@ -77,10 +78,19 @@
     font-size: 1.1rem;
   }
 }
-
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1320px) {
+  .content-web .container {
+    grid-template-columns: 3fr 2fr;
+    gap: 4rem;
+  }
+}
+@media only screen and (max-width: 1190px) {
+  .content-web .container {
+    grid-template-columns: 1fr 1fr;
+  }
   .content-web .container .info-content {
     font-size: 0.85rem;
+    padding: 0.25rem;
   }
   
   .content-web .info-content-icon {
@@ -91,6 +101,15 @@
     background-color: #AD343E;
     border-radius: 100%;
     margin-right: 1rem;
+  }
+
+  .content-web .container .detail .list {
+    padding-top: 1rem;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .content-web .container {
+    gap: 3.6rem;
   }
 }
 

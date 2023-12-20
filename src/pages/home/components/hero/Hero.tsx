@@ -18,6 +18,7 @@ export const Carousel = () => {
           </div>
         </div>
       </div>
+        <div className="blur"></div>
     </section>
   )
 }

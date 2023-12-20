@@ -13,17 +13,17 @@
   padding-top: 4rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
 }
 
 .blog .blog-content .others-blog {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-  padding-left: 1.5rem;
+  gap: 1rem;
 }
 
 .card-box .card-container .card-blog-content {
-  padding: 1.6rem 1.56rem 0.8rem 1.56rem;
+  padding: 1.6rem 1rem 0.8rem 1rem;
 }
 
 .card-box .card-container .card-blog-content.remarkable {
@@ -34,26 +34,26 @@
   color: #737865;
   font-size: 0.875rem;
   font-weight: 500;
-  padding-bottom: 1rem;
+  padding-bottom: 0.8rem;
 }
 
 .card-box .card-container .blog-detail {
   color: #2C2F24;
   font-weight: 600;
-  line-height: 1.625rem;
-  font-size: 1.125rem;
+  line-height: 1.4rem;
+  font-size: 1rem;
 }
 
 .card-box .card-container .card-blog-content .blog-text {
   color: #5a5d51;
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 400;
   line-height: 1.25rem;
   padding-top: 0.8rem;
 }
 
 /* RESPONSIVE */
-@media only screen and (max-width: 1520px) {
+@media only screen and (max-width: 1220px) {
   .blog {
     padding: 5.5rem 7.5rem;
   }

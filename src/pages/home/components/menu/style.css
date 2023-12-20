@@ -4,10 +4,10 @@
 }
 
 .menu .box {
-  padding-top: 2rem;
+  padding-top: 4rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .menu-button .isRed {
@@ -18,13 +18,9 @@
 
 /* RESPONSIVE */
 /* DESKTOP */
-@media only screen and (max-width: 1520px) {
+@media only screen and (max-width: 1220px) {
   .menu {
     padding: 5.5rem 7.5rem; 
-  }
-  .menu h1.main-title {
-    font-size: 2.8rem;
-    line-height: 3rem;
   }
 
   .menu .box .menu-item .box-item img {
@@ -51,6 +47,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+  
+  .menu h1.main-title {
+    font-size: 2.5rem;
+  }
   .menu .box {
     padding-top: 1.5rem;
     grid-template-columns: repeat(2, 1fr);

@@ -3,7 +3,7 @@
 }
 
 .services .container h1 {
-  width: 50%;
+  width: 48%;
 }
 
 .services .container .service-options {
@@ -14,22 +14,22 @@
 }
 
 .services .container .card-box .card-container .title {
-  padding: 1rem 0;
+  padding: 0.94rem 0;
   font-size: 1.5rem;
 }
 
 /* RESPONSIVE */
-@media only screen and (max-width: 1520px) {
+@media only screen and (max-width: 1300px) {
+  .services .container h1 {
+    width: 51%;
+  }
+}
+@media only screen and (max-width: 1220px) {
   .services .container {
     padding: 5.5rem 7.5rem;
   }
   .services .container h1.main-title {
     width: 60%;
-    font-size: 2.8rem;
-    line-height: 3rem;
-  }
-  .services .container .service-options {
-    padding-top: 1.5rem;
   }
   .services .container .card-box .card-container .title {
     font-size: 1.3rem;

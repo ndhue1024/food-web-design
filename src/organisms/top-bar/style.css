@@ -1,0 +1,76 @@
+.top-bar {
+  background: #474747;
+  padding: 0.4rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-bar .info .info-contact .css-i4bv87-MuiSvgIcon-root {
+  width: 0.95rem;
+  height: 0.95rem;
+}
+.top-bar .social, .top-bar .info {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+.top-bar .info {
+  gap: 1.56rem;
+}
+.top-bar .info .info-contact-content {
+  padding-left: 0.5rem;
+  font-size: 0.9rem;
+}
+.top-bar .icon-footer {
+  color: white;
+  padding: 0.5rem;
+  width: 2rem !important;
+  height: 2rem !important;
+  background-color: rgba(249, 249, 247, 0.12);
+  border-radius: 100%;
+}
+
+@media only screen and (max-width: 1199px) {
+  .top-bar {
+    padding: 0.46rem 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .top-bar .info .info-contact .css-i4bv87-MuiSvgIcon-root {
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+  .top-bar .info .info-contact-content {
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .top-bar {
+    padding: 0.3rem 2.5rem;
+  }
+  .top-bar .icon-footer {
+    width: 1.8rem !important;
+    height: 1.8rem !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .top-bar .info {
+    gap: 1rem;
+  }
+  .top-bar .info .info-contact {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .top-bar .info {
+    display: block;
+  }
+  .top-bar .info .info-contact .css-i4bv87-MuiSvgIcon-root {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .top-bar .info .info-contact-content {
+    padding-left: 0.5rem;
+    font-size: 0.75rem;
+  }
+}

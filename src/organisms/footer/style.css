@@ -3,13 +3,13 @@ footer {
 }
 
 footer .footer-container {
-  padding: 7.5rem 9.5rem 5.31rem 9.5rem;
+  padding: 7.5rem 9.5rem 2.31rem 9.5rem;
 }
 
 footer .footer-container .top {
-  display: flex;
-  justify-content: space-between;
-  gap: 8.44rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6rem;
 }
 
 footer .top .box-1 p {
@@ -33,7 +33,7 @@ footer .icon-footer {
 footer .top .box-2 {
   display: flex;
   justify-content: space-between;
-  gap: 0 7.5rem;
+  gap: 5rem;
 }
 
 footer .top h4 {
@@ -42,13 +42,16 @@ footer .top h4 {
   font-weight: 700;
   line-height: 1.5rem;
 }
-
+footer .top .box-2 ul {
+  padding-top: 2.5rem;
+}
 footer .top .box-2 ul li {
-  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 footer .top .box-2 ul li a {
   color: #DBDFD0;
+  font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.5rem;
 }
@@ -62,7 +65,7 @@ footer .top .box-3 .img {
   padding-top: 2.5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 footer .top .box-3 .img img {
@@ -84,25 +87,24 @@ footer .bottom p {
 
 /* RESPONSIVE */
 /* DESKTOP */
-@media only screen and (max-width: 1520px) {
+@media only screen and (max-width: 1440px) {
   footer .footer-container {
-    padding: 5.5rem 7.5rem 0.6rem 7.5rem;
+    padding: 5.5rem 7.5rem 0 7.5rem;
   }
-  footer .footer-container .top {
-    gap: 5rem;
-  }
-  footer .top .box-1 p, footer .top .box-2 {
+  footer .top .box-1 p {
     font-size: 0.95rem;
   }
   footer .top .box-3 .img img {
     width: 100%;
   }
-  footer .top .box-2 {
-    gap: 3.5rem;
-    width: 60%;
-  }
   footer .bottom {
     margin-top: 2.6rem;
+  }
+  footer .top .box-2 {
+    gap: 2.5rem;
+  }
+  footer .top .box-2 ul li {
+    padding-bottom: 1rem;
   }
 }
 

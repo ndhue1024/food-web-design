@@ -4,12 +4,12 @@
 }
 
 .card-item .card-item-container {
-  padding: 2.81rem 2.19rem;
+  padding: 2.81rem 2rem;
 }
 
 .card-item .card-item-container .title {
   color: #AD343E;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 700;
   line-height: 1.875rem; /* 125% */
   letter-spacing: -0.045rem;

@@ -1,13 +1,17 @@
 .about {
   background-color: #F9F9F7;
-  text-align: justify;
+  text-align: left;
 }
 
 .about .container {
   padding: 7.5rem 9.5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0 5.7rem;
+  gap: 7.7rem;
+}
+
+.about .container h1.main-title {
+  text-align: left;
 }
 
 .about .container .contact-card {
@@ -15,8 +19,8 @@
   border-radius: 0.75rem;
   color: #F9F9F7;
   position: absolute;
-  right: -2rem;
-  bottom: 2rem;
+  right: -2.5rem;
+  bottom: -15%;
   width: 25.6285rem;
   text-align: left;
 }
@@ -37,10 +41,6 @@
   color: #AD343E;
   transition: ease-in-out;
   transition-duration: 0.2s;
-}
-
-.about .container .content {
-  padding: 5.7rem 0;
 }
 
 .about .container .content p {
@@ -67,7 +67,7 @@
 .about .container .img {
   width: 100%;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position:top;
   background-size: 100%;
   position: relative;
 }
@@ -79,25 +79,35 @@
 /* RESPONSIVE */
 
 /* DESKTOP */
-@media only screen and (max-width: 1520px) {
+@media only screen and (max-width: 1400px) {
+  .about .container .img {
+    height: 457px;
+  }
+  .about .container h1.main-title {
+    font-size: 2.8rem;
+  }  
+  .about .container .content .content-1 {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+  .about .container .content .content-2 {
+    font-size: 0.8rem;
+  }
+  .about .container button {
+    padding: 1rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 1232px) {
   .about .container {
     padding: 5.5rem 7.5rem;
     gap: 0 3.7rem;
   }
-  .about .container h1.main-title {
-    font-size: 2.8rem;
-    line-height: 3rem;
+  .about .container .img {
+    height: 28.5rem;
   }
   .about .container .contact-card {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    bottom: -15%;
     width: 20rem;
-  }
-  .about .container .img {
-    height: 35rem;
   }
   .about .container .contact-card .contact-card-box {
     padding: 2.5rem;
@@ -131,10 +141,6 @@
     padding-right: 0;
   }
 
-  .about .container .about-button {
-    text-align: center;
-  }
-
   .about .container .about-button button {
     font-weight: 600;
     font-size: 1rem;
@@ -146,17 +152,25 @@
   .about .container .contact-card {
     bottom: 5%;
   }
+  .about .container h1.main-title {
+    font-size: 2.6rem;
+}
 }
 
 @media only screen and (max-width: 991px) {
   .about .container h1.main-title {
     text-align: left;
   }
-}
-
-@media only screen and (max-width: 912px) {
   .about .container {
     display: block;
+  }
+  .about .container .img {
+    height: 457px;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  .about .container .content {
+    padding-top: 5.7rem;
   }
   .about .container h1.main-title {
     font-size: 2.2rem;

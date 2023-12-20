@@ -1,6 +1,5 @@
 .testimonial .container {
   padding: 6.13rem 9.5rem;
-  text-align: justify;
 }
 
 .testimonial .container .list-card {
@@ -8,6 +7,9 @@
   justify-content: space-between;
   gap: 0 1.5rem;
   padding-top: 4rem;
+}
+.testimonial h1.main-title {
+  text-align: center;
 }
 
 /* RESPONSIVE */
@@ -20,13 +22,10 @@
     font-size: 2.8rem;
     line-height: 3rem;
   }
-  .testimonial .container .list-card {
-    padding-top: 2.5rem;
-  }
-  .testimonial .card-item .card-item-container .title {
-    font-size: 1.19rem;
-  }
-  .testimonial .card-item .card-item-container .text {
+}
+
+@media only screen and (max-width: 1320px) {
+  .testimonial .container.card-item .card-item-container .text {
     font-size: 0.95rem;
   }
 }
