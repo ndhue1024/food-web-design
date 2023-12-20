@@ -8,10 +8,12 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 7.7rem;
+  border: 0.75rem;
 }
 
 .about .container h1.main-title {
   text-align: left;
+  font-size: 3.2rem;
 }
 
 .about .container .contact-card {
@@ -21,12 +23,12 @@
   position: absolute;
   right: -2.5rem;
   bottom: -15%;
-  width: 25.6285rem;
+  width: 24rem;
   text-align: left;
 }
 
 .about .container .contact-card .contact-card-box {
-  padding: 3.12rem;
+  padding: 2.5rem;
 }
 
 .about .container .contact-card .contact-card-box h3 {
@@ -45,6 +47,14 @@
 
 .about .container .content p {
   padding-top: 1.5rem;
+}
+
+.about .container .contact-card .contact-card-box .info-contact {
+  padding: 0.6rem 0;
+}
+
+.about .container .contact-card .contact-card-box .info-contact .info-contact-content {
+  font-size: 0.9rem;
 }
 
 .about .container .content .content-1 {
@@ -83,6 +93,9 @@
   .about .container .img {
     height: 457px;
   }
+  .about .container .contact-card {
+    bottom: -12%;
+  }
   .about .container h1.main-title {
     font-size: 2.8rem;
   }  
@@ -93,12 +106,30 @@
   .about .container .content .content-2 {
     font-size: 0.8rem;
   }
+  .about .container .contact-card .contact-card-box {
+    padding: 2rem;
+  }
+
   .about .container button {
     padding: 1rem 1.5rem;
     font-size: 0.9rem;
   }
+  
+  .about .container .contact-card {
+    width: 22rem;
+  }
 }
-@media only screen and (max-width: 1232px) {
+
+@media only screen and (max-width: 1290px) {
+  .about .container .contact-card {
+    bottom: -4%;
+  }
+}
+@media only screen and (max-width: 1233px) {
+  .about .container .contact-card .contact-card-box .info-contact .info-contact-content {
+    font-size: 0.85rem;
+    padding-left: 0.5rem;
+  }
   .about .container {
     padding: 5.5rem 7.5rem;
     gap: 0 3.7rem;
@@ -110,7 +141,7 @@
     width: 20rem;
   }
   .about .container .contact-card .contact-card-box {
-    padding: 2.5rem;
+    padding: 2.5rem 2rem;
   }
   
   .about .container .contact-card .contact-card-box h3 {
@@ -150,7 +181,7 @@
 
 @media only screen and (max-width: 1199px) {
   .about .container .contact-card {
-    bottom: 5%;
+    bottom: 2%;
   }
   .about .container h1.main-title {
     font-size: 2.6rem;
