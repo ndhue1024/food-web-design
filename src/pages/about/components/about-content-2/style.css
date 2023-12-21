@@ -1,0 +1,293 @@
+.about-content-2 .container {
+  background-color: #F9F9F7;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  gap: 7.8rem;
+  padding: 5rem 9.5rem;
+}
+
+.about-content-2 .container .right {
+  width: 100%;
+}
+
+.about-content-2 .container .left {
+  margin-top: 1.5rem;
+}
+
+.about-content-2 .container .left .text {
+  padding-right: 1.5rem;
+}
+
+.about-content-2 .container .left p {
+  color:#414536;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding-top: 1.25rem;
+}
+
+.about-content-2 .container .left .statics {
+  height: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.125rem;
+  padding-top: 2.8rem;
+}
+
+.about-content-2 .container .left .statics .card {
+  border-radius: 0.5rem;
+  border: 1px solid #DBDFD0;
+  background: #FFF;
+  text-align: center;
+  padding: 1.5rem 2rem 2.1rem 2rem;
+}
+
+.about-content-2 .container .left .statics .card h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.85rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+}
+
+.about-content-2 .container .left .statics .card p {
+  color: #414536;
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 1.75rem; /* 155.556% */
+  padding-top: 0.8rem;
+}
+
+.about-content-2 .container .mobile-display {
+  display: none;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1440px) {
+  .about-content-2 h1.main-title {
+    font-size: 2.65rem;
+    line-height: 2.8rem;
+  }
+  .about-content-2 .container .left p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1310px) {
+
+  .about-content-2 h1.main-title {
+    font-size: 2.58rem;
+    line-height: 2.7rem;
+  }
+  .about-content-2 .container .left p {
+    font-size: 0.82rem;
+    line-height: 1.4rem;
+  }
+
+  .about-content-2 .container .left .statics {
+    padding-top: 2rem;
+  }
+
+  .about-content-2 .container .left .statics .card {
+    padding: 1.5rem 1.5rem 2.1rem 1.5rem;
+  }
+
+  .about-content-2 .container .left .statics .card h2 {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+  
+  .about-content-2 .container .left .statics .card p {
+    font-size: 0.9rem;
+    line-height: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .about-content-2 .container {
+    gap: 5rem;
+  }
+  .about-content-2 .container .left .text {
+    padding-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .about-content-2 .container {
+    padding: 5.5rem 7.5rem;
+    gap: 4.5rem;
+  }
+  .about-content-2 .container .left p {
+    font-size: 0.86rem;
+    line-height: 1.3rem;
+    padding-top: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .about-content-2 .container {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .about-content-2 .container .left {
+    margin-top: 0;
+  }
+  
+
+  .about-content-2 .container .left .statics {
+    padding-top: 1.2rem;
+  }
+
+  .about-content-2 .container .left .statics .card h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  
+  .about-content-2 .container .left .statics .card p {
+    font-size: 0.85rem;
+    line-height: 1rem;
+  }
+
+  .about-content-2 .container .left .statics .card {
+    padding: 0.8rem 0.5rem 1.5rem 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .about-content-2 .container {
+    padding: 4.5rem 6.5rem;
+  }
+  .about-content-2 h1.main-title {
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+  }
+  .about-content-2 .container .left p {
+    font-size: 0.7rem;
+    line-height: 1.12rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .about-content-2 .container {
+    display: block;
+  }
+  .about-content-2 .container .left .text {
+    padding-right: 0;
+  }
+  .about-content-2 h1.main-title {
+    font-size: 2.8rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+  .about-content-2 .container .left p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+  
+  .about-content-2 .container .statics {
+    padding: 1.2rem 0;
+  }
+  .about-content-2 .container .right {
+    display: none;
+  }
+  .about-content-2 .container .mobile-display {
+    display: block;
+    width: 80%;
+  }
+  .about-content-2 .container .left .img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding-top: 1.5rem;
+  }
+  .about-content-2 .container .left .statics {
+    gap: 0.8rem;
+  }
+  .about-content-2 .container .left .statics .card h2 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+  .about-content-2 .container .left .statics .card p {
+    padding-top: 0;
+    line-height: 2rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .about-content-2 h1.main-title {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
+  .about-content-2 .container .left .statics .card h2 {
+    padding-top: 1rem;
+  }
+  .about-content-2 .container .left .statics .card p {
+    padding-top: 0.2rem;
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  .about-content-2 .container .left .statics {
+    gap: 0.5rem;
+  }
+  .about-content-2 .container .left .img {
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 787px) {
+  .about-content-2 .container {
+    padding: 1.5rem;
+  }
+  .about-content-2 .container .left p {
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+  .about-content-2 .container .left .img {
+    grid-template-columns: 3fr 2fr;
+  }
+  .about-content-2 .container .left .statics .card {
+    padding: 0rem 0.5rem 1rem 0.5rem
+  }
+  .about-content-2 .container .left .statics .card h2 {
+    padding-top: 0;
+    font-size: 1.65rem;
+  }
+  .about-content-2 .container .left .statics .card p {
+    padding-top: 0;
+    font-size: 0.65rem;
+  }
+  .about-content-2 .container .left .statics {
+    padding-top: 0;
+  }
+  .about-content-2 .container .mobile-display {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .about-content-2 h1.main-title {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    text-align: center;
+  }
+  .about-content-2 .container .left p {
+    font-size: 0.65rem;
+    line-height: 1.1rem;
+  }
+  .about-content-2 .container .left .statics .card h2 {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .about-content-2 .container .left .statics .card p {
+    padding-top: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.55rem;
+  }
+  .about-content-2 .container .left .statics .card {
+    padding: 0.8rem 0.2rem 1rem 0.2rem;
+  }
+}

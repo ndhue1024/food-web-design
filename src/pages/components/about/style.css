@@ -222,7 +222,7 @@
   .about .container h1.main-title {
     text-align: center;
     font-size: 2.2rem;
-    line-height: 2.2rem;
+    line-height: 2.5rem;
   }
   .about .container .img {
     height: 22rem;
@@ -233,14 +233,18 @@
   }
   
   .about .container .contact-card .contact-card-box {
-    padding: 1.5rem;
+    padding: 1.5rem 1.25rem;
   }
   
   .about .container .contact-card .contact-card-box h3 {
-    font-size: 1rem;
+    font-size: 1.125rem;
     font-weight: 600;
     letter-spacing: -0.045rem;
-    padding-bottom: 0.5rem;
+  }
+
+  .about .container .info-contact .css-i4bv87-MuiSvgIcon-root {
+    width: 1.2rem;
+    height: 1.2rem;
   }
 
   .about .container .info-contact .info-contact-content {
@@ -269,6 +273,10 @@
   .about .container .content .about-button {
     padding-top: 1.5rem;
   }
+
+  .about .container .content .about-button button {
+    border: 1px solid;
+  }
   
   .about .container .img img {
     padding-right: 0;
@@ -283,4 +291,31 @@
     font-size: 0.7rem;
     padding: 0.8rem 1rem;
   }
+}
+
+@media only screen and (max-width: 440px) {
+  .about .container .contact-card {
+    width: 16rem;
+  }
+  
+  .about .container .contact-card .contact-card-box {
+    padding: 1.5rem 1.25rem;
+  }
+  
+  .about .container .contact-card .contact-card-box h3 {
+    font-size: 0.95rem;
+  }
+
+  .about .container .info-contact .css-i4bv87-MuiSvgIcon-root {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+
+  .about .container .contact-card .contact-card-box .info-contact .info-contact-content {
+    font-size: 0.7rem;
+  }
+
+  .about .container .contact-card .contact-card-box .info-contact {
+    padding: 0.2rem 0;
+}
 }

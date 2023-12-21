@@ -9,11 +9,18 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
 }
-
+.menu .box .menu-item .box-item {
+  margin: 2rem 1rem;
+}
 .menu-button .isRed {
   background: transparent;
-  border: 2px solid transparent;
+  border: none;
+  padding: 0;
   color: #AD343E;
+}
+
+.menu-button button:hover {
+  border: none;
 }
 
 /* RESPONSIVE */
@@ -60,6 +67,10 @@
   .menu {
     padding: 2.5rem 2rem; 
   }
+
+  .menu .box {
+    gap: 1rem;
+  }
   
   .menu h1.main-title {
     text-align: center;
@@ -67,7 +78,7 @@
     line-height: 2rem;
   }
   .menu .box .menu-item .box-item {
-    margin: 1rem;
+    margin: 0.8rem;
   }
   
   .menu .box .menu-item .box-item img {
@@ -76,13 +87,13 @@
   }
   
   .menu .box .menu-item h2 {
-    font-size: 1rem;
+    font-size: 0.95rem;
     padding-bottom: 0;
   }
   
   .menu .box .menu-item p {
-    font-size: 0.7rem;
-    line-height: 1.1rem;
+    font-size: 0.65rem;
+    line-height: 1rem;
     padding-bottom: 0.2rem;
   }
 

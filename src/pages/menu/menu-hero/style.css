@@ -1,0 +1,242 @@
+.menu-hero {
+  padding: 5rem 9.5rem;
+}
+
+.menu-hero .title {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+.menu-hero .title h1.main-title {
+  font-size: 6rem;
+  line-height: 6rem;
+}
+
+.menu-hero .title p {
+  color: #495460;
+  font-size: 1.125rem;
+  font-weight: 400;
+  padding-top: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.menu-hero .buttons button {
+  border: 1px solid #DBDFD0;
+  padding: 0.8rem 1rem;
+}
+
+.menu-hero .buttons button:hover {
+  background-color: #AD343E;
+  color: white;
+  border: 1px solid #AD343E;
+}
+
+.menu-hero .buttons {
+  padding-top: 3rem;
+  padding-bottom: 0.2rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 0.94rem;
+  width: 60%;
+}
+
+.menu-hero .buttons button {
+  flex: 1;
+}
+
+.menu-hero .cards {
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.menu-hero .cards .card {
+  border-radius: 0.75rem;
+  border: 1.5px solid #DBDFD0;
+  text-align: center;
+}
+
+.menu-hero .cards .card .text {
+  padding: 1rem 1.8rem 2rem 1.8rem;
+}
+
+.menu-hero .cards .card img {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  width: 100%;
+}
+
+.menu-hero .cards .card .price {
+  color: #AD343E;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.045rem;
+}
+
+.menu-hero .cards .card .name {
+  color: #2C2F24;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 0.5rem 0;
+}
+
+.menu-hero .cards .card .desc {
+  color: #414536;
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+
+@media only screen and (max-width: 1520px) {
+  .menu-hero .buttons {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .menu-hero .title {
+    width: 60%;
+  }
+  .menu-hero .cards .card .text {
+    padding: 0.7rem 1rem 1.3rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .menu-hero .buttons {
+    width: 90%;
+  }
+  .menu-hero .buttons {
+    padding-top: 1.5rem;
+  }
+  .menu-hero .cards {
+    padding-top: 3.5rem;
+  }
+  .menu-hero .cards .card .price {
+    font-size: 1.25rem;
+  }
+  
+  .menu-hero .cards .card .name {
+    padding-top: 0.2rem;
+    font-size: 1rem;
+  }
+  
+  .menu-hero .cards .card .desc {
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .menu-hero {
+    padding: 5.5rem 7.5rem;
+  }
+  .menu-hero .title p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .menu-hero .title h1.main-title {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  .menu-hero .cards {
+    gap: 1rem;
+  }
+  .menu-hero .cards .card .text {
+    padding: 0.7rem 0.8rem 1.3rem 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  .menu-hero .buttons {
+    padding-top: 1.5rem;
+  }
+  .menu-hero .cards {
+    padding-top: 3rem;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1122px) {
+  .menu-hero .buttons {
+    width: 100%;
+  }
+  .menu-hero {
+    padding: 4.5rem 6.5rem;
+  }
+  .menu-hero .cards {
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 2.8rem;
+  }
+  .menu-hero .container {
+    margin: 0 auto;
+    width: 90%;
+    overflow-x: scroll;
+  }
+  .menu-hero .buttons {
+    width: 800px;
+    padding-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 897px) {
+  .menu-hero .title {
+    width: 100%;
+  }
+  .menu-hero {
+    padding: 1.5rem;
+  }
+  .menu-hero .cards {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 2.5rem;
+  }
+  .menu-hero .title p {
+    padding-top: 0.7rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+  .menu-hero .title h1.main-title {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+  .menu-hero .buttons button {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .menu-hero .title p {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  .menu-hero .title h1.main-title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+  .menu-hero .buttons {
+    width: 700px;
+  }
+  .menu-hero .cards .card .price {
+    font-size: 1.125rem;
+  }
+  
+  .menu-hero .cards .card .name {
+    padding-top: 0.2rem;
+    font-size: 0.85rem;
+  }
+  
+  .menu-hero .cards .card .desc {
+    font-size: 0.75rem;
+  }
+  .menu-hero .cards .card .text {
+    padding: 0.7rem 0.5rem 1.1rem 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .menu-hero .cards .card .desc {
+    font-size: 0.7rem;
+  }
+}

@@ -161,4 +161,13 @@
     font-size: 0.8rem;
     line-height: 1.2rem;
   }
+
+  .content-web .info-content-icon.css-i4bv87-MuiSvgIcon-root {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+  }
+
+  .content-web .container .detail .info-content p {
+    font-size: 0.85rem;
+  }
 }

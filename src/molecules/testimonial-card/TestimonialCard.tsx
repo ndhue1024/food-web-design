@@ -2,7 +2,7 @@ import React from 'react'
 import "./style.css"
 import { User } from '../../atoms/user';
 
-interface CardItemProps {
+interface TestimonialCardProps {
   title: string;
   text: string;
   src: string;
@@ -10,7 +10,7 @@ interface CardItemProps {
   address: string;
 }
 
-export const CardItem: React.FC<CardItemProps> = ({ title, text, src, name, address }) => {
+export const TestimonialCard: React.FC<TestimonialCardProps> = ({ title, text, src, name, address }) => {
   return (
     <div className="card-item">
       <div className="card-item-container">

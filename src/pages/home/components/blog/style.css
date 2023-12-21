@@ -27,7 +27,7 @@
 }
 
 .card-box .card-container .card-blog-content.remarkable {
-  padding: 2rem 2.19rem 3.11rem 2.19rem;
+  padding: 2rem 2.19rem 3.1rem 2.19rem;
 }
 
 .card-box .card-container .blog-title {
@@ -128,7 +128,7 @@
   }
   
   .blog .heading button {
-    margin-top: 1rem;
+    margin-top: 1.2rem;
     font-weight: 600;
     font-size: 0.7rem;
     padding: 0.8rem 1rem;
@@ -139,7 +139,7 @@
     line-height: 2rem;
   }
   .blog .blog-content {
-    padding-top: 1.5rem;
+    padding-top: 1.2rem;
   }
   
   .blog .blog-content .others-blog {

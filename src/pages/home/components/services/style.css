@@ -14,7 +14,7 @@
 }
 
 .services .container .card-box .card-container .title {
-  padding: 0.94rem 0;
+  padding: 0.75rem 0;
   font-size: 1.5rem;
 }
 
@@ -78,5 +78,6 @@
 
   .services .container .card-box .card-container .detail {
     font-size: 0.68rem;
+    line-height: 1.2rem;
   }
 }

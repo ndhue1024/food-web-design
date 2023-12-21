@@ -1,0 +1,30 @@
+.menu-brand {
+  background-color: #F9F9F7;
+}
+
+.menu-brand .container {
+  padding: 5rem 9.5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: center;
+  gap: 6.8rem;
+}
+
+.menu-brand .container .content p {
+  color: #414536;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.menu-brand .container .brands img {
+  width: 100%;
+}
+
+.menu-brand .container .brands {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.menu-brand .container .brands .brand-container {
+  
+}

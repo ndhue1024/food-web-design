@@ -6,13 +6,15 @@ import Button from "../../../atoms/button";
 import PhoneOutlinedIcon from '@mui/icons-material/PhoneOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import FmdGoodOutlinedIcon from '@mui/icons-material/FmdGoodOutlined';
-import image from "../../../assets/Image.png";
 
-export const About = () => {
+interface AboutProps {
+  img: string;
+}
+export const About: React.FC<AboutProps> = ({ img }) => {
   return (
     <section className="about">
       <div className="container">
-        <div className="img" style={{ backgroundImage: `url(${image})` }}>
+        <div className="img" style={{ backgroundImage: `url(${img})` }}>
           <section className="contact-card">
             <div className="contact-card-box">
               <h3>Come and visit us</h3>

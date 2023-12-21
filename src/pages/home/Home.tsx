@@ -4,20 +4,20 @@ import { Menu } from './components/menu/Menu'
 import { About } from '../components/about/About'
 import { Services } from './components/services/Services'
 import { Content } from './components/content/Content'
-import { Testimonial } from './components/testimonial/Testimonial'
+import { Testimonial } from '../components/testimonial/Testimonial'
 import { Blog } from './components/blog/Blog'
-import { HomeTemplate } from '../../templates/home/HomeTemplate'
+import { GeneralTemplate } from '../../templates/GeneralTemplate'
 
 export const Home = () => {
   return (
-    <HomeTemplate>
+    <GeneralTemplate>
       <Carousel />
       <Menu />
-      <About />
+      <About img="../../../assets/Image.png" />
       <Services />
       <Content />
       <Testimonial />
       <Blog />
-    </HomeTemplate>
+    </GeneralTemplate>
   )
 }

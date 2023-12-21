@@ -12,7 +12,7 @@
 }
 
 .carousel .content {
-  z-index: 99;
+  z-index: 9;
   padding: 0 29.5rem;
   text-align: center;
   position: relative;
@@ -171,7 +171,7 @@
     padding: 1rem 8rem;
   }
   .carousel .content h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 1.8rem;
   }
   .carousel .content p {
@@ -183,17 +183,14 @@
     font-weight: 600;
     font-size: 0.5rem;
     padding: 0.65rem 1rem;
-  }
-  .carousel .content h1 {
-    font-size: 2.2rem;
-    line-height: 1.5rem;
+    border: 1px solid;
   }
   .carousel .content {
     padding: 1rem 5rem;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 440px) {
   .carousel .content p {
     padding: 0;
   }

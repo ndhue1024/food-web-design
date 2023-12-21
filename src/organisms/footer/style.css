@@ -21,13 +21,25 @@ footer .top .box-1 p {
 }
 
 footer .icon-footer {
-  color: white;
   padding: 0.5rem;
   width: 2.1875rem !important;
   height: 2.1875rem !important;
   background-color: #AD343E;
   border-radius: 100%;
   margin-right: 0.75rem;
+
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+footer .icon-footer:hover path {
+  fill: #AD343E;
+}
+
+footer .icon-footer:hover {
+  background-color: #DBDFD0;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 footer .top .box-2 {
@@ -129,19 +141,38 @@ footer .bottom p {
   }
   
   footer .top .box-1 p {
-    padding: 0.8rem 0;
-    font-size: 0.9rem;
+    padding: 0.6rem 0;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
   }
   
+  footer .top .icon-list {
+    text-align: center;
+  }
+  footer .icon-footer {
+    width: 1.8rem !important;
+    height: 1.8rem !important;
+  }
+
   footer .top .box-2 {
     margin: 0 auto;
     font-size: 0.9rem;
     gap: 0 3rem;
     width: 100%;
   }
-  footer .top .box-2 ul li {
-    padding-top: 1rem;
+
+  footer .top .box-2 ul {
+    padding-top: 1.6rem;
   }
+
+  footer .top .box-2 ul li {
+    padding-bottom: 0.86rem;
+  }
+
+  footer .top .box-2 ul li a {
+    font-size: 0.8rem;
+  }
+
   footer .top .box-3 .img {
     padding-top: 1rem;
     padding-right: 0;
