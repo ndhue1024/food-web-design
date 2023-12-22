@@ -1,0 +1,447 @@
+header, .contact-page .hero {
+  background-color: #F9F9F7;
+}
+
+.contact-page .hero .title {
+  margin: 0 auto;
+  text-align: center;
+  width: 40%;
+}
+
+.contact-page .hero .title h1.main-title {
+  font-size: 5.8rem;
+  line-height: 6rem;
+}
+
+.contact-page .hero .title p {
+  color: #495460;
+  font-size: 1.125rem;
+  font-weight: 400;
+  padding: 1.125rem 1.5rem 0 1.5rem;
+  line-height: 1.5rem;
+}
+
+.contact-page .hero {
+  padding: 3rem 0 20rem 0;
+  position: relative;
+}
+
+.contact-page .hero .form {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+
+  padding: 2.5rem 3.2rem;
+  width: 50%;
+  border-radius: 1rem;
+  border: 1px solid #FFF;
+  background:#FFF;
+
+  box-shadow: 0px 2.979px 59.574px 0px rgba(0, 0, 0, 0.08);
+}
+
+.contact-page .hero .form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.contact-page .hero .form form > .input-group:nth-child(3), .contact-page .hero .form form > .input-group:nth-child(4), .contact-page .hero .form form > .input-group:nth-child(5) {
+  grid-column: auto / span 2;
+}
+
+.contact-page .hero .form form .input-group > button {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.contact-page .hero .form .input-group {
+  flex: 1;
+  position: relative;
+}
+
+.contact-page .hero .form form .input-group textarea {
+  border-radius: 1rem;
+  resize: none;
+}
+
+.contact-page .hero .form label {
+  display: block;
+  color: #2C2F24;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+}
+
+.contact-page .hero .form .input {
+  font-family: 'DM Sans', sans-serif;
+  border-radius: 4.5rem;
+  border: 1px solid  #DBDFD0;
+  background: #FFF;
+  padding: 1rem 1.5rem;
+  margin-top: 0.5rem;
+  width: 100%;
+  color:#2C2F24;
+}
+
+.contact-page .info {
+  background: #fff;
+  padding: 20rem 0 3rem 0;
+  margin: 0 auto;
+  width: 50%;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+.contact-page .info .title {
+  color: #2C2F24;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.625rem;
+  padding-bottom: 0.5rem;
+}
+
+.contact-page .info .text {
+  color: #2C2F24;
+  line-height: 1.5rem;
+}
+
+.contact-page .info .call .text {
+  color: #AD343E;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1450px) {
+  .contact-page .hero .title p {
+    padding: 1.125rem 0.5rem 0 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 1370px) {
+  
+  .contact-page .hero .title h1.main-title {
+    font-size: 5.2rem;
+    line-height: 5.5rem;
+  }
+  
+  .contact-page .hero .title p {
+    font-size: 1.05rem;
+  }
+
+  .contact-page .info {
+    gap: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .contact-page .hero .title {
+    width: 42%;
+  }
+  .contact-page .hero .title p {
+    font-size: 1rem;
+  }
+  .contact-page .info .title {
+    font-size: 1.1rem;
+  }
+  
+  .contact-page .info .text {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+  
+  .contact-page .info .call .text {
+    font-size: 1.125rem;
+  }
+  .contact-page .info {
+    padding: 19rem 0 3rem 0;
+  }
+}
+
+@media only screen and (max-width: 1175px) {
+  .contact-page .hero .title {
+    width: 48%;
+  }
+  .contact-page .hero .title h1.main-title {
+    font-size: 5rem;
+    line-height: 5.2rem;
+  }
+  .contact-page .info .title {
+    font-size: 1rem;
+  }
+  .contact-page .info .text {
+    font-size: 0.8rem;
+  }
+  .contact-page .info .call .text {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .contact-page .hero .title {
+    width: 50%;
+  }
+  .contact-page .hero .title h1.main-title {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+  
+  .contact-page .hero .title p {
+    font-size: 0.9rem;
+  }
+
+  .contact-page .hero {
+    padding: 3rem 0 16rem 0;
+  }
+
+  .contact-page .info {
+    padding: 18rem 0 3rem 0;
+  }
+
+  .contact-page .hero .form {
+    padding: 2rem 2.8rem;
+    width: 60%;
+    top: -8%;
+  }
+
+  .contact-page .hero .form form {
+    gap: 1rem;
+  }
+
+  .contact-page .hero .form label {
+    font-size: 0.9rem;
+  }
+  
+  .contact-page .hero .form .input {
+    font-size: 0.9rem;
+    padding: 0.85rem 1.25rem;
+  }
+
+  .contact-page .hero .form form .input-group > button {
+    padding: 0.85rem 1.25rem;
+  }
+
+  .contact-page .info {
+    gap: 1.5rem;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 878px) {
+  .contact-page .hero .title {
+    width: 52%;
+  }
+  .contact-page .hero .title h1.main-title {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  
+  .contact-page .hero .title p {
+    font-size: 0.9rem;
+  }
+
+  .contact-page .hero {
+    padding: 3rem 0 16rem 0;
+  }
+
+  .contact-page .info {
+    padding: 16.5rem 0 3rem 0;
+  }
+
+  .contact-page .hero .form {
+    padding: 2rem 2.2rem;
+  }
+
+  .contact-page .hero .form form {
+    gap: 1rem;
+  }
+
+  .contact-page .hero .form label {
+    font-size: 0.85rem;
+  }
+  
+  .contact-page .hero .form .input {
+    font-size: 0.85rem;
+    padding: 0.75rem 1.25rem;
+  }
+
+  .contact-page .hero .form form .input-group > button {
+    padding: 0.75rem 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .contact-page .hero .title {
+    width: 65%;
+  }
+  .contact-page .hero .title h1.main-title {
+    font-size: 3.8rem;
+    line-height: 4rem;
+  }
+
+  .contact-page .hero .title p {
+    padding-top: 0.5rem;
+  }
+  .contact-page .hero {
+    padding: 3rem 0 13rem 0;
+  }
+
+  .contact-page .hero .form {
+    padding: 2rem 2.2rem;
+    width: 70%;
+  }
+
+  .contact-page .info {
+    width: 70%;
+  }
+
+  .contact-page .hero .form form {
+    gap: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .contact-page .hero .title {
+    width: 70%;
+  }
+  .contact-page .hero .title h1.main-title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+
+  .contact-page .hero .title p {
+    line-height: 1.2rem;
+  }
+
+  .contact-page .hero .form {
+    padding: 2rem 2.2rem;
+    width: 80%;
+  }
+
+  .contact-page .info {
+    width: 80%;
+  }
+
+  .contact-page .hero .form form {
+    gap: 0.9rem;
+  }
+
+  .contact-page .hero .form label {
+    font-size: 0.8rem;
+  }
+  
+  .contact-page .hero .form .input {
+    font-size: 0.8rem;
+    padding: 0.7rem 1.2rem;
+  }
+
+  .contact-page .hero .form form .input-group > button {
+    padding: 0.7rem 1.2rem;
+  }
+  .contact-page .info .title {
+    font-size: 0.85rem;
+    padding-bottom: 0.3rem;
+  }
+  .contact-page .info .text {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  .contact-page .info .call .text {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .contact-page .hero .title {
+    width: 80%;
+  }
+
+  .contact-page .hero .title h1.main-title {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  .contact-page .hero .title p {
+    font-size: 0.75rem;
+  }
+
+  .contact-page .hero .form {
+    padding: 1.8rem 2rem;
+    width: 85%;
+    top: -13%;
+  }
+
+  .contact-page .hero .form form {
+    gap: 0.8rem;
+  }
+
+  .contact-page .hero .form label {
+    font-size: 0.75rem;
+  }
+  
+  .contact-page .hero .form .input {
+    font-size: 0.75rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .contact-page .hero .form form .input-group > button {
+    padding: 0.6rem 1rem;
+  }
+
+  .contact-page .info {
+    gap: 1rem;
+    padding: 14rem 0 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  .contact-page .hero {
+    padding: 2rem 0 10rem 0;
+  }
+  .contact-page .hero .title h1.main-title {
+    font-size: 2rem;
+  }
+
+  .contact-page .hero .title p {
+    line-height: 0.8rem;
+    font-size: 0.65rem;
+    padding: 0.5rem 0 0 0;
+  }
+
+  .contact-page .hero .form {
+    padding: 1.2rem 1.5rem;
+  }
+
+  .contact-page .hero .form form {
+    gap: 0.75rem;
+  }
+
+  .contact-page .hero .form label {
+    font-size: 0.7rem;
+  }
+  
+  .contact-page .hero .form .input {
+    font-size: 0.7rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .contact-page .hero .form form .input-group > button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+  }
+  .contact-page .info {
+    width: 90%;
+  }
+  .contact-page .info .title {
+    font-size: 0.8rem;
+  }
+  .contact-page .info .text {
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+  .contact-page .info .call .text {
+    font-size: 0.7rem;
+  }
+}

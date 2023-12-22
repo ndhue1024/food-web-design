@@ -1,0 +1,201 @@
+.blog-page {
+  background: #F9F9F7;
+}
+
+.blog-page .container {
+  padding: 5rem 9.5rem;
+}
+
+.blog-page .title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blog-page .title h1.main-title {
+  font-size: 5.8rem;
+  line-height: 6rem;
+}
+
+.blog-page .title p {
+  color: #495460;
+  font-size: 1.125rem;
+  font-weight: 400;
+  padding-top: 1.125rem;
+  line-height: 1.5rem;
+  width: 53%;
+  margin: 0 auto;
+}
+
+.blog-page .blogs {
+  position: relative;
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.blog-page .blogs .card-box {
+  overflow: hidden;
+}
+
+.blog-page .blogs .card-box img {
+  transition: ease 0.4s;
+}
+
+.blog-page .blogs .card-box:hover img {
+  scale: 110%;
+  transition: ease 0.4s;
+}
+
+.card-box .card-container .card-blog-content {
+  padding: 1.6rem 1rem 0.8rem 1rem;
+}
+
+.card-box .card-container .card-blog-content.remarkable {
+  padding: 2rem 2.19rem 3.1rem 2.19rem;
+}
+
+.card-box .card-container .blog-title {
+  color: #737865;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding-bottom: 0.8rem;
+}
+
+.card-box .card-container .blog-detail {
+  color: #2C2F24;
+  font-weight: 600;
+  line-height: 1.4rem;
+  font-size: 1rem;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1370px) {
+  .blog-page .title h1.main-title {
+    font-size: 5.2rem;
+    line-height: 5.5rem;
+  }
+  .blog-page .title p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    width: 56%;
+  }
+  .blog-page .card-box .card-container .blog-detail {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+  .blog-page .card-box .card-container .card-blog-content {
+    padding: 1.2rem 0.8rem 0.8rem 0.8rem;
+  }
+  .blog-page .card-box .card-container .blog-title {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .blog-page .container {
+    padding: 5.5rem 7.5rem;
+  }
+  .blog-page .container .blogs {
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1175px) {
+  .blog-page .container {
+    padding: 4.5rem 6.5rem;
+  }
+  .blog-page .title h1.main-title {
+    font-size: 4.8rem;
+    line-height: 5rem;
+  }
+  .blog-page .title p {
+    width: 75%;
+  }
+  .blog-page .container .blogs {
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .blog-page .title h1.main-title {
+    font-size: 4.3rem;
+    line-height: 4.3rem;
+  }
+  .blog-page .container .blogs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 878px) {
+  .blog-page .container {
+    padding: 1.5rem;
+  }
+  .blog-page .title h1.main-title {
+    font-size: 3.8rem;
+    line-height: 3.8rem;
+  }
+  .blog-page .title p {
+    font-size: 0.9rem;
+    width: 80%;
+  }
+  .blog-page .container .blogs {
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .blog-page .title h1.main-title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+  .blog-page .title p {
+    padding-top: 0.5rem;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .blog-page .title h1.main-title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+  .blog-page .title p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    padding-top: 0.5rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .blog-page .title h1.main-title {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  .blog-page .title p {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  .blog-page .title h1.main-title {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  .blog-page .card-box .card-container .card-blog-content {
+    padding: 0.8rem;
+  }
+  .blog-page .card-box .card-container .blog-title {
+    font-size: 0.7rem;
+    padding-bottom: 0.5rem;
+  }
+  .blog-page .card-box .card-container .blog-detail {
+    line-height: 1.05rem;
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,376 @@
+header, .book {
+  background-color: #F9F9F7;
+}
+
+.book .hero .title {
+  margin: 0 auto;
+  text-align: center;
+  width: 40%;
+}
+
+.book .hero .title h1.main-title {
+  font-size: 5.8rem;
+  line-height: 6rem;
+}
+
+.book .hero .title p {
+  color: #495460;
+  font-size: 1.125rem;
+  font-weight: 400;
+  padding: 1.125rem 1.5rem 0 1.5rem;
+  line-height: 1.5rem;
+}
+
+.book .map img {
+  width: 100%;
+}
+
+.book .hero {
+  padding: 3rem 0 18rem 0;
+  position: relative;
+}
+
+.book .hero .form {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+
+  padding: 2.5rem 3.2rem;
+  width: 50%;
+  border-radius: 1rem;
+  border: 1px solid #FFF;
+  background:#FFF;
+
+  box-shadow: 0px 2.979px 59.574px 0px rgba(0, 0, 0, 0.08);
+}
+
+.book .hero .form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.book .hero .form form > .input-group:nth-child(5), .book .hero .form form > .input-group:nth-child(6) {
+  grid-column: auto / span 2;
+}
+
+.book .hero .form form .input-group > button {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.book .hero .form .input-group {
+  flex: 1;
+  position: relative;
+}
+
+.book .hero .form .input-group .select-icon {
+  color: #2C2F24 !important;
+  font-size: 1.35rem;
+  position: absolute;
+  right: 1.335rem;
+  bottom: 0.925rem;
+}
+
+.book .hero .form label {
+  display: block;
+  color: #2C2F24;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+}
+
+.book .hero .form .input {
+  font-family: 'DM Sans', sans-serif;
+  border-radius: 4.5rem;
+  border: 1px solid  #DBDFD0;
+  background: #FFF;
+  padding: 1rem 1.5rem;
+  margin-top: 0.5rem;
+  width: 100%;
+  color:#2C2F24;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+@media only screen and (max-width: 1450px) {
+  .book .hero .title p {
+    padding: 1.125rem 0.5rem 0 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 1370px) {
+  
+  .book .hero .title h1.main-title {
+    font-size: 5.2rem;
+    line-height: 5.5rem;
+  }
+  
+  .book .hero .title p {
+    font-size: 1.05rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .book .hero .title {
+    width: 42%;
+  }
+  .book .hero .title p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1175px) {
+  .book .hero .title {
+    width: 48%;
+  }
+  .book .hero .title h1.main-title {
+    font-size: 5rem;
+    line-height: 5.2rem;
+  }
+
+  .book .hero .form {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .book .hero .title {
+    width: 50%;
+  }
+  .book .hero .title h1.main-title {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+  
+  .book .hero .title p {
+    font-size: 0.9rem;
+  }
+
+  .book .hero {
+    padding: 3rem 0 16rem 0;
+  }
+
+  .book .hero .form {
+    padding: 2rem 2.8rem;
+    width: 60%;
+  }
+
+  .book .hero .form form {
+    gap: 1rem;
+  }
+
+  .book .hero .form label {
+    font-size: 0.9rem;
+  }
+  
+  .book .hero .form .input {
+    font-size: 0.9rem;
+    padding: 0.85rem 1.25rem;
+  }
+
+  .book .hero .form form .input-group > button {
+    padding: 0.85rem 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 878px) {
+  .book .hero .title {
+    width: 52%;
+  }
+  .book .hero .title h1.main-title {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  
+  .book .hero .title p {
+    font-size: 0.9rem;
+  }
+
+  .book .hero {
+    padding: 3rem 0 16rem 0;
+  }
+
+  .book .hero .form {
+    padding: 2rem 2.2rem;
+  }
+
+  .book .hero .form form {
+    gap: 1rem;
+  }
+
+  .book .hero .form label {
+    font-size: 0.85rem;
+  }
+  
+  .book .hero .form .input {
+    font-size: 0.85rem;
+    padding: 0.75rem 1.25rem;
+  }
+
+  .book .hero .form form .input-group > button {
+    padding: 0.75rem 1.25rem;
+  }
+  .book .hero .form .input-group .select-icon {
+    font-size: 1.1rem;
+    right: 1rem;
+    bottom: 0.8rem;
+  }
+  .book .hero .form .input-group .select-icon.person {
+    bottom: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .book .hero .title {
+    width: 65%;
+  }
+  .book .hero .title h1.main-title {
+    font-size: 3.8rem;
+    line-height: 4rem;
+  }
+
+  .book .hero .title p {
+    padding-top: 0.5rem;
+  }
+  .book .hero {
+    padding: 3rem 0 13rem 0;
+  }
+
+  .book .hero .form {
+    padding: 2rem 2.2rem;
+    top: 6%;
+    width: 70%;
+  }
+
+  .book .hero .form form {
+    gap: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .book .hero .title {
+    width: 70%;
+  }
+  .book .hero .title h1.main-title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+
+  .book .hero .title p {
+    line-height: 1.2rem;
+  }
+
+  .book .hero .form {
+    padding: 2rem 2.2rem;
+    top: 0;
+    width: 80%;
+  }
+
+  .book .hero .form form {
+    gap: 0.9rem;
+  }
+
+  .book .hero .form label {
+    font-size: 0.8rem;
+  }
+  
+  .book .hero .form .input {
+    font-size: 0.8rem;
+    padding: 0.7rem 1.2rem;
+  }
+
+  .book .hero .form form .input-group > button {
+    padding: 0.7rem 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .book .hero .title {
+    width: 80%;
+  }
+
+  .book .hero .title h1.main-title {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  .book .hero .title p {
+    font-size: 0.75rem;
+  }
+
+  .book .hero .form {
+    padding: 1.8rem 2rem;
+    width: 85%;
+  }
+
+  .book .hero .form form {
+    gap: 0.8rem;
+  }
+
+  .book .hero .form label {
+    font-size: 0.75rem;
+  }
+  
+  .book .hero .form .input {
+    font-size: 0.75rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .book .hero .form form .input-group > button {
+    padding: 0.6rem 1rem;
+  }
+  .book .hero .form .input-group .select-icon {
+    font-size: 1rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  .book .hero {
+    padding: 2rem 0 10rem 0;
+  }
+  .book .hero .title h1.main-title {
+    font-size: 2rem;
+  }
+
+  .book .hero .title p {
+    line-height: 0.8rem;
+    font-size: 0.65rem;
+    padding: 0.5rem 0 0 0;
+  }
+
+  .book .hero .form {
+    padding: 1.2rem 1.5rem;
+  }
+
+  .book .hero .form form {
+    gap: 0.75rem;
+  }
+
+  .book .hero .form label {
+    font-size: 0.7rem;
+  }
+  
+  .book .hero .form .input {
+    font-size: 0.7rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .book .hero .form form .input-group > button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+  }
+  .book .hero .form .input-group .select-icon{
+    bottom: 0.6rem;
+  }
+  .book .hero .form .input-group .select-icon.person{
+    bottom: 0.475rem;
+  }
+}

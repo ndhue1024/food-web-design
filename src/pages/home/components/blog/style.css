@@ -9,11 +9,24 @@
   justify-content: space-between;
 }
 
+.blog .card-box {
+  overflow: hidden;
+}
+
 .blog .blog-content {
   padding-top: 4rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+}
+
+.blog .card-box img {
+  transition: ease 0.4s;
+}
+
+.blog .card-box:hover img {
+  scale: 105%;
+  transition: ease 0.4s;
 }
 
 .blog .blog-content .others-blog {

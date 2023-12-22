@@ -7,24 +7,188 @@
   display: grid;
   grid-template-columns: 2fr 3fr;
   align-items: center;
-  gap: 6.8rem;
+  gap: 7.5rem;
 }
 
+.menu-brand .container h1.main-title {
+  font-size: 3.475rem;
+}
 .menu-brand .container .content p {
+  padding-top: 1.25rem;
+  width: 75%;
   color: #414536;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
 }
 
 .menu-brand .container .brands img {
   width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid #F9F9F7;
+  background: #FFF;
+  box-shadow: 0px 2.979px 59.574px 0px rgba(0, 0, 0, 0.08);
+  transition: ease 0.3s;
 }
 
-.menu-brand .container .brands {
+.menu-brand .container .brands img:hover {
+  scale: 105%;
+  transition: ease 0.3s;
+}
+
+
+
+.menu-brand .container .brands-line {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  align-items: center;
+  margin: 0 3rem;
 }
-.menu-brand .container .brands .brand-container {
+
+.menu-brand .container .brands-line.middle {
+  margin: 1.25rem 0;
+}
+
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1320px) {
+  .menu-brand .container .content p {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .menu-brand .container h1.main-title {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+  }
+  .menu-brand .container .brands-line.middle {
+    margin: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  .menu-brand .container h1.main-title {
+    font-size: 3rem;
+    line-height: 3.2rem;
+  }
+  .menu-brand .container .content p {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .menu-brand .container {
+    padding: 5.5rem 7.5rem;
+  }
+  .menu-brand .container .content p {
+    padding-top: 1rem;
+  }
+  .menu-brand .container .brands-line {
+    gap: .85rem;
+    margin: 0 3rem;
+  }
   
+  .menu-brand .container .brands-line.middle {
+    margin: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 1115px) {
+  .menu-brand .container {
+    gap: 5.8rem;
+    padding: 4.5rem 6.5rem;
+  }
+  .menu-brand .container h1.main-title {
+    font-size: 2.65rem;
+    line-height: 2.7rem;
+  }
+  .menu-brand .container .content p {
+    width: 100%;
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .menu-brand .container {
+    gap: 3.75rem;
+  }
+  .menu-brand .container h1.main-title {
+    font-size: 2.5rem;
+    line-height: 2.6rem;
+  }
+  .menu-brand .container .content p {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .menu-brand .container .brands-line {
+    gap: .5rem;
+    margin: 0 2.5rem;
+  }
+  
+  .menu-brand .container .brands-line.middle {
+    margin: 0.35rem 0;
+  }
+}
+
+@media only screen and (max-width: 915px) {
+  .menu-brand .container h1.main-title {
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 897px) {
+  .menu-brand .container {
+    padding: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .menu-brand .container {
+    gap: 3rem;
+  }
+  .menu-brand .container h1.main-title {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+  .menu-brand .container .content p {
+    font-size: 0.62rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .menu-brand .container {
+    display: block;
+  }
+  .menu-brand .container h1.main-title {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .menu-brand .container .content p {
+    padding-top: 0.5rem;
+    font-size: 0.65rem;
+  }
+  .menu-brand .container .content {
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+  .menu-brand .container .brands {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .menu-brand .container .brands {
+    width: 100%;
+  }
+  .menu-brand .container .brands-line {
+    gap: .5rem;
+    margin: 0 2rem;
+  }
+  
+  .menu-brand .container .brands-line.middle {
+    margin: 0.25rem 0;
+  }
 }

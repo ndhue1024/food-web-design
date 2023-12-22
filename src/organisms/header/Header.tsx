@@ -25,15 +25,15 @@ export const Header = () => {
       <div className="content">
         <nav className="navbar">
           <ul>
-            <li className={location.pathname === "/" ? "active" : ""}><Link to="/">Home</Link></li>
+            <li className={(location.pathname === "/" || location.pathname === "/book") ? "active" : ""}><Link to="/">Home</Link></li>
             <li className={location.pathname === "/about" ? "active" : ""}><Link to="/about">About</Link></li>
             <li className={location.pathname === "/menu" ? "active" : ""}><Link to="/menu">Menu</Link></li>
             <li className={location.pathname === "/blog" ? "active" : ""}><Link to="/blog">Pages</Link></li>
-            <li className={location.pathname === "/book" ? "active" : ""}><Link to="/book">Contact</Link></li>
+            <li className={location.pathname === "/contact" ? "active" : ""}><Link to="/contact">Contact</Link></li>
           </ul>
         </nav>
         <div className="header-button">
-          <Button onClick={handleClick} title="Book A Table" isRed={false} />
+          <Button onClick={handleClick} title="Book A Table" />
         </div>
       </div>
       {/* MOBILE */}

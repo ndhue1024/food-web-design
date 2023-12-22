@@ -20,12 +20,16 @@ interface BrandProps {
 }
 export const MenuBrand = () => {
 
-  const renderBrands = () => {
-    return brands.map((brand: BrandProps) => (
+  const renderBrands = (start: number, end: number) => {
+    return (
+      brands
+    .filter((brand) => (brand.id === start) || (brand.id > start &&brand.id <= end))
+    .map((brand: BrandProps) => (
       <div className="brand-container" key={brand.id}>
-        <img src={`./assets/${brand.src}`} alt="brand" />
+        <img src={`./assets/brand/${brand.src}`} alt="brand" />
       </div>
     ))
+    )
   }
   return (
     <section className="menu-brand">
@@ -35,7 +39,15 @@ export const MenuBrand = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipiscing elit enim bibendum sed et aliquet aliquet risus tempor semper.</p>
         </div>
           <div className="brands">
-            {renderBrands()}
+            <div className="brands-line">
+              {renderBrands(1,3)}
+            </div>
+            <div className="brands-line middle">
+              {renderBrands(4,6)}
+            </div>
+            <div className="brands-line">
+              {renderBrands(7,9)}
+            </div>
           </div>
       </div>
     </section>
