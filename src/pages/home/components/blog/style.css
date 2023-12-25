@@ -35,29 +35,29 @@
   gap: 1rem;
 }
 
-.card-box .card-container .card-blog-content {
+.blog .blog-content .card-box .card-container .card-blog-content {
   padding: 1.6rem 1rem 0.8rem 1rem;
 }
 
-.card-box .card-container .card-blog-content.remarkable {
-  padding: 2rem 2.19rem 3.1rem 2.19rem;
+.blog .blog-content .card-box .card-container .card-blog-content.remarkable {
+  padding: 2rem 2.19rem 1.45rem 2.19rem;
 }
 
-.card-box .card-container .blog-title {
+.blog .blog-content .card-box .card-container .blog-title {
   color: #737865;
   font-size: 0.875rem;
   font-weight: 500;
   padding-bottom: 0.8rem;
 }
 
-.card-box .card-container .blog-detail {
+.blog .blog-content .card-box .card-container .blog-detail {
   color: #2C2F24;
   font-weight: 600;
   line-height: 1.4rem;
   font-size: 1rem;
 }
 
-.card-box .card-container .card-blog-content .blog-text {
+.blog .blog-content .card-box .card-container .card-blog-content .blog-text {
   color: #5a5d51;
   font-size: 0.85rem;
   font-weight: 400;
