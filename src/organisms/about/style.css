@@ -150,8 +150,9 @@
     bottom: 2%;
   }
   .about .container h1.main-title {
-    font-size: 2.6rem;
-}
+    font-size: 2.45rem;
+    line-height: 2.8rem;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -171,6 +172,7 @@
   }
   .about .container h1.main-title {
     font-size: 2.2rem;
+    line-height: 2.8rem;
   }
   .about .container .contact-card {
     position: absolute;
@@ -187,8 +189,6 @@
   }
   .about .container h1.main-title {
     text-align: center;
-    font-size: 2.2rem;
-    line-height: 2.5rem;
   }
   .about .container .img {
     height: 22rem;
@@ -265,8 +265,8 @@
   }
 
   .about .container h1.main-title {
-    font-size: 1.8rem;
-    line-height: 1.8rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
   }
 
   .about .container .content .content-1 {
@@ -305,5 +305,12 @@
   .about .container .content .about-button button {
       padding: 0.5rem 0.8rem;
       font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .about .container h1.main-title {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
   }
 }

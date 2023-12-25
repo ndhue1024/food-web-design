@@ -239,6 +239,9 @@
   .menu-hero .buttons {
     width: 700px;
   }
+  .menu-hero .cards {
+    gap: .8rem;
+  }
   .menu-hero .cards .card .price {
     font-size: 1.125rem;
   }
@@ -256,10 +259,7 @@
   }
 }
 
-@media only screen and (max-width: 440px) {
-  .menu-hero .cards .card .desc {
-    font-size: 0.7rem;
-  }
+@media only screen and (max-width: 430px) {
   .menu-hero .title h1.main-title {
     font-size: 2.4rem;
   }
@@ -268,9 +268,17 @@
     line-height: 1rem;
   }
   .menu-hero .cards .card .text {
-    padding: 0.5rem 0.45rem 1rem 0.45rem;
+    padding: 0.5rem 0.4rem 1rem 0.4rem;
   }
+  .menu-hero .cards .card .price {
+    font-size: 0.95rem;
+  }
+  
+  .menu-hero .cards .card .name {
+    font-size: 0.75rem;
+  }
+  
   .menu-hero .cards .card .desc {
-    font-size: 0.64rem;
+    font-size: 0.6rem;
   }
 }

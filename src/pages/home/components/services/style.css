@@ -23,6 +23,12 @@
 }
 
 /* RESPONSIVE */
+@media only screen and (max-width: 1440px) {
+  .services .container h1.main-title {
+    width: 50%;
+    font-size: 2.9rem;
+  }
+}
 @media only screen and (max-width: 1300px) {
   .services .container h1.main-title {
     width: 53%;
@@ -33,21 +39,23 @@
   }
 
   .services .container .card-box .card-container .detail {
-    font-size: 0.88rem;
+    font-size: 0.83rem;
   }
 }
+
 @media only screen and (max-width: 1220px) {
   .services .container {
     padding: 5.5rem 7.5rem;
   }
   .services .container h1.main-title {
-    width: 64%;
+    font-size: 2.7rem;
   }
 }
 
-@media only screen and (max-width: 1055px) {
+@media only screen and (max-width: 1199px) {
   .services .container h1.main-title {
-    width: 68%;
+    font-size: 2.45rem;
+    line-height: 2.8rem;
   }
 }
 
@@ -66,6 +74,7 @@
   }
   .services .container h1.main-title {
     font-size: 2.2rem;
+    line-height: 2.8rem;
   }
 }
 
@@ -94,7 +103,17 @@
 
 @media only screen and (max-width: 440px) {
   .services .container h1.main-title {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
+    line-height: 2.2rem;
+  }
+  .services .container .card-box .card-container .detail {
+    font-size: 0.62rem;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .services .container h1.main-title {
+    font-size: 1.5rem;
     line-height: 1.8rem;
   }
 }

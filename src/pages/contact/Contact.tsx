@@ -1,8 +1,10 @@
 import React from 'react'
-import './style.css'
+
 import { GeneralTemplate } from '../../templates/GeneralTemplate'
 import { Heading } from '../../atoms/heading'
 import { ContactForm } from '../../molecules/contact-form/ContactForm'
+
+import './style.css'
 
 export const Contact = () => {
   return (

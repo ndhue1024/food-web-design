@@ -65,6 +65,9 @@
   .top-bar {
     padding: 0.3rem;
   }
+  .top-bar .info {
+    gap: 0.5rem;
+  }
   .top-bar .info .info-contact p{
     line-height: 0.8rem;
     font-weight: 300;
@@ -82,5 +85,14 @@
     width: 1.1rem !important;
     height: 1.1rem !important;
     padding: 0.25rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .top-bar .info .info-contact p{
+    font-size: 0.5rem;
+  }
+  .top-bar .info .info-contact-content {
+    font-size: 0.5rem;
   }
 }

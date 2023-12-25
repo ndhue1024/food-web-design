@@ -147,7 +147,7 @@
   .content-web .container h1.main-title {
     text-align: center;
     font-size: 2.2rem;
-    line-height: 2.2rem;
+    line-height: 2.8rem;
   }
   
   .content-web .container .img {
@@ -179,5 +179,12 @@
 
   .content-web .container .detail .info-content p {
     font-size: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .content-web .container h1.main-title {
+    font-size: 1.8rem;
+    line-height: 2rem;
   }
 }

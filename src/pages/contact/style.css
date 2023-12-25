@@ -259,6 +259,9 @@
 }
 
 @media only screen and (max-width: 680px) {
+  .contact-page .hero .title {
+    width: 70%;
+  }
   .contact-page .hero .title h1.main-title {
     font-size: 3.5rem;
     line-height: 3.5rem;
@@ -309,13 +312,15 @@
 }
 
 @media only screen and (max-width: 550px) {
+  .contact-page .hero .title {
+    width: 80%;
+  }
   .contact-page .hero .title p {
-    font-size: 0.7rem;
-    line-height: 1rem;
+    font-size: 0.75rem;
   }
   .contact-page .hero .title h1.main-title {
-    font-size: 2.8rem;
-    line-height: 2.8rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
   }
 
   .contact-page .hero .form {
@@ -351,12 +356,13 @@
   .contact-page .hero {
     padding: 2rem 0 10rem 0;
   }
-  .contact-page .hero h1.main-title {
-    font-size: 2.4rem;
+  .contact-page .hero .title h1.main-title {
+    font-size: 2rem;
   }
-  .contact-page .hero p {
-    font-size: 0.7rem;
-    line-height: 1rem;
+  .contact-page .hero .title p {
+    line-height: 0.8rem;
+    font-size: 0.65rem;
+    padding: 0.25rem 0 0 0;
   }
 
   .contact-page .hero .form {
@@ -372,7 +378,7 @@
   }
   
   .contact-page .hero .form .input {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     padding: 0.5rem 0.75rem;
   }
 
@@ -382,15 +388,17 @@
   }
   .contact-page .info {
     width: 90%;
+    gap: 0.5rem;
   }
   .contact-page .info .title {
     font-size: 0.8rem;
+    padding-bottom: 0;
   }
   .contact-page .info .text {
-    font-size: 0.6rem;
-    line-height: 1rem;
+    font-size: 0.55rem;
+    line-height: 0.9rem;
   }
   .contact-page .info .call .text {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }
