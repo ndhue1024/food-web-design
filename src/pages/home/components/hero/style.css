@@ -198,3 +198,24 @@
     height: 12.15rem;
   }
 }
+
+@media only screen and (max-width: 380px) {
+  .carousel {
+    height: 10.15rem;
+  }
+  .carousel .content {
+    padding: 1rem 4rem;
+  }
+  .carousel .content h1 {
+    font-size: 2rem;
+  }
+  .carousel .content p {
+    font-size: 0.55rem;
+  }
+  .carousel .content button {
+    padding: 0.5rem 0.8rem;
+  }
+  .carousel .content button:hover {
+    border: 1px solid;
+  }
+}

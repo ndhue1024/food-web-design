@@ -137,7 +137,7 @@ footer .bottom p {
 
 @media only screen and (max-width: 550px) {
   footer .footer-container{
-    padding: 2.5rem 2rem; 
+    padding: 2.5rem 2rem 0rem 2rem; 
   }
   
   footer .top .box-1 p {
@@ -181,8 +181,7 @@ footer .bottom p {
     width: 100%;
   }
   footer .bottom {
-    margin-top: 1rem;
-    padding-top: 0.8rem;
+    margin-top: 2rem;
   }
   footer .bottom p {
     font-size: .8rem;

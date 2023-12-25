@@ -197,8 +197,8 @@
     line-height: 1.2rem;
   }
   .menu-hero .title h1.main-title {
-    font-size: 4.5rem;
-    line-height: 4.5rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
   }
   .menu-hero .buttons button {
     font-size: 0.8rem;
@@ -212,8 +212,8 @@
     line-height: 1rem;
   }
   .menu-hero .title h1.main-title {
-    font-size: 3.5rem;
-    line-height: 3.5rem;
+    font-size: 2.8rem;
+    line-height: 2.8rem;
   }
   .menu-hero .buttons {
     width: 700px;
@@ -238,5 +238,8 @@
 @media only screen and (max-width: 440px) {
   .menu-hero .cards .card .desc {
     font-size: 0.7rem;
+  }
+  .menu-hero .title h1.main-title {
+    font-size: 2.5rem;
   }
 }
