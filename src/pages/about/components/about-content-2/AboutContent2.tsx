@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import { Title } from '../../../../atoms/title'
+import { Heading } from '../../../../atoms/heading'
 
 export const AboutContent2 = () => {
   return (
@@ -8,8 +8,10 @@ export const AboutContent2 = () => {
       <div className="container">
         <div className="left">
           <div className="text">
-            <Title title="A little information for our valuable guest" />
-            <p>At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.</p>
+            <Heading
+            title="A little information for our valuable guest" 
+            text='At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.'
+            />
           </div>
           <div className="img">
             <div className="statics">

@@ -16,7 +16,7 @@ export const Header = () => {
   }
   
   return (
-    <header className='header' id="header">
+    <header className={`header ${(location.pathname === '/menu') && 'bg-white'}`} id="header">
       <div className="logo">
         <Link to="/">
           <img src="./assets/logo-header.png" alt="logo" />

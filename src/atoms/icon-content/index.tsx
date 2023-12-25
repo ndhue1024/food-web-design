@@ -6,7 +6,7 @@ interface ListItemProps {
   content?: string;
   isRed?: boolean;
 }
-export const ListItem: React.FC<ListItemProps> = ({ Icon, content, isRed }) => {
+export const IconContent: React.FC<ListItemProps> = ({ Icon, content, isRed }) => {
   return (
     <div className={isRed ? 'info-content' : 'info-contact'}>
       {Icon && <Icon className={isRed ? 'info-content-icon' : 'info-contact-icon'} />}

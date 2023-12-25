@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import { Title } from '../../../../atoms/title'
+import { Heading } from '../../../../atoms/heading'
 
 export const AboutContent1 = () => {
   return (
@@ -10,7 +10,7 @@ export const AboutContent1 = () => {
         <img src="./assets/BG.png" className='bg' alt="BG" />
         <div className="video-content">
           <img src="./assets/Play.png" alt="btn-play" className="btn-play" />
-          <Title title="Feel the authentic & original taste from us" />
+          <Heading title="Feel the authentic & original taste from us" />
         </div>
       </div>
       <div className="features">

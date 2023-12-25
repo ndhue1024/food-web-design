@@ -1,8 +1,8 @@
 import React from 'react'
 import { TopBar } from '../../organisms/top-bar/TopBar';
 import { Header } from '../../organisms/header/Header';
-import { About } from '../../pages/components/about/About';
-import { Testimonial } from '../../pages/components/testimonial/Testimonial';
+import { About } from '../../organisms/about/About';
+import { Testimonial } from '../../organisms/testimonial/Testimonial';
 import { Footer } from '../../organisms/footer/Footer';
 import { ScrollToTop } from '../../organisms/scroll-to-top/ScrollToTop';
 

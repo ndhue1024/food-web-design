@@ -55,6 +55,20 @@
 }
 
 /* RESPONSIVE */
+@media only screen and (max-width: 1350px) {
+  .about-content-1 .features {
+    gap: 3.5rem;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .about-content-1 .features {
+    gap: 2.5rem;
+  }
+  .about-content-1 .features .feature-1 .text p {
+    line-height: 1.15rem;
+    font-size: 0.8rem;
+  }
+}
 @media only screen and (max-width: 1199px) {
   .about-content-1 h1.main-title {
     font-size: 2.8rem;

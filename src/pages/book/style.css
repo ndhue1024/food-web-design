@@ -1,4 +1,4 @@
-header, .book {
+.book {
   background-color: #F9F9F7;
 }
 
@@ -26,77 +26,8 @@ header, .book {
 }
 
 .book .hero {
-  padding: 3rem 0 18rem 0;
+  padding: 5rem 0 18rem 0;
   position: relative;
-}
-
-.book .hero .form {
-  position: absolute;
-  top: 12%;
-  left: 50%;
-  transform: translate(-50%, 50%);
-
-  padding: 2.5rem 3.2rem;
-  width: 50%;
-  border-radius: 1rem;
-  border: 1px solid #FFF;
-  background:#FFF;
-
-  box-shadow: 0px 2.979px 59.574px 0px rgba(0, 0, 0, 0.08);
-}
-
-.book .hero .form form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.25rem;
-}
-
-.book .hero .form form > .input-group:nth-child(5), .book .hero .form form > .input-group:nth-child(6) {
-  grid-column: auto / span 2;
-}
-
-.book .hero .form form .input-group > button {
-  width: 100%;
-  padding: 1rem 1.5rem;
-  font-size: 0.9rem;
-}
-
-.book .hero .form .input-group {
-  flex: 1;
-  position: relative;
-}
-
-.book .hero .form .input-group .select-icon {
-  color: #2C2F24 !important;
-  font-size: 1.35rem;
-  position: absolute;
-  right: 1.335rem;
-  bottom: 0.925rem;
-}
-
-.book .hero .form label {
-  display: block;
-  color: #2C2F24;
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 700;
-}
-
-.book .hero .form .input {
-  font-family: 'DM Sans', sans-serif;
-  border-radius: 4.5rem;
-  border: 1px solid  #DBDFD0;
-  background: #FFF;
-  padding: 1rem 1.5rem;
-  margin-top: 0.5rem;
-  width: 100%;
-  color:#2C2F24;
-}
-
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  text-indent: 1px;
-  text-overflow: '';
 }
 
 @media only screen and (max-width: 1450px) {
@@ -120,9 +51,6 @@ select {
 @media only screen and (max-width: 1300px) {
   .book .hero .title {
     width: 42%;
-  }
-  .book .hero .title p {
-    font-size: 1rem;
   }
 }
 

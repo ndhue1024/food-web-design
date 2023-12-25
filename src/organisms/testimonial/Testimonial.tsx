@@ -1,13 +1,13 @@
 import './style.css'
-import { Title } from '../../../atoms/title'
-import { TestimonialCard } from '../../../molecules/testimonial-card/TestimonialCard'
+import { Heading } from '../../atoms/heading'
+import { TestimonialCard } from '../../molecules/testimonial-card/TestimonialCard'
 
 export const Testimonial = () => {
   
   return (
     <section className="testimonial">
       <div className="container">
-        <Title title="What Our Customers Say" />
+        <Heading title="What Our Customers Say" />
         <div className="list-card">
         <TestimonialCard
             title="“The best restaurant”"

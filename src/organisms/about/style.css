@@ -7,55 +7,20 @@
   padding: 7.5rem 9.5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 7.7rem;
+  gap: 7rem;
   border: 0.75rem;
 }
 
 .about .container h1.main-title {
   text-align: left;
   font-size: 3.2rem;
-}
-
-.about .container .contact-card {
-  background-color: #474747;
-  border-radius: 0.75rem;
-  color: #F9F9F7;
-  position: absolute;
-  right: -2.5rem;
-  bottom: -15%;
-  width: 24rem;
-  text-align: left;
-}
-
-.about .container .contact-card .contact-card-box {
-  padding: 2.5rem;
-}
-
-.about .container .contact-card .contact-card-box h3 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.875rem; /* 125% */
-  letter-spacing: -0.045rem;
-  padding-bottom: 2rem;
-}
-
-.about .container .contact-card .contact-card-box a:hover .info-contact, .about .container .contact-card .contact-card-box a:hover .info-contact p {
-  color: #AD343E;
-  transition: ease-in-out;
-  transition-duration: 0.2s;
+  line-height: 3.5rem;
 }
 
 .about .container .content p {
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 
-.about .container .contact-card .contact-card-box .info-contact {
-  padding: 0.6rem 0;
-}
-
-.about .container .contact-card .contact-card-box .info-contact .info-contact-content {
-  font-size: 0.9rem;
-}
 
 .about .container .content .content-1 {
   color: #2C2F24;
@@ -71,7 +36,7 @@
 }
 
 .about .container .content .about-button {
-  padding-top: 2.5rem;
+  padding-top: 1.5rem;
 }
 
 .about .container .img {
@@ -80,6 +45,7 @@
   background-position:top;
   background-size: 100%;
   position: relative;
+  height: 526px;
 }
 
 .about .container .img img {
@@ -97,7 +63,7 @@
     bottom: -12%;
   }
   .about .container h1.main-title {
-    font-size: 2.8rem;
+    font-size: 2.7rem;
   }  
   .about .container .content .content-1 {
     font-size: 0.9rem;

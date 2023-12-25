@@ -2,7 +2,7 @@
   padding: 7.5rem;
 }
 
-.services .container h1 {
+.services .container h1.main-title {
   width: 48%;
 }
 
@@ -10,7 +10,7 @@
   padding-top: 4rem;
   display: flex;
   justify-content: space-around;
-  gap: 0 1rem;
+  gap: 1.5rem;
 }
 
 .services .container .card-box {
@@ -19,13 +19,21 @@
 
 .services .container .card-box .card-container .title {
   padding: 0.75rem 0;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 /* RESPONSIVE */
 @media only screen and (max-width: 1300px) {
-  .services .container h1 {
-    width: 51%;
+  .services .container h1.main-title {
+    width: 53%;
+  }
+  
+  .services .container .card-box .card-container .title {
+    padding: 0.5rem 0;
+  }
+
+  .services .container .card-box .card-container .detail {
+    font-size: 0.88rem;
   }
 }
 @media only screen and (max-width: 1220px) {
@@ -33,15 +41,13 @@
     padding: 5.5rem 7.5rem;
   }
   .services .container h1.main-title {
-    width: 60%;
+    width: 64%;
   }
-  .services .container .card-box .card-container .title {
-    font-size: 1.3rem;
-    padding: 0.5rem 0;
-  }
+}
 
-  .services .container .card-box .card-container .detail {
-    font-size: 0.86rem;
+@media only screen and (max-width: 1055px) {
+  .services .container h1.main-title {
+    width: 68%;
   }
 }
 

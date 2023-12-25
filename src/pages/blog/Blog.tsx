@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { GeneralTemplate } from '../../templates/GeneralTemplate'
 import { Card } from '../../atoms/card';
-import { Title } from '../../atoms/title'
+import { Heading } from '../../atoms/heading'
 import './style.css'
 import { Link } from 'react-router-dom';
 
@@ -30,17 +30,17 @@ export const Blog = () => {
     <GeneralTemplate>
       <section className="blog-page">
         <div className="container">
-          <div className="title">
-            <Title title="Our Blog & Articles" />
-            <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
-          </div>
+            <Heading 
+              title="Our Blog & Articles"
+              text='We consider all the drivers of change gives you the components you need to change to create a truly happens.'
+            />
           <div className="blogs">
             {blogs.map( blog => (
               <Link to="/blog-details" key={blog.id}>
                 <Card
                   src={blog.img}
-                  title={blog.date}
-                  detail={blog.title}
+                  content1={blog.date}
+                  content2={blog.title}
                   isBlog={true}
                 />
               </Link>

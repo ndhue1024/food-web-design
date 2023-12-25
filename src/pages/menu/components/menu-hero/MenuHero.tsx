@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './style.css';
-import { Title } from '../../../atoms/title';
-import Button from '../../../atoms/button';
+import { Heading } from '../../../../atoms/heading';
+import Button from '../../../../atoms/button';
+import { Card } from '../../../../atoms/card';
 
 interface MenuCardsProps {
   id: string;
@@ -34,10 +35,10 @@ export const MenuHero = () => {
 
   return (
     <section className="menu-hero">
-      <div className="title">
-        <Title title="Our Menu" />
-        <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
-      </div>
+      <Heading 
+        title="Our Menu"
+        text="We consider all the drivers of change gives you the components you need to change to create a truly happens."
+        />
       <div className="container">
         <div className="buttons">
           <Button 
@@ -70,13 +71,14 @@ export const MenuHero = () => {
       <div className="cards">
         {cards.map(card => (
           <div className="card" key={card.id}>
-          <img src={card.img} alt="menu" />
-          <div className="text">
-            <p className="price">$ {card.price}</p>
-            <p className="name">{card.name}</p>
-            <p className="desc">{card.desc}</p>
-          </div>
-        </div>
+            <Card
+              src={card.img}
+              content1={card.price.toString()}
+              content2={card.name}
+              content3={card.desc}
+              isMenu={true}
+            />
+        </div>  
         ))}
       </div>
     </section>

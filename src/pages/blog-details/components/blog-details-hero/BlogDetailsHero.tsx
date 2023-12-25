@@ -1,14 +1,12 @@
 import React from 'react'
-import { Title } from '../../../../atoms/title'
+import { Heading } from '../../../../atoms/heading'
 import './style.css'
 
 export const BlogDetailsHero = () => {
   return (
     <section className="blog-details-hero">
       <div className="container">
-        <div className="title">
-          <Title title="The secret tips & tricks to prepare a perfect burger & pizza for our customers" />
-        </div>
+          <Heading title="The secret tips & tricks to prepare a perfect burger & pizza for our customers" />
         <div className="blog-img">
             <img src="./assets/blog-details-1.png" alt="blog-details" />
         </div>

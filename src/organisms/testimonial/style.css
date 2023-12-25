@@ -25,8 +25,19 @@
 }
 
 @media only screen and (max-width: 1320px) {
-  .testimonial .container.card-item .card-item-container .text {
-    font-size: 0.95rem;
+  .testimonial .container .card-item .card-item-container .text {
+    font-size: 0.8125rem;
+    line-height: 1.75rem;
+    padding: 1rem 0;
+  }
+  .testimonial .container .card-item .card-item-container .title {
+    font-size: 1.25rem;
+  }
+  .testimonial .container .card-item .card-item-container {
+    padding: 2rem 1.5rem;
+  }
+  .testimonial .container .user-info h5, .testimonial .container .user-info p {
+    font-size: 0.9rem;
   }
 }
 

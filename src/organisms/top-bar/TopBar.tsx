@@ -2,21 +2,21 @@ import React from "react";
 import "./style.css";
 import PhoneOutlinedIcon from "@mui/icons-material/PhoneOutlined";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
-import { ListItem } from "../../atoms/list-item";
+import { IconContent } from "../../atoms/icon-content";
 
 export const TopBar = () => {
   return (
     <section className="top-bar">
       <div className="info">
         <a href="/">
-          <ListItem
+          <IconContent
             Icon={PhoneOutlinedIcon}
             content="(414) 857 - 0107"
             isRed={false}
           />
         </a>
         <a href="/">
-          <ListItem
+          <IconContent
             Icon={EmailOutlinedIcon}
             content="happytummy@restaurant.com"
             isRed={false}

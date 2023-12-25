@@ -1,6 +1,6 @@
 .menu {
   text-align: center;
-  padding: 5.7rem 9.5rem 7.5rem 5.7rem;
+  padding: 5.5rem 9.5rem;
 }
 
 .menu .box {
@@ -25,11 +25,12 @@
 
 /* RESPONSIVE */
 /* DESKTOP */
-@media only screen and (max-width: 1220px) {
+@media only screen and (max-width: 1440px) { 
   .menu {
-    padding: 5.5rem 7.5rem; 
+    padding: 5.5rem; 
   }
-
+}
+@media only screen and (max-width: 1220px) {
   .menu .box .menu-item .box-item img {
     padding-bottom: 0;
     width: 40%;

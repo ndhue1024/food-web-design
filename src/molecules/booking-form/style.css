@@ -1,0 +1,39 @@
+.book .hero .form {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+
+  padding: 2.5rem 3.2rem;
+  width: 50%;
+  border-radius: 1rem;
+  border: 1px solid #FFF;
+  background:#FFF;
+
+  box-shadow: 0px 2.979px 59.574px 0px rgba(0, 0, 0, 0.08);
+}
+
+.book .hero .form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.book .hero .form form > .input-group:nth-child(5), .book .hero .form form > .input-group:nth-child(6) {
+  grid-column: auto / span 2;
+}
+
+
+.book .hero .form .input-group .select-icon {
+  color: #2C2F24 !important;
+  font-size: 1.35rem;
+  position: absolute;
+  right: 1.335rem;
+  bottom: 0.925rem;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}

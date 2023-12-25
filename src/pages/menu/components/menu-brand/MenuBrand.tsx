@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css"
-import { Title } from '../../../atoms/title'
+import { Heading } from '../../../../atoms/heading'
 
 const brands = [
   { id: 1, src: "brand1.png" },
@@ -35,8 +35,10 @@ export const MenuBrand = () => {
     <section className="menu-brand">
       <div className="container">
         <div className="content">
-          <Title title="You can order through apps" />
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit enim bibendum sed et aliquet aliquet risus tempor semper.</p>
+          <Heading 
+            title="You can order through apps"
+            text='Lorem ipsum dolor sit amet consectetur adipiscing elit enim bibendum sed et aliquet aliquet risus tempor semper.' 
+          />
         </div>
           <div className="brands">
             <div className="brands-line">

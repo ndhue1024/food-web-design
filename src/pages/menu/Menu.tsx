@@ -1,8 +1,7 @@
 import React from 'react'
 import { GeneralTemplate } from '../../templates/GeneralTemplate'
-import { MenuHero } from './menu-hero/MenuHero'
-import { MenuBrand } from './menu-brand/MenuBrand'
-import './style.css'
+import { MenuHero } from './components/menu-hero/MenuHero'
+import { MenuBrand } from './components/menu-brand/MenuBrand'
 
 export const Menu = () => {
   return (

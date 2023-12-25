@@ -1,12 +1,12 @@
 import React from 'react'
 import './style.css'
 import { MenuItem } from '../../../../atoms/menu-item/MenuItem'
-import { Title } from '../../../../atoms/title'
+import { Heading } from '../../../../atoms/heading'
 
 export const Menu = () => {
   return (
     <section className='menu'>
-      <Title title='Browse Our Menu' />
+      <Heading title='Browse Our Menu' />
       <div className="box">
         <MenuItem title="Breakfast" src="./assets/icon-tea.png" alt="icon-tea" />
         <MenuItem title="Main Dishes" src="./assets/icon-rice.png" alt="icon-rice" />
