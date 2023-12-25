@@ -166,7 +166,7 @@
     line-height: 2rem;
   }
   .menu-brand .container .content p {
-    padding-top: 0.5rem;
+    padding-top: 0.8rem;
     font-size: 0.65rem;
   }
   .menu-brand .container .content {
@@ -182,6 +182,10 @@
 @media only screen and (max-width: 440px) {
   .menu-brand .container .brands {
     width: 100%;
+  }
+  .menu-brand .container h1.main-title {
+    font-size: 1.9rem;
+    line-height: 1.8rem;
   }
   .menu-brand .container .brands-line {
     gap: .5rem;

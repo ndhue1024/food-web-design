@@ -1,0 +1,214 @@
+.blog-details-hero .container {
+  padding: 5rem 16rem;
+}
+
+.blog-details-hero .title {
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.blog-details-hero .blog-img img {
+  width: 100%;
+  margin: 2.5rem 0;
+  border-radius: 0.75rem;
+}
+
+.blog-details-hero .content {
+  padding-bottom: 1rem;
+}
+
+.blog-details-hero .content .sub-title {
+  color:  #2C2F24;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 1.25rem;
+}
+
+.blog-details-hero .content p {
+  color:#414536;
+  font-size: 1.125rem;
+  line-height: 1.9rem; 
+  padding: 0.5rem 0;
+}
+
+.blog-details-hero .content .marked {
+  font-weight: 700;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1450px) {
+  .blog-details-hero .container {
+    padding: 5rem 13rem;
+  }
+
+  .blog-details-hero .content .sub-title {
+    font-size: 1.35rem;
+    padding-bottom: 0.75rem;
+  }
+  
+  .blog-details-hero .content p {
+    font-size: 1.05rem;
+  }
+}
+
+@media only screen and (max-width: 1390px) {
+  .blog-details-hero .container {
+    padding: 5rem 12rem;
+  }
+
+  .blog-details-hero .blog-img img {
+    margin: 2rem 0;
+  }
+
+  .blog-details-hero .content .sub-title {
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .blog-details-hero .content p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .blog-details-hero .container {
+    padding: 5rem 11rem;
+  }
+  .blog-details-hero .title h1.main-title {
+    font-size: 2.9rem;
+    line-height: 3.25rem;
+  }
+}
+
+@media only screen and (max-width: 1285px) {
+  .blog-details-hero .container {
+    padding: 5rem 10rem;
+  }
+
+  .blog-details-hero .title h1.main-title {
+    font-size: 2.85rem;
+    line-height: 3.25rem;
+  }
+  
+  .blog-details-hero .content p {
+    font-size: 0.95rem;
+    line-height: 1.65rem;
+  }
+}
+
+@media only screen and (max-width: 1285px) {
+  .blog-details-hero .content p {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 1210px) {
+  .blog-details-hero .container {
+    padding: 5rem 8rem;
+  }
+
+  .blog-details-hero .blog-img img {
+    margin: 1.5rem 0;
+  }
+
+  .blog-details-hero .content .sub-title {
+    font-size: 1.2rem;
+  }
+  
+  .blog-details-hero .content p {
+    font-size: 0.9rem;
+    line-height: 1.55rem;
+  }
+}
+
+@media only screen and (max-width: 1165px) {
+  .blog-details-hero .title h1.main-title {
+    font-size: 2.65rem;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .blog-details-hero .container {
+    padding: 4rem 7rem;
+  }
+  .blog-details-hero .title h1.main-title {
+    font-size: 2.45rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .blog-details-hero .title {
+    padding: 0rem;
+  }
+  .blog-details-hero .title h1.main-title {
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+  }
+}
+
+@media only screen and (max-width: 878px) {
+  .blog-details-hero .title h1.main-title {
+    font-size: 2.15em;
+  }
+  .blog-details-hero .container {
+    padding: 3rem 4rem;
+  }
+  .blog-details-hero .content .sub-title {
+    padding-bottom: 0;
+  }
+  .blog-details-hero .content p {
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 788px) {
+  .blog-details-hero .title h1.main-title {
+    font-size: 2rem;
+    line-height: 2.35rem;
+  }
+  .blog-details-hero .container {
+    padding: 2.5rem;
+  }
+  .blog-details-hero .content .sub-title {
+    font-size: 1.125rem;
+  }
+  .blog-details-hero .content p {
+    font-size: 0.8rem;
+    line-height: 1.45rem;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .blog-details-hero .title h1.main-title {
+    font-size: 1.75rem;
+  }
+  .blog-details-hero .content .sub-title {
+    font-size: 1rem;
+  }
+  .blog-details-hero .content p {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .blog-details-hero .title h1.main-title {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+  .blog-details-hero .blog-img img {
+    margin: 1rem 0;
+  }
+  .blog-details-hero .container {
+    padding: 2.5rem 1.5rem;
+  }
+  .blog-details-hero .content .sub-title {
+    font-size: 0.8rem;
+  }
+  .blog-details-hero .content p {
+    font-size: 0.6rem;
+    line-height: 1.125rem;
+    padding: 0.35rem 0;
+  }
+}

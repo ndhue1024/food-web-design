@@ -75,7 +75,8 @@ header .mobile-nav.hidden {
 
 header .close-icon {
   position: absolute;
-  right: 0;
+  right: 0.2rem;
+  top: 0.6rem;
   cursor: pointer;
   text-align: right;
   transition: ease-in-out 0.3s;

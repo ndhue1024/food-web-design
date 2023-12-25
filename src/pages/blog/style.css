@@ -34,15 +34,15 @@
   gap: 1.5rem;
 }
 
-.blog-page .blogs .card-box {
+.blogs .card-box {
   overflow: hidden;
 }
 
-.blog-page .blogs .card-box img {
+.blogs .card-box img {
   transition: ease 0.4s;
 }
 
-.blog-page .blogs .card-box:hover img {
+.blogs .card-box:hover img {
   scale: 110%;
   transition: ease 0.4s;
 }
@@ -147,10 +147,6 @@
 }
 
 @media only screen and (max-width: 770px) {
-  .blog-page .title h1.main-title {
-    font-size: 3.5rem;
-    line-height: 3.5rem;
-  }
   .blog-page .title p {
     padding-top: 0.5rem;
     width: 90%;
@@ -181,12 +177,9 @@
 }
 
 @media only screen and (max-width: 485px) {
-  .blog-page .title h1.main-title {
-    font-size: 2rem;
+  .blog-page .container .title h1.main-title {
+    font-size: 2.3rem;
   }
-}
-
-@media only screen and (max-width: 485px) {
   .blog-page .card-box .card-container .card-blog-content {
     padding: 0.8rem;
   }

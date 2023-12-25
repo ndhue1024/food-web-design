@@ -297,6 +297,21 @@
   .about .container .contact-card {
     width: 16rem;
   }
+
+  .about .container h1.main-title {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+
+  .about .container .content .content-1 {
+    font-size: 0.85rem;
+    line-height: 1.4rem;
+  }
+  
+  .about .container .content .content-2 {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+  }
   
   .about .container .contact-card .contact-card-box {
     padding: 1.5rem 1.25rem;
