@@ -35,7 +35,7 @@ export const BlogDetailsContent = () => {
         </div>
         <div className="blogs">
         {blogs.slice(0, 4)
-        .map( blog => (
+        .map(blog => (
               <Link to="/blog-details" key={blog.id}>
                 <Card
                   src={blog.img}

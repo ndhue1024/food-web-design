@@ -4,6 +4,7 @@ import { Header } from '../../organisms/header/Header';
 import { About } from '../../pages/components/about/About';
 import { Testimonial } from '../../pages/components/testimonial/Testimonial';
 import { Footer } from '../../organisms/footer/Footer';
+import { ScrollToTop } from '../../organisms/scroll-to-top/ScrollToTop';
 
 interface AboutTemplateProps {
   children: React.ReactNode;
@@ -11,13 +12,15 @@ interface AboutTemplateProps {
 
 export const AboutTemplate: React.FC<AboutTemplateProps> = ({ children }) => {
   return (
-    <>
+    <ScrollToTop>
       <TopBar />
       <Header />
-      <About img="../../../assets/about-page.png" />
+      <div className="about-page">
+        <About img="../../../assets/about-page.png" />
         {children}
+      </div>
       <Testimonial />
       <Footer />
-    </>
+    </ScrollToTop>
   )
 }

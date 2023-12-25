@@ -77,11 +77,18 @@ footer .top .box-3 .img {
   padding-top: 2.5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 footer .top .box-3 .img img {
   border-radius: 0.75rem;
+  transition: ease 0.3s;
+}
+
+footer .top .box-3 .img img:hover {
+  cursor: pointer;
+  filter: brightness(60%);
+  transition: ease 0.3s;
 }
 
 footer .bottom {

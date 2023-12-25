@@ -25,7 +25,7 @@
 }
 
 .blog .card-box:hover img {
-  scale: 105%;
+  filter: brightness(70%);
   transition: ease 0.4s;
 }
 
@@ -190,4 +190,8 @@
     line-height: 0.9rem;
     font-size: 0.65rem;
   }
+  .blog .heading button {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.6rem;
+}
 }

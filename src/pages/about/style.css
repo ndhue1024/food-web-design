@@ -1,3 +1,7 @@
 header {
   background-color: #F9F9F7;
 }
+
+.about-page .about-button {
+  display: none;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import carousel from '../../../../assets/carousel.png';
 import Button from '../../../../atoms/button';
+import { Link } from 'react-router-dom';
 
 export const Carousel = () => {
   return (
@@ -11,10 +12,14 @@ export const Carousel = () => {
         <p>Discover delectable cuisine and unforgettable moments in our welcoming, culinary haven.</p>
         <div className="button-container">
           <div className="button1">
-            <Button title="Book A Table" isRed={true} />
+            <Link to="/book">
+              <Button title="Book A Table" isRed={true} />
+            </Link>
           </div>
           <div className="button2">
-            <Button title="Explore Menu" isRed={false} />
+            <Link to="/menu">
+              <Button title="Explore Menu" isRed={false} />
+            </Link>
           </div>
         </div>
       </div>

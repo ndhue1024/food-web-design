@@ -242,7 +242,7 @@
     letter-spacing: -0.045rem;
   }
 
-  .about .container .info-contact .css-i4bv87-MuiSvgIcon-root {
+  .about .container .info-contact .css-i4bv87-MuiSvgIcon-root, .about .container .info-contact .css-vubbuv  {
     width: 1.2rem;
     height: 1.2rem;
   }
@@ -321,7 +321,7 @@
     font-size: 0.95rem;
   }
 
-  .about .container .info-contact .css-i4bv87-MuiSvgIcon-root {
+  .about .container .info-contact .css-i4bv87-MuiSvgIcon-root, .about .container .info-contact .css-vubbuv {
     width: 1.1rem;
     height: 1.1rem;
   }
@@ -333,4 +333,11 @@
   .about .container .contact-card .contact-card-box .info-contact {
     padding: 0.2rem 0;
 }
+}
+
+@media only screen and (max-width: 380px) {
+  .about .container .content .about-button button {
+      padding: 0.5rem 0.8rem;
+      font-size: 0.6rem;
+  }
 }

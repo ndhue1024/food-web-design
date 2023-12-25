@@ -12,7 +12,9 @@ export const Blog = () => {
     <section className="blog">
       <div className="heading">
         <Title title="Our Blog & Articles" />
-        <Button title="Read All Articles" isRed={true} />
+        <Link to="/blogs">
+          <Button title="Read All Articles" isRed={true} />
+        </Link>
       </div>
       <div className="blog-content">
         <div className="remarkable-blog">

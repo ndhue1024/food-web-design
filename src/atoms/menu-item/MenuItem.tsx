@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 import Button from '../button'
+import { Link } from 'react-router-dom';
 
 interface MenuItemProps {
   alt?: string;
@@ -17,7 +18,9 @@ export const MenuItem: React.FC<MenuItemProps> = ({ alt, src, title }) => {
         <p className="content">In the new era of technology we look in the future with certainty and pride for our life.</p>
 
         <div className="menu-button">
-          <Button title='Explore Menu' isRed={true} />
+          <Link to="/menu">
+            <Button title='Explore Menu' isRed={true} />
+          </Link>
         </div>
       </div>
     </div>

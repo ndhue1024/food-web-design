@@ -22,11 +22,11 @@ export const Book = () => {
               </div>
               <div className="input-group">
                 <label>Time</label>
-                <select name="time" id="time" className="input">
-                  <option selected>06:30 PM</option>
-                  <option>07:00 PM</option>
-                  <option>07:30 PM</option>
-                  <option>08:00 PM</option>
+                <select name="time" id="time" className="input" defaultValue={1}>
+                  <option value={1}>06:30 PM</option>
+                  <option value={2}>07:00 PM</option>
+                  <option value={3}>07:30 PM</option>
+                  <option value={4}>08:00 PM</option>
                 </select>
                 <ExpandMoreOutlinedIcon className='select-icon' />
               </div>
@@ -40,11 +40,11 @@ export const Book = () => {
               </div>
               <div className="input-group">
                 <label>Total Person</label>
-                <select name="person" id="person" className="input">
-                  <option selected>1 Person</option>
-                  <option>2 Person</option>
-                  <option>3 Person</option>
-                  <option>4 Person</option>
+                <select name="person" id="person" className="input" defaultValue={1}>
+                  <option value={1}>1 Person</option>
+                  <option value={2}>2 Person</option>
+                  <option value={3}>3 Person</option>
+                  <option value={4}>4 Person</option>
                 </select>
                 <ExpandMoreOutlinedIcon className='select-icon person' />
               </div>

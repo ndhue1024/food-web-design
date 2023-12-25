@@ -18,9 +18,9 @@ export const Header = () => {
   return (
     <header className='header' id="header">
       <div className="logo">
-        <a href="/">
+        <Link to="/">
           <img src="./assets/logo-header.png" alt="logo" />
-        </a>
+        </Link>
       </div>
       <div className="content">
         <nav className="navbar">
@@ -28,7 +28,7 @@ export const Header = () => {
             <li className={(location.pathname === "/" || location.pathname === "/book") ? "active" : ""}><Link to="/">Home</Link></li>
             <li className={location.pathname === "/about" ? "active" : ""}><Link to="/about">About</Link></li>
             <li className={location.pathname === "/menu" ? "active" : ""}><Link to="/menu">Menu</Link></li>
-            <li className={location.pathname === "/blog" ? "active" : ""}><Link to="/blog">Pages</Link></li>
+            <li className={location.pathname === "/blogs" ? "active" : ""}><Link to="/blogs">Pages</Link></li>
             <li className={location.pathname === "/contact" ? "active" : ""}><Link to="/contact">Contact</Link></li>
           </ul>
         </nav>
@@ -44,7 +44,7 @@ export const Header = () => {
             <li className={location.pathname === "/" ? "active" : ""}><Link to="/">Home</Link></li>
             <li className={location.pathname === "/about" ? "active" : ""}><Link to="/about">About</Link></li>
             <li className={location.pathname === "/menu" ? "active" : ""}><Link to="/menu">Menu</Link></li>
-            <li className={location.pathname === "/blog" ? "active" : ""}><Link to="/blog">Pages</Link></li>
+            <li className={location.pathname === "/blogs" ? "active" : ""}><Link to="/blogs">Pages</Link></li>
             <li className={location.pathname === "/contact" ? "active" : ""}><Link to="/contact">Contact</Link></li>
           </ul>
           <div className="header-button">

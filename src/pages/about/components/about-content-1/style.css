@@ -2,7 +2,8 @@
   width: 100%;
 }
 
-.about-content-1 .btn-play{
+.about-content-1 .btn-play {
+  cursor: pointer;
   width: 6.625rem;
   height: 6.625rem;
   border-radius: 100%;

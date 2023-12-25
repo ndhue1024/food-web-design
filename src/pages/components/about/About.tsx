@@ -6,6 +6,7 @@ import Button from "../../../atoms/button";
 import PhoneOutlinedIcon from '@mui/icons-material/PhoneOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import FmdGoodOutlinedIcon from '@mui/icons-material/FmdGoodOutlined';
+import { Link } from "react-router-dom";
 
 interface AboutProps {
   img: string;
@@ -58,7 +59,9 @@ export const About: React.FC<AboutProps> = ({ img }) => {
             and dedication, strives to make every visit an unforgettable event.
           </p>
           <div className="about-button">
-            <Button title="More About Us" isRed={false} />
+            <Link to="/about">
+              <Button title="More About Us" isRed={false} />
+            </Link>
           </div>
         </div>
       </div>

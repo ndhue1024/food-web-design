@@ -22,13 +22,13 @@ header, .contact-page .hero {
 }
 
 .contact-page .hero {
-  padding: 3rem 0 20rem 0;
+  padding: 5rem 0 20rem 0;
   position: relative;
 }
 
 .contact-page .hero .form {
   position: absolute;
-  top: 0;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, 50%);
 
@@ -401,7 +401,7 @@ header, .contact-page .hero {
     padding: 2rem 0 10rem 0;
   }
   .contact-page .hero .title h1.main-title {
-    font-size: 2rem;
+    font-size: 2.05rem;
   }
 
   .contact-page .hero .title p {

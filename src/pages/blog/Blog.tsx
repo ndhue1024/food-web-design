@@ -6,6 +6,7 @@ import './style.css'
 import { Link } from 'react-router-dom';
 
 interface BlogProps {
+  id: number;
   img: string;
   date: string;
   title: string;
@@ -35,7 +36,7 @@ export const Blog = () => {
           </div>
           <div className="blogs">
             {blogs.map( blog => (
-              <Link to="/blog-details">
+              <Link to="/blog-details" key={blog.id}>
                 <Card
                   src={blog.img}
                   title={blog.date}

@@ -34,16 +34,12 @@
   gap: 1.5rem;
 }
 
-.blogs .card-box {
-  overflow: hidden;
-}
-
 .blogs .card-box img {
   transition: ease 0.4s;
 }
 
 .blogs .card-box:hover img {
-  scale: 110%;
+  filter: brightness(60%);
   transition: ease 0.4s;
 }
 
@@ -77,9 +73,9 @@
     line-height: 5.5rem;
   }
   .blog-page .title p {
-    font-size: 1rem;
+    font-size: 1.05rem;
     line-height: 1.2rem;
-    width: 56%;
+    width: 57%;
   }
   .blog-page .card-box .card-container .blog-detail {
     font-size: 0.9rem;
@@ -90,6 +86,19 @@
   }
   .blog-page .card-box .card-container .blog-title {
     font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 1315px) {
+  .blog-page .title p {
+    font-size: 1rem;
+    width: 56%;
+  }
+}
+
+@media only screen and (max-width: 1276px) {
+  .blog-page .title p {
+    font-size: 0.96rem;
   }
 }
 
@@ -178,7 +187,7 @@
 
 @media only screen and (max-width: 485px) {
   .blog-page .container .title h1.main-title {
-    font-size: 2.3rem;
+    font-size: 2.05rem;
   }
   .blog-page .card-box .card-container .card-blog-content {
     padding: 0.8rem;

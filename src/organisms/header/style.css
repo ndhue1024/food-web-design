@@ -33,6 +33,10 @@ nav ul li.active{
   border-radius: 2rem;
 }
 
+nav ul li.active:hover a {
+  color:#2C2F24
+}
+
 nav ul li a:hover {
   color: #AD343E;
   transition: ease-in-out;
@@ -113,6 +117,7 @@ header .mobile-nav ul li a{
 
 .mobile-nav .header-button {
   padding: 0.5rem 3rem;
+  margin-top: 0.8rem;
 }
 
 .mobile-nav .header-button button {
