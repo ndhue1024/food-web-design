@@ -67,7 +67,7 @@
     padding-right: 1.5rem;
   }
 }
-@media only screen and (max-width: 1420px) {
+@media only screen and (max-width: 1426px) {
   .carousel {
     height: 40.125rem;
   }
@@ -89,6 +89,12 @@
     font-weight: 600;
     font-size: 1rem;
     padding: 1rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .carousel .content p {
+    padding: 1rem;
   }
 }
 

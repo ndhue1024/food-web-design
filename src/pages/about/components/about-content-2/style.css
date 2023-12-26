@@ -291,3 +291,9 @@
     padding: 0.8rem 0.2rem 1rem 0.2rem;
   }
 }
+
+@media only screen and (max-width: 380px) {
+  .about-content-2 h1.main-title {
+    font-size: 1.8rem;
+  }
+}

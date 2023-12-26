@@ -22,7 +22,7 @@
   font-weight: 400;
   padding-top: 1.125rem;
   line-height: 1.5rem;
-  width: 53%;
+  width: 51%;
   margin: 0 auto;
 }
 
@@ -47,10 +47,6 @@
   padding: 1.6rem 1rem 0.8rem 1rem;
 }
 
-.card-box .card-container .card-blog-content.remarkable {
-  padding: 2rem 2.19rem 3.1rem 2.19rem;
-}
-
 .card-box .card-container .blog-title {
   color: #737865;
   font-size: 0.875rem;
@@ -66,6 +62,18 @@
 }
 
 /* RESPONSIVE */
+
+@media only screen and (max-width: 1520px) {
+  .blog-page .title p {
+    width: 53%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .blog-page .title p {
+    width: 55%;
+  }
+}
 
 @media only screen and (max-width: 1370px) {
   .blog-page .title h1.main-title {

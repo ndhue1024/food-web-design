@@ -1,5 +1,6 @@
 import React from "react";
 import ExpandMoreOutlinedIcon from "@mui/icons-material/ExpandMoreOutlined";
+import CalendarTodayOutlinedIcon from '@mui/icons-material/CalendarTodayOutlined';
 import Button from "../../atoms/button";
 import { Input } from "../../atoms/input/Input";
 
@@ -12,6 +13,7 @@ export const BookingForm = () => {
         type="date" 
         label="Date" 
         value="2021-04-01"
+        Icon={CalendarTodayOutlinedIcon}
       />
       
       <div className="input-group">

@@ -30,7 +30,7 @@
     padding: 5.5rem; 
   }
 }
-@media only screen and (max-width: 1220px) {
+@media only screen and (max-width: 1240px) {
   .menu .box .menu-item .box-item img {
     padding-bottom: 0;
     width: 40%;
@@ -114,7 +114,6 @@
 
 
 @media only screen and (max-width: 380px) {
-  
   .menu .box .menu-item .box-item img {
     width: 40%;
   }
@@ -132,7 +131,23 @@
 
   .menu .box button {
     font-weight: 600;
-    font-size: 0.6rem;
+    font-size: 0.55rem;
     padding: 0.5rem 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .menu .box .menu-item h2 {
+    font-size: 0.8rem;
+  }
+  
+  .menu .box .menu-item p {
+    font-size: 0.42rem;
+    line-height: 0.75rem;
+  }
+
+  .menu .box button {
+    font-size: 0.5rem;
+    padding: 0.45rem 0.7rem;
   }
 }

@@ -40,7 +40,7 @@
 }
 
 .blog .blog-content .card-box .card-container .card-blog-content.remarkable {
-  padding: 2rem 2.19rem 1.45rem 2.19rem;
+  padding: 2rem 2.19rem 1.125rem 2.19rem;
 }
 
 .blog .blog-content .card-box .card-container .blog-title {
@@ -66,6 +66,11 @@
 }
 
 /* RESPONSIVE */
+@media only screen and (max-width: 1300px) {
+  .blog .blog-content .card-box .card-container .card-blog-content.remarkable {
+    padding: 2rem 2.19rem 3rem 2.19rem;
+  }
+}
 @media only screen and (max-width: 1220px) {
   .blog {
     padding: 5.5rem 7.5rem;
@@ -100,6 +105,19 @@
   .card-box .card-container .card-blog-content .blog-text {
     font-size: 0.8rem;
     padding-top: 0.3rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .blog .blog-content .card-box .card-container .card-blog-content {
+    padding: 1.2rem 0.8rem 0.8rem 0.8rem;
+  }
+  .blog .blog-content .card-box .card-container .blog-title {
+    font-size: 0.8rem;
+  }
+  .blog .blog-content .card-box .card-container .blog-detail {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
   }
 }
 
@@ -176,11 +194,19 @@
   }
 
   .blog .blog-content .card-box .card-container .card-blog-content .blog-text {
-    font-size: 0.75rem;
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+  .blog .blog-content .card-box .card-container .card-blog-content.remarkable {
+    padding: 1.2rem 1.2rem;
   }
 }
 
 @media only screen and (max-width: 380px) {
+  .blog .heading h1.main-title {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
   .blog .blog-content .card-box .card-container .card-blog-content {
     padding: 0.8rem 0.5rem;
   }

@@ -4,7 +4,6 @@
 
 .blog-details-hero .title {
   text-align: center;
-  padding: 0 2rem;
 }
 
 .blog-details-hero .blog-img img {
@@ -68,9 +67,14 @@
   .blog-details-hero .content p {
     font-size: 1rem;
   }
+  
 }
 
 @media only screen and (max-width: 1350px) {
+  
+  .blog-details-hero .title {
+    padding: 0 2rem;
+  }
   .blog-details-hero .container {
     padding: 5rem 11rem;
   }
@@ -94,9 +98,6 @@
     font-size: 0.95rem;
     line-height: 1.65rem;
   }
-}
-
-@media only screen and (max-width: 1285px) {
   .blog-details-hero .content p {
     font-size: 0.9rem;
   }

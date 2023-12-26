@@ -21,3 +21,15 @@ a{
 .main-title{
   font-family: 'Playfair Display', serif;
 }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  z-index: 2;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}

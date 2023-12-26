@@ -28,12 +28,14 @@
   color: #2C2F24 !important;
   font-size: 1.35rem;
   position: absolute;
-  right: 1.335rem;
-  bottom: 0.925rem;
+  right: 1.6rem;
+  bottom: 0.99rem;
 }
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  text-indent: 1px;
-  text-overflow: '';
+
+.book .hero .form .input-group .date-icon {
+  color: #737865 !important;
+  font-size: 0.88rem;
+  position: absolute;
+  right: 1.6rem;
+  bottom: 1.28rem;
 }

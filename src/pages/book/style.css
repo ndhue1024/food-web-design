@@ -153,6 +153,10 @@
   .book .hero .form .input-group .select-icon.person {
     bottom: 0.7rem;
   }
+  
+  .book .hero .form .input-group .date-icon {
+    bottom: 0.95rem;
+  }
 }
 
 @media only screen and (max-width: 770px) {
@@ -269,7 +273,7 @@
   }
 
   .book .hero .title p {
-    line-height: 0.8rem;
+    line-height: 1rem;
     font-size: 0.65rem;
     padding: 0.5rem 0 0 0;
   }
@@ -296,9 +300,26 @@
     font-size: 0.7rem;
   }
   .book .hero .form .input-group .select-icon{
-    bottom: 0.6rem;
+    bottom: 0.7rem;
+    right: 0.8rem;
+    font-size: 0.75rem;
   }
   .book .hero .form .input-group .select-icon.person{
-    bottom: 0.475rem;
+    bottom: 0.6rem;
+  }
+  
+  .book .hero .form .input-group .date-icon {
+    font-size: 0.8rem;
+    bottom: 0.6rem;
+    right: 0.9rem;
+  }
+}
+
+
+@media only screen and (max-width: 380px) {
+  .book .hero .form .input-group .date-icon {
+    font-size: 0.65rem;
+    bottom: 0.7rem;
+    right: 0.8rem;
   }
 }

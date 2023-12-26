@@ -18,7 +18,7 @@
   font-weight: 400;
   padding-top: 1.125rem;
   line-height: 1.5rem;
-  width: 53%;
+  width: 51%;
   margin: 0 auto;
 }
 
@@ -55,6 +55,18 @@
   color: #AD343E;
   font-size: 1.25rem;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 1520px) {
+  .contact-page .hero .title p {
+    width: 53%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .contact-page .hero .title p {
+    width: 55%;
+  }
 }
 
 @media only screen and (max-width: 1370px) {
@@ -360,7 +372,7 @@
     font-size: 2rem;
   }
   .contact-page .hero .title p {
-    line-height: 0.8rem;
+    line-height: 1rem;
     font-size: 0.65rem;
     padding: 0.25rem 0 0 0;
   }

@@ -74,7 +74,7 @@
   }
   .services .container h1.main-title {
     font-size: 2.2rem;
-    line-height: 2.8rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -103,7 +103,7 @@
 
 @media only screen and (max-width: 440px) {
   .services .container h1.main-title {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     line-height: 2.2rem;
   }
   .services .container .card-box .card-container .detail {
@@ -115,5 +115,13 @@
   .services .container h1.main-title {
     font-size: 1.5rem;
     line-height: 1.8rem;
+  }
+  .services .container .card-box .card-container .detail {
+    font-size: 0.56rem;
+    line-height: .9rem;
+  }
+  .services .container .card-box .card-container .title {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
   }
 }
