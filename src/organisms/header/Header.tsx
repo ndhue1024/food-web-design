@@ -25,11 +25,21 @@ export const Header = () => {
       <div className="content">
         <nav className="navbar">
           <ul>
-            <li className={(location.pathname === "/" || location.pathname === "/book") ? "active" : ""}><Link to="/">Home</Link></li>
-            <li className={location.pathname === "/about" ? "active" : ""}><Link to="/about">About</Link></li>
-            <li className={location.pathname === "/menu" ? "active" : ""}><Link to="/menu">Menu</Link></li>
-            <li className={location.pathname === "/blogs" ? "active" : ""}><Link to="/blogs">Pages</Link></li>
-            <li className={location.pathname === "/contact" ? "active" : ""}><Link to="/contact">Contact</Link></li>
+            <li className={(location.pathname === "/" || location.pathname === "/book") ? "active" : ""}>
+              <Link to="/">Home</Link>
+            </li>
+            <li className={location.pathname === "/about" ? "active" : ""}>
+              <Link to="/about">About</Link>
+            </li>
+            <li className={location.pathname === "/menu" ? "active" : ""}>
+              <Link to="/menu">Menu</Link>
+            </li>
+            <li className={location.pathname === "/blogs" ? "active" : ""}>
+              <Link to="/blogs">Pages</Link>
+            </li>
+            <li className={location.pathname === "/contact" ? "active" : ""}>
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
         </nav>
         <div className="header-button">
@@ -41,11 +51,21 @@ export const Header = () => {
       <div className={isOpen ? "mobile-nav block " : "mobile-nav hidden " }>
         <CloseOutlinedIcon onClick={() => setIsOpen(false)} className='close-icon'/>
         <ul>
-            <li className={location.pathname === "/" ? "active" : ""}><Link to="/">Home</Link></li>
-            <li className={location.pathname === "/about" ? "active" : ""}><Link to="/about">About</Link></li>
-            <li className={location.pathname === "/menu" ? "active" : ""}><Link to="/menu">Menu</Link></li>
-            <li className={location.pathname === "/blogs" ? "active" : ""}><Link to="/blogs">Pages</Link></li>
-            <li className={location.pathname === "/contact" ? "active" : ""}><Link to="/contact">Contact</Link></li>
+            <li className={location.pathname === "/" ? "active" : ""}>
+              <Link to="/">Home</Link>
+            </li>
+            <li className={location.pathname === "/about" ? "active" : ""}>
+              <Link to="/about">About</Link>
+            </li>
+            <li className={location.pathname === "/menu" ? "active" : ""}>
+              <Link to="/menu">Menu</Link>
+            </li>
+            <li className={location.pathname === "/blogs" ? "active" : ""}>
+              <Link to="/blogs">Pages</Link>
+            </li>
+            <li className={location.pathname === "/contact" ? "active" : ""}>
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
           <div className="header-button">
           <Button onClick={handleClick} title="Book A Table" isRed={false} />

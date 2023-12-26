@@ -154,7 +154,7 @@
     bottom: 0.7rem;
   }
   
-  .book .hero .form .input-group .date-icon {
+  .book .hero .form .input-group .input-icon {
     bottom: 0.95rem;
   }
 }
@@ -265,6 +265,9 @@
 }
 
 @media only screen and (max-width: 485px) {
+  .book .hero .title {
+    width: 85%;
+  }
   .book .hero {
     padding: 2rem 0 10rem 0;
   }
@@ -308,7 +311,7 @@
     bottom: 0.6rem;
   }
   
-  .book .hero .form .input-group .date-icon {
+  .book .hero .form .input-group .input-icon {
     font-size: 0.8rem;
     bottom: 0.6rem;
     right: 0.9rem;
@@ -317,9 +320,13 @@
 
 
 @media only screen and (max-width: 380px) {
-  .book .hero .form .input-group .date-icon {
+  .book .hero .form .input-group .input-icon {
     font-size: 0.65rem;
     bottom: 0.7rem;
     right: 0.8rem;
+  }
+  .book .hero .title p {
+    font-size: 0.6rem;
+    line-height: 0.8rem;
   }
 }

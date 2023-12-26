@@ -73,8 +73,8 @@
     gap: 1rem;
   }
   .services .container h1.main-title {
-    font-size: 2.2rem;
-    line-height: 2.5rem;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
   }
 }
 
@@ -103,7 +103,7 @@
 
 @media only screen and (max-width: 440px) {
   .services .container h1.main-title {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     line-height: 2.2rem;
   }
   .services .container .card-box .card-container .detail {
@@ -111,7 +111,7 @@
   }
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 380px) {
   .services .container h1.main-title {
     font-size: 1.5rem;
     line-height: 1.8rem;

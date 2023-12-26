@@ -23,7 +23,7 @@ export const MenuBrand = () => {
   const renderBrands = (start: number, end: number) => {
     return (
       brands
-    .filter((brand) => (brand.id === start) || (brand.id > start &&brand.id <= end))
+    .slice(start, end)
     .map((brand: BrandProps) => (
       <div className="brand-container" key={brand.id}>
         <img src={`./assets/brand/${brand.src}`} alt="brand" />
@@ -42,13 +42,13 @@ export const MenuBrand = () => {
         </div>
           <div className="brands">
             <div className="brands-line">
-              {renderBrands(1,3)}
+              {renderBrands(0,3)}
             </div>
             <div className="brands-line middle">
-              {renderBrands(4,6)}
+              {renderBrands(3,6)}
             </div>
             <div className="brands-line">
-              {renderBrands(7,9)}
+              {renderBrands(6,9)}
             </div>
           </div>
       </div>

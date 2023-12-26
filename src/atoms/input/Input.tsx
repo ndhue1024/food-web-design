@@ -13,8 +13,8 @@ export const Input: React.FC<InputProps> = ({ type, label, value, placeholder, I
   return (
     <div className="input-group">
       <label>{label}</label>
-      <input className="input" type={type} value={value} placeholder={placeholder} />
-      {Icon && <Icon className="date-icon" />}
+      <input className="input" type={type} placeholder={placeholder} defaultValue={value} />
+      {Icon && <Icon className="input-icon" />}
     </div>
   );
 };
