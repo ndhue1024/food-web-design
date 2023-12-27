@@ -1,0 +1,95 @@
+.top-bar {
+  background: var(--color-5);
+  padding: 0.4rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-bar .info .icon-secondary .css-i4bv87-MuiSvgIcon-root, .top-bar .info .icon-secondary .css-vubbuv {
+  width: 0.95rem;
+  height: 0.95rem;
+}
+.top-bar .social, .top-bar .info {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+.top-bar .info {
+  gap: 1.56rem;
+}
+.top-bar .info .icon-secondary p {
+  padding-left: 0.5rem;
+  font-size: 0.9rem;
+}
+.top-bar .icon-footer {
+  color: var(--color-1);
+  padding: 0.5rem;
+  width: 2rem !important;
+  height: 2rem !important;
+  background-color: var(--background-2);
+  border-radius: 100%;
+}
+
+@media only screen and (max-width: 1199px) {
+  .top-bar {
+    padding: 0.46rem 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .top-bar {
+    padding: 0.3rem 2.5rem;
+  }
+  .top-bar .info .icon-secondary .css-i4bv87-MuiSvgIcon-root, .top-bar .info .icon-secondary .css-vubbuv {
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+  .top-bar .info .icon-secondary p {
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .top-bar .icon-footer {
+    width: 1.8rem !important;
+    height: 1.8rem !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .top-bar .info {
+    gap: 1rem;
+  }
+  .top-bar .info .icon-secondary {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .top-bar {
+    padding: 0.3rem;
+  }
+  .top-bar .info {
+    gap: 0.5rem;
+  }
+  .top-bar .info .icon-secondary p{
+    line-height: 0.8rem;
+    font-weight: 300;
+  }
+  .top-bar .info .icon-secondary .css-i4bv87-MuiSvgIcon-root, .top-bar .info .icon-secondary .css-vubbuv {
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+  .top-bar .info .icon-secondary p {
+    padding-left: 0.5rem;
+    font-size: 0.55rem;
+    padding-left: 0.2rem;
+  }
+  .top-bar .icon-footer {
+    width: 1.1rem !important;
+    height: 1.1rem !important;
+    padding: 0.25rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .top-bar .info .icon-secondary p{
+    font-size: 0.5rem;
+  }
+}

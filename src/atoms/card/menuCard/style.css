@@ -1,0 +1,38 @@
+.card-box {
+  background-color: var(--color-1);
+  border-radius: 0.8rem;
+
+  box-shadow: 0px 2.979px 59.574px 0px var(--shadow);
+
+}
+
+/* menu */
+.card-box .card-container .text {
+  padding: 1rem 1.8rem 2rem 1.8rem;
+}
+
+.card-box .card-container img {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  width: 100%;
+}
+
+.card-box .card-container .price {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.045rem;
+}
+
+.card-box .card-container .name {
+  color: var(--secondary-color);
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 0.5rem 0;
+}
+
+.card-box .card-container .desc {
+  color: var(--color-4);
+  font-size: 0.95rem;
+  font-weight: 400;
+}

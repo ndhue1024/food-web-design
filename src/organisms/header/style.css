@@ -10,7 +10,7 @@ header{
 }
 
 header.bg-white {
-  background-color: #fff;
+  background-color: var(--color-1);
 }
 
 header button {
@@ -33,7 +33,7 @@ nav ul {
 }
 nav ul li.active{
   padding: 0.65rem 1.7rem;
-  background-color: #DBDFD0;
+  background-color: var(--color-9);
   border-radius: 2rem;
 }
 
@@ -42,7 +42,7 @@ nav ul li.active:hover a {
 }
 
 nav ul li a:hover {
-  color: #AD343E;
+  color: var(--primary-color);
   transition: ease-in-out;
   transition-duration: 0.3s;
 }
@@ -64,7 +64,7 @@ header .mobile-icon {
 
 header .mobile-nav {
   display: none;
-  background-color: white;
+  background-color: var(--color-1);
   position: absolute;
   top: 0;
   right: 0;
@@ -91,13 +91,8 @@ header .close-icon {
 }
 
 header .close-icon:hover {
-  color:#AD343E;
+  color:var(--primary-color);
   transition: ease-in-out 0.3s;
-}
-
-header .mobile-nav ul li a{
-  font-size: 0.85rem;
-  font-weight: 600;
 }
 
 .mobile-nav ul {
@@ -110,18 +105,22 @@ header .mobile-nav ul li a{
 
 .mobile-nav ul li.active{
   padding: 0.65rem 1.7rem;
-  background-color: #DBDFD0;
+  background-color: var(--color-9);
+}
+
+.mobile-nav ul li a{
+  font-size: 0.85rem;
+  font-weight: 600;
 }
 
 .mobile-nav ul li a:hover {
-  color: #AD343E;
+  color: var(--primary-color);
   transition: ease-in-out;
   transition-duration: 0.3s;
 }
 
 .mobile-nav .header-button {
   padding: 0.5rem 3rem;
-  margin-top: 0.8rem;
 }
 
 .mobile-nav .header-button button {
@@ -131,23 +130,19 @@ header .mobile-nav ul li a{
 }
 
 /* RESPONSIVE */
-
 @media only screen and (max-width: 1199px) {
   header{
     padding: 0.46rem 2.5rem;
   }
-
   header .mobile-icon {
     display: block;
   }
-
   header .content {
     display: none;
   }
 }
 
 @media only screen and (max-width: 550px) {
-
   header .logo img {
     width: 100%;
   }

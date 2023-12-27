@@ -13,7 +13,6 @@
 }
 
 /* RESPONSIVE */
-/* DESKTOP */
 @media only screen and (max-width: 1520px) {
   .testimonial .container {
     padding: 5.5rem 7.5rem;
@@ -25,16 +24,16 @@
 }
 
 @media only screen and (max-width: 1320px) {
-  .testimonial .container .card-item .card-item-container .text {
-    font-size: 0.8125rem;
-    line-height: 1.75rem;
-    padding: 1rem 0;
+  .testimonial .container .card-item .card-item-container {
+    padding: 2rem 1.5rem;
   }
   .testimonial .container .card-item .card-item-container .title {
     font-size: 1.25rem;
   }
-  .testimonial .container .card-item .card-item-container {
-    padding: 2rem 1.5rem;
+  .testimonial .container .card-item .card-item-container .text {
+    font-size: 0.8125rem;
+    line-height: 1.75rem;
+    padding: 1rem 0;
   }
   .testimonial .container .user-info h5, .testimonial .container .user-info p {
     font-size: 0.9rem;
@@ -44,8 +43,6 @@
 @media only screen and (max-width: 991px) {
   .testimonial .container .list-card {
     padding-top: 1.5rem;
-  }
-  .testimonial .container .list-card {
     display: block;
   }
   .testimonial .container .list-card .card-item {
@@ -70,15 +67,12 @@
     font-size: 2.2rem;
     line-height: 2rem;
   }
-  
   .testimonial .container .list-card {
     padding-top: 0;
   }
-
   .testimonial .container .card-item .card-item-container .title {
     font-size: 1.2rem;
   }
-
   .testimonial .container .card-item-container .text {
     padding-top: 0.8rem;
     margin-bottom: 1.2rem;

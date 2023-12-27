@@ -1,0 +1,24 @@
+.card-box {
+  background-color: var(--color-1);
+  border-radius: 0.8rem;
+  box-shadow: 0px 2.979px 59.574px 0px var(--shadow);
+
+}
+
+.card-box .card-container .img img {
+  width: 100%;
+}
+
+.card-box .card-container .title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875rem; /* 125% */
+  letter-spacing: -0.045rem;
+  padding-bottom: 0.94rem;
+}
+
+.card-box .card-container .detail {
+  color: var(--color-4);
+  font-weight: 400;
+  line-height: 1.5rem;
+}

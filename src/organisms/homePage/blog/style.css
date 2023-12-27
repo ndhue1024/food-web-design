@@ -1,0 +1,186 @@
+.blog {
+  padding: 7.5rem 9.5rem;
+  background-color: var(--color-6);
+}
+
+.blog .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog .card-box {
+  overflow: hidden;
+}
+
+.blog .blog-content {
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.blog .card-box img {
+  transition: ease 0.3s;
+}
+
+.blog .card-box:hover img {
+  filter: brightness(70%);
+  transition: ease 0.3s;
+}
+
+.blog .blog-content .other-blog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1300px) {
+  .blog .blog-content .card-box .card-container .card-blog-content.remarkable {
+    padding: 2rem 2.19rem 3rem 2.19rem;
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .blog {
+    padding: 5.5rem 7.5rem;
+  }
+  .blog .heading button {
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+  }
+  .blog .heading h1.main-title {
+    font-size: 2.8rem;
+    line-height: 3rem;
+  }
+  .blog .blog-content {
+    padding-top: 2.5rem;
+  }
+  .card-box .card-container .blog-title {
+    font-size: 0.78rem;
+    padding-bottom: 0.3rem;
+  }
+  .card-box .card-container .blog-detail {
+    font-size: 0.87rem;
+    line-height: 1.3rem;
+  }
+  .card-box .card-container .card-blog-content {
+    padding: 1.45rem 1.2rem;
+  }
+  .card-box .card-container .card-blog-content .blog-text {
+    font-size: 0.8rem;
+    padding-top: 0.3rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .blog .blog-content .card-box .card-container .card-blog-content {
+    padding: 1.2rem 0.8rem 0.8rem 0.8rem;
+  }
+  .blog .blog-content .card-box .card-container .blog-title {
+    font-size: 0.8rem;
+  }
+  .blog .blog-content .card-box .card-container .blog-detail {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .blog .blog-content .other-blog {
+    gap: 1rem;
+    padding-left: 1rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .blog .blog-content {
+    display: block;
+  }
+  .blog .heading {
+    display: block;
+    text-align: center;
+  }
+  .blog .heading h1.main-title {
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+  }
+  .blog .heading button {
+    margin-top: 1.5rem;
+    font-weight: 600;
+    font-size: 0.75rem;
+    padding: 0.85rem 1.2rem;
+  }
+  .blog .blog-content .remarkable-blog {
+    margin-bottom: 1.5rem;
+  }
+  .blog .blog-content .other-blog {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .blog {
+    padding: 2.5rem 2rem;
+  }
+  .blog .heading button {
+    margin-top: 1.2rem;
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 0.8rem 1rem;
+  }
+  .blog .heading h1.main-title {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .blog .blog-content {
+    padding-top: 1.2rem;
+  }
+  .blog .blog-content .other-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding-left: 0;
+  }
+  .blog .blog-content .card-box .card-container .card-blog-content {
+    padding: 0.8rem;
+  }
+  .blog .blog-content .card-box .card-container .blog-title {
+    font-size: 0.7rem;
+    padding-bottom: 0.5rem;
+  }
+  .blog .blog-content .card-box .card-container .blog-detail {
+    line-height: 1.05rem;
+    font-size: 0.8rem;
+  }
+  .blog .blog-content .card-box .card-container .card-blog-content .blog-text {
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+  .blog .blog-content .card-box .card-container .card-blog-content.remarkable {
+    padding: 1.2rem 1.2rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .blog .heading h1.main-title {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  .blog .heading button {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.6rem;
+  }
+  .blog .blog-content .card-box .card-container .card-blog-content {
+    padding: 0.8rem 0.5rem;
+  }
+  .blog .blog-content .card-box .card-container .blog-title {
+    font-size: 0.6rem;
+  }
+  .blog .blog-content .card-box .card-container .blog-detail {
+    line-height: 0.9rem;
+    font-size: 0.65rem;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .blog .heading h1.main-title {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+}

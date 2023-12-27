@@ -1,5 +1,19 @@
 {
   "compilerOptions": {
+    "paths": {
+      "@atoms/*": [
+        "./src/atoms/*"
+      ],
+      "@molecules/*": [
+        "./src/molecules/*"
+      ],
+      "@organisms/*": [
+        "./src/organisms/*"
+      ],
+      "@pages/*": [
+        "./src/pages/*"
+      ]
+    },
     "target": "es5",
     "lib": [
       "dom",

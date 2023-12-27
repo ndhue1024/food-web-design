@@ -6,7 +6,7 @@ interface UserProps {
   name: string;
   address: string;
 }
-export const User: React.FC<UserProps> = ({ src, name, address }) => {
+const User: React.FC<UserProps> = ({ src, name, address }) => {
   return (
     <div className='user-container'>
       <div className="avatar">
@@ -19,3 +19,5 @@ export const User: React.FC<UserProps> = ({ src, name, address }) => {
     </div>
   )
 }
+
+export default User;

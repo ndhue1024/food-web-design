@@ -1,5 +1,5 @@
 .book {
-  background-color: #F9F9F7;
+  background-color: var(--color-6);
 }
 
 .book .hero .title {
@@ -14,7 +14,7 @@
 }
 
 .book .hero .title p {
-  color: #495460;
+  color: var(--color-7);
   font-size: 1.125rem;
   font-weight: 400;
   padding: 1.125rem 1.5rem 0 1.5rem;
@@ -36,8 +36,7 @@
   }
 }
 
-@media only screen and (max-width: 1370px) {
-  
+@media only screen and (max-width: 1370px) {  
   .book .hero .title h1.main-title {
     font-size: 5.2rem;
     line-height: 5.5rem;
@@ -62,7 +61,6 @@
     font-size: 5rem;
     line-height: 5.2rem;
   }
-
   .book .hero .form {
     top: 10%;
   }
@@ -109,6 +107,10 @@
 }
 
 @media only screen and (max-width: 878px) {
+  .book .hero {
+    padding: 3rem 0 16rem 0;
+  }
+
   .book .hero .title {
     width: 52%;
   }
@@ -119,10 +121,6 @@
   
   .book .hero .title p {
     font-size: 0.9rem;
-  }
-
-  .book .hero {
-    padding: 3rem 0 16rem 0;
   }
 
   .book .hero .form {
@@ -160,9 +158,14 @@
 }
 
 @media only screen and (max-width: 770px) {
+  .book .hero {
+    padding: 3rem 0 13rem 0;
+  }
+  
   .book .hero .title {
     width: 65%;
   }
+
   .book .hero .title h1.main-title {
     font-size: 3.8rem;
     line-height: 4rem;
@@ -170,9 +173,6 @@
 
   .book .hero .title p {
     padding-top: 0.5rem;
-  }
-  .book .hero {
-    padding: 3rem 0 13rem 0;
   }
 
   .book .hero .form {
@@ -190,6 +190,7 @@
   .book .hero .title {
     width: 70%;
   }
+
   .book .hero .title h1.main-title {
     font-size: 3.5rem;
     line-height: 3.5rem;
@@ -257,20 +258,33 @@
   .book .hero .form form .input-group > button {
     padding: 0.6rem 1rem;
   }
-  .book .hero .form .input-group .select-icon {
+
+  .book .hero .form .input-group .select-icon{
+    bottom: 0.7rem;
+    right: 0.8rem;
     font-size: 1rem;
-    right: 0.5rem;
-    bottom: 0.5rem;
+  }
+  
+  .book .hero .form .input-group .select-icon.person{
+    bottom: 0.6rem;
+  }
+  
+  .book .hero .form .input-group .input-icon {
+    font-size: 0.75rem;
+    bottom: 0.8rem;
+    right: 1rem;
   }
 }
 
 @media only screen and (max-width: 485px) {
-  .book .hero .title {
-    width: 85%;
-  }
   .book .hero {
     padding: 2rem 0 10rem 0;
   }
+
+  .book .hero .title {
+    width: 85%;
+  }
+
   .book .hero .title h1.main-title {
     font-size: 2rem;
   }
@@ -302,22 +316,21 @@
     padding: 0.5rem 0.75rem;
     font-size: 0.7rem;
   }
+
   .book .hero .form .input-group .select-icon{
-    bottom: 0.7rem;
-    right: 0.8rem;
     font-size: 0.75rem;
-  }
-  .book .hero .form .input-group .select-icon.person{
     bottom: 0.6rem;
+  }
+
+  .book .hero .form .input-group .select-icon.person{
+    bottom: 0.55rem;
   }
   
   .book .hero .form .input-group .input-icon {
-    font-size: 0.8rem;
-    bottom: 0.6rem;
-    right: 0.9rem;
+    font-size: 0.7rem;
+    bottom: 0.65rem;
   }
 }
-
 
 @media only screen and (max-width: 380px) {
   .book .hero .form .input-group .input-icon {

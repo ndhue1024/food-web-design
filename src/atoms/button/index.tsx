@@ -1,15 +1,19 @@
 import React from 'react'
 import './style.css'
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  title?: string;
-  isRed?: boolean;
+type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
+  title: string;
+  variant: string;
   onClick?: () => void;
 }
 
-const Button: React.FC<ButtonProps> = ({ title, isRed, onClick, ...props }) => {
+const Button: React.FC<ButtonProps> = ({ title, variant, onClick, ...props }) => {
   return (
-    <button onClick={onClick} {...props} className={isRed ? 'isRed' : ''}>
+    <button 
+      onClick={onClick}
+      {...props}
+      className={variant}
+    >
       {title}
     </button>
   )

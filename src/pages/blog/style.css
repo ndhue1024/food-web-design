@@ -1,5 +1,5 @@
 .blog-page {
-  background: #F9F9F7;
+  background: var(--color-6);
 }
 
 .blog-page .container {
@@ -17,7 +17,7 @@
 }
 
 .blog-page .title p {
-  color: #495460;
+  color: var(--color-7);
   font-size: 1.125rem;
   font-weight: 400;
   padding-top: 1.125rem;
@@ -43,32 +43,12 @@
   transition: ease 0.4s;
 }
 
-.card-box .card-container .card-blog-content {
-  padding: 1.6rem 1rem 0.8rem 1rem;
-}
-
-.card-box .card-container .blog-title {
-  color: #737865;
-  font-size: 0.875rem;
-  font-weight: 500;
-  padding-bottom: 0.8rem;
-}
-
-.card-box .card-container .blog-detail {
-  color: #2C2F24;
-  font-weight: 600;
-  line-height: 1.4rem;
-  font-size: 1rem;
-}
-
 /* RESPONSIVE */
-
 @media only screen and (max-width: 1520px) {
   .blog-page .title p {
     width: 53%;
   }
 }
-
 @media only screen and (max-width: 1440px) {
   .blog-page .title p {
     width: 55%;

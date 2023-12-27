@@ -1,6 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
 
+:root {
+  --primary-color: #AD343E;
+  --secondary-color: #2C2F24;
+  --color-1: #fff;
+  --color-2: #737865;
+  --color-3: #5a5d51;
+  --color-4: #414536;
+  --color-5: #474747;
+  --color-6: #F9F9F7;
+  --color-7: #495460;
+  --color-8: #ADB29E;
+  --color-9: #DBDFD0;
+
+  --border-1: 1px solid #DBDFD0;
+
+  --backgound: #474747;
+  --background-2: rgba(249, 249, 247, 0.12);
+  --shadow: rgba(0, 0, 0, 0.08);
+  
+  --font-1: 'DM Sans', sans-serif;
+  --font-2: 'Playfair Display', serif;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -8,18 +31,18 @@
 }
 html,body{
   margin: auto;
-  font-family: 'DM Sans', sans-serif;
-  color: #2C2F24;
+  font-family: var(--font-1);
+  color: var(--secondary-color);
 }
 ul {
   list-style: none;
 }
 a{
   text-decoration: none;
-  color: #2C2F24;
+  color: var(--secondary-color);
 }
 .main-title{
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-2);
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {

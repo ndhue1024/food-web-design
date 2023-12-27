@@ -1,5 +1,5 @@
 footer {
-  background-color: #474747;
+  background-color: var(--backgound);
 }
 
 footer .footer-container {
@@ -13,7 +13,7 @@ footer .footer-container .top {
 }
 
 footer .top .box-1 p {
-  color: #ADB29E;
+  color: var(--color-8);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem; /* 150% */
@@ -24,7 +24,7 @@ footer .icon-footer {
   padding: 0.5rem;
   width: 2.1875rem !important;
   height: 2.1875rem !important;
-  background-color: #AD343E;
+  background-color: var(--primary-color);
   border-radius: 100%;
   margin-right: 0.75rem;
 
@@ -33,11 +33,11 @@ footer .icon-footer {
 }
 
 footer .icon-footer:hover path {
-  fill: #AD343E;
+  fill: var(--primary-color);
 }
 
 footer .icon-footer:hover {
-  background-color: #DBDFD0;
+  background-color: var(--color-9);
   transition: ease-in-out;
   transition-duration: 0.3s;
 }
@@ -49,7 +49,7 @@ footer .top .box-2 {
 }
 
 footer .top h4 {
-  color: white;
+  color: var(--color-1);
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.5rem;
@@ -62,14 +62,14 @@ footer .top .box-2 ul li {
 }
 
 footer .top .box-2 ul li a {
-  color: #DBDFD0;
+  color: var(--color-9);
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.5rem;
 }
 
 footer .top .box-2 ul li:hover a {
-  color: #AD343E;
+  color: var(--primary-color);
   transition: ease-in-out;
   transition-duration: 0.2s;
 }
@@ -94,12 +94,12 @@ footer .top .box-3 .img img:hover {
 footer .bottom {
   margin-top: 6.25rem;
   padding: 1.88rem;
-  border-top: 2px solid #414536;
+  border-top: 2px solid var(--color-4);
   text-align: center;
 }
 
 footer .bottom p {
-  color:#ADB29E;
+  color:var(--color-8);
   font-size: 1rem;
   font-weight: 400;
 }
@@ -113,17 +113,17 @@ footer .bottom p {
   footer .top .box-1 p {
     font-size: 0.9rem;
   }
-  footer .top .box-3 .img img {
-    width: 100%;
-  }
-  footer .bottom {
-    margin-top: 2.6rem;
-  }
   footer .top .box-2 {
     gap: 2.5rem;
   }
   footer .top .box-2 ul li {
     padding-bottom: 1rem;
+  }
+  footer .top .box-3 .img img {
+    width: 100%;
+  }
+  footer .bottom {
+    margin-top: 2.6rem;
   }
 }
 

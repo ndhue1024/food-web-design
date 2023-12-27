@@ -1,5 +1,5 @@
 .contact-page .hero {
-  background-color: #F9F9F7;
+  background-color: var(--color-6);
 }
 
 .contact-page .hero .title {
@@ -13,7 +13,7 @@
 }
 
 .contact-page .hero .title p {
-  color: #495460;
+  color: var(--color-7);
   font-size: 1.125rem;
   font-weight: 400;
   padding-top: 1.125rem;
@@ -28,7 +28,7 @@
 }
 
 .contact-page .info {
-  background: #fff;
+  background: var(--color-1);
   padding: 20rem 0 3rem 0;
   margin: 0 auto;
   width: 50%;
@@ -39,7 +39,7 @@
 }
 
 .contact-page .info .title {
-  color: #2C2F24;
+  color: var(--secondary-color);
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.625rem;
@@ -47,12 +47,12 @@
 }
 
 .contact-page .info .text {
-  color: #2C2F24;
+  color: var(--secondary-color);
   line-height: 1.5rem;
 }
 
 .contact-page .info .call .text {
-  color: #AD343E;
+  color: var(--primary-color);
   font-size: 1.25rem;
   font-weight: 700;
 }
@@ -69,8 +69,7 @@
   }
 }
 
-@media only screen and (max-width: 1370px) {
-  
+@media only screen and (max-width: 1370px) { 
   .contact-page .hero .title h1.main-title {
     font-size: 5.2rem;
     line-height: 5.5rem;
@@ -95,11 +94,12 @@
 }
 
 @media only screen and (max-width: 1300px) {
-  .contact-page .hero .title p {
-    font-size: 1rem;
-  }
   .contact-page .info .title {
     font-size: 1.1rem;
+  }
+
+  .contact-page .hero .title p {
+    font-size: 1rem;
   }
   
   .contact-page .info .text {
@@ -161,13 +161,13 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .contact-page .hero {
+    padding: 3rem 1.5rem 16rem 1.5rem;
+  }
+
   .contact-page .hero .title h1.main-title {
     font-size: 4.3rem;
     line-height: 4.3rem;
-  }
-
-  .contact-page .hero {
-    padding: 3rem 1.5rem 16rem 1.5rem;
   }
 
   .contact-page .info {
@@ -204,10 +204,6 @@
 }
 
 @media only screen and (max-width: 878px) {
-  .contact-page .hero .title p {
-    font-size: 0.9rem;
-    width: 80%;
-  }
   .contact-page .hero .title h1.main-title {
     font-size: 3.8rem;
     line-height: 3.8rem;
@@ -215,6 +211,11 @@
 
   .contact-page .hero {
     padding: 3rem 0 16rem 0;
+  }
+
+  .contact-page .hero .title p {
+    font-size: 0.9rem;
+    width: 80%;
   }
 
   .contact-page .info {
@@ -244,6 +245,10 @@
 }
 
 @media only screen and (max-width: 770px) {
+  .contact-page .hero {
+    padding: 3rem 0 13rem 0;
+  }
+  
   .contact-page .hero .title {
     width: 65%;
   }
@@ -251,9 +256,6 @@
   .contact-page .hero .title p {
     padding-top: 0.5rem;
     width: 90%;
-  }
-  .contact-page .hero {
-    padding: 3rem 0 13rem 0;
   }
 
   .contact-page .hero .form {
@@ -417,6 +419,7 @@
     font-size: 0.6rem;
   }
 }
+
 @media only screen and (max-width: 330px){
   .contact-page .hero .title p {
     font-size: 0.6rem;

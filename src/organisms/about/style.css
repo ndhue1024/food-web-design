@@ -1,5 +1,5 @@
 .about {
-  background-color: #F9F9F7;
+  background-color: var(--color-6);
   text-align: left;
 }
 
@@ -53,8 +53,6 @@
 }
 
 /* RESPONSIVE */
-
-/* DESKTOP */
 @media only screen and (max-width: 1400px) {
   .about .container .img {
     height: 457px;
@@ -75,12 +73,10 @@
   .about .container .contact-card .contact-card-box {
     padding: 2rem;
   }
-
   .about .container button {
     padding: 1rem 1.5rem;
     font-size: 0.9rem;
   }
-  
   .about .container .contact-card {
     width: 22rem;
   }
@@ -91,11 +87,8 @@
     bottom: -4%;
   }
 }
+
 @media only screen and (max-width: 1233px) {
-  .about .container .contact-card .contact-card-box .info-contact .info-contact-content {
-    font-size: 0.85rem;
-    padding-left: 0.5rem;
-  }
   .about .container {
     padding: 5.5rem 7.5rem;
     gap: 0 3.7rem;
@@ -103,45 +96,42 @@
   .about .container .img {
     height: 28.5rem;
   }
+  .about .container .img img {
+    padding-right: 0;
+  }
   .about .container .contact-card {
     width: 20rem;
   }
   .about .container .contact-card .contact-card-box {
     padding: 2.5rem 2rem;
   }
-  
   .about .container .contact-card .contact-card-box h3 {
     font-size: 1.4rem;
     letter-spacing: -0.045rem;
     padding-bottom: 0.5rem;
   }
-  
   .about .container .content p {
     padding-top: 1.2rem;
   }
-  
   .about .container .content .content-1 {
     font-size: 1.025rem;
     line-height: 1.45rem;
   }
-  
   .about .container .content .content-2 {
     font-size: 0.9rem;
     line-height: 1.5rem;
   }
-  
   .about .container .content .about-button {
     padding-top: 1.5rem;
   }
-  
-  .about .container .img img {
-    padding-right: 0;
-  }
-
   .about .container .about-button button {
     font-weight: 600;
     font-size: 1rem;
     padding: 1rem 1.5rem;
+  }
+  .about .container .contact-card .contact-card-box .icon-secondary p {
+    font-size: 0.85rem;
+    padding-left: 0.5rem;
   }
 }
 
@@ -156,9 +146,6 @@
 }
 
 @media only screen and (max-width: 991px) {
-  .about .container h1.main-title {
-    text-align: left;
-  }
   .about .container {
     display: block;
   }
@@ -167,12 +154,13 @@
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
   }
-  .about .container .content {
-    padding-top: 5.7rem;
-  }
   .about .container h1.main-title {
+    text-align: left;
     font-size: 2.2rem;
     line-height: 2.8rem;
+  }
+  .about .container .content {
+    padding-top: 5.7rem;
   }
   .about .container .contact-card {
     position: absolute;
@@ -197,34 +185,27 @@
     bottom: -15%;
     width: 18rem;
   }
-  
   .about .container .contact-card .contact-card-box {
     padding: 1.5rem 1.25rem;
   }
-  
   .about .container .contact-card .contact-card-box h3 {
     font-size: 1.125rem;
     font-weight: 600;
     letter-spacing: -0.045rem;
   }
-
-  .about .container .info-contact .css-i4bv87-MuiSvgIcon-root, .about .container .info-contact .css-vubbuv  {
+  .about .container .icon-secondary .css-i4bv87-MuiSvgIcon-root, .about .container .icon-secondary .css-vubbuv  {
     width: 1.2rem;
     height: 1.2rem;
   }
-
-  .about .container .info-contact .info-contact-content {
+  .about .container .icon-secondary p {
     padding-left: 1rem;
   }
-
   .about .container .content {
     padding: 5.7rem 0 2.5rem 0;
   }
-  
   .about .container .content p {
     padding-top: 1.2rem;
   }
-  
   .about .container .content .content-1 {
     font-size: 1rem;
     font-weight: 600;
@@ -238,24 +219,18 @@
   
   .about .container .content .about-button {
     padding-top: 1.5rem;
+    text-align: center;
   }
 
   .about .container .content .about-button button {
     border: 1px solid;
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 0.8rem 1rem;
   }
   
   .about .container .img img {
     padding-right: 0;
-  }
-
-  .about .container .about-button {
-    text-align: center;
-  }
-
-  .about .container .about-button button {
-    font-weight: 600;
-    font-size: 0.7rem;
-    padding: 0.8rem 1rem;
   }
 }
 
@@ -286,26 +261,24 @@
   .about .container .contact-card .contact-card-box h3 {
     font-size: 0.95rem;
   }
-
-  .about .container .info-contact .css-i4bv87-MuiSvgIcon-root, .about .container .info-contact .css-vubbuv {
+  /* ICON */
+  .about .container .icon-secondary .css-i4bv87-MuiSvgIcon-root, .about .container .icon-secondary .css-vubbuv {
     width: 1.1rem;
     height: 1.1rem;
   }
-
-  .about .container .contact-card .contact-card-box .info-contact .info-contact-content {
+  .about .container .contact-card .contact-card-box .icon-secondary {
+    padding: 0.2rem 0;
+  }
+  .about .container .contact-card .contact-card-box .icon-secondary p {
     font-size: 0.7rem;
     line-height: 1.2rem;
   }
-
-  .about .container .contact-card .contact-card-box .info-contact {
-    padding: 0.2rem 0;
-}
 }
 
 @media only screen and (max-width: 380px) {
   .about .container .content .about-button button {
-      padding: 0.5rem 0.8rem;
-      font-size: 0.6rem;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.6rem;
   }
 }
 

@@ -10,19 +10,18 @@
 }
 
 .input {
-  font-family: 'DM Sans', sans-serif;
+  font-family: var(--font-1);
   border-radius: 4.5rem;
-  border: 1px solid  #DBDFD0;
-  background: #FFF;
+  border: var(--border-1)  ;
+  background: var(--color-1);
   padding: 1rem 1.5rem;
   margin-top: 0.5rem;
   width: 100%;
-  color:#2C2F24;
+  color: var(--secondary-color);
 }
 
 .input-group label {
   display: block;
-  color: #2C2F24;
-  font-family: 'DM Sans', sans-serif;
+  color: var(--secondary-color);
   font-weight: 700;
 }

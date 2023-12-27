@@ -1,12 +1,12 @@
 import React from 'react'
 import "./style.css"
 
-interface TitleProps {
+type TitleProps = {
   title: string;
   text?: string;
 }
 
-export const Heading: React.FC<TitleProps> = ({ title, text }) => {
+const Heading: React.FC<TitleProps> = ({ title, text }) => {
   return (
     <div className="title">
       <h1 className='main-title'> {title} </h1>
@@ -14,3 +14,4 @@ export const Heading: React.FC<TitleProps> = ({ title, text }) => {
     </div>
   )
 }
+export default Heading;
