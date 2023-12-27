@@ -26,7 +26,7 @@ const BlogDetailContent = () => {
   }, [])
 
   return (
-    <section className="blog-details-content">
+    <section className="blog-detail-content">
       <div className="container">
           <Heading 
             title="Read More Articles" 
@@ -35,7 +35,7 @@ const BlogDetailContent = () => {
         <div className="blogs">
         {blogs.slice(0, 4)
         .map(blog => (
-              <Link to="/blog-details" key={blog.id}>
+              <Link to="/blog-detail" key={blog.id}>
                 <BlogCard
                   src={blog.img}
                   content1={blog.date}

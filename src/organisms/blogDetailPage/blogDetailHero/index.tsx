@@ -3,7 +3,7 @@ import './style.css'
 
 const BlogDetailHero = () => {
   return (
-    <section className="blog-details-hero">
+    <section className="blog-detail-hero">
       <div className="container">
           <Heading title="The secret tips & tricks to prepare a perfect burger & pizza for our customers" />
         <div className="blog-img">

@@ -4,7 +4,7 @@ import './style.css';
 
 const BlogDetail = () => {
   return (
-      <section className="blog-details">
+      <section className="blog-detail-page">
         <BlogDetailHero />
         <BlogDetailContent />
       </section>
