@@ -53,7 +53,7 @@ const BookingForm = () => {
       newErrors.phone = "Phone is required";
       valid = false;
     } else if (!/^\d-\d{3}-\d{3}-\d{4}$/.test(form.phone)) {
-      newErrors.phone = "Phone's pattern must be (x-xxx-xxx-x)";
+      newErrors.phone = "Phone's pattern must be (x-xxx-xxxx)";
       valid = false;
     } else {
       newErrors.phone = "";
