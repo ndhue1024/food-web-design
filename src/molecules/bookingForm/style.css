@@ -19,7 +19,7 @@
   gap: 1.25rem;
 }
 
-.book .hero .form form > .input-group:nth-child(5), .book .hero .form form > .input-group:nth-child(6) {
+.book .hero .form form > div:nth-child(5), .book .hero .form form > div:nth-child(6) {
   grid-column: auto / span 2;
 }
 

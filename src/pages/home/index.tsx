@@ -1,10 +1,10 @@
-import Hero from '@organisms/homePage/hero'
-import Menu from '@organisms/homePage/menu'
-import AboutComponent from '@organisms/about'
-import Service from '@organisms/homePage/service'
-import Content from '@organisms/homePage/content'
-import Testimonial from '@organisms/testimonial'
-import Blog from '@organisms/homePage/blog'
+import Hero from '@organisms/HomePage/Hero'
+import Menu from '@organisms/HomePage/Menu'
+import AboutComponent from '@organisms/AboutComponent'
+import Service from '@organisms/HomePage/Service'
+import Content from '@organisms/HomePage/Content'
+import Testimonial from '@organisms/Testimonial'
+import Blog from '@organisms/HomePage/Blog'
 
 const Home = () => {
   return (

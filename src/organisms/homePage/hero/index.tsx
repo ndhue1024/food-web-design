@@ -1,4 +1,4 @@
-import Button from '@atoms/button';
+import Button from '@atoms/Button';
 import { useNavigate } from 'react-router-dom';
 import './style.css'
 

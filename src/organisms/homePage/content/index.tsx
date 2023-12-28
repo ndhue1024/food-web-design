@@ -1,5 +1,5 @@
-import Heading from '@atoms/heading'
-import IconContent from '@atoms/iconContent';
+import Heading from '@atoms/Heading'
+import IconContent from '@atoms/IconContent';
 import {
   AccessTimeOutlined,
   ReceiptOutlined,

@@ -1,4 +1,4 @@
-import IconContent from "@atoms/iconContent";
+import IconContent from "@atoms/IconContent";
 import { Link } from "react-router-dom";
 import {
   PhoneOutlined,

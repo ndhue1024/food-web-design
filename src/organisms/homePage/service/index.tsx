@@ -1,5 +1,5 @@
-import Heading from "@atoms/heading";
-import ServiceCard from "@atoms/card/serviceCard";
+import Heading from "@atoms/Heading";
+import ServiceCard from "@atoms/ServiceCard";
 import "./style.css";
 
 const serviceData = [

@@ -1,18 +1,18 @@
 import React from 'react';
 import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-import ScrollToTop from '@atoms/scrollToTop';
-import TopBar from '@organisms/topBar';
-import Header from '@organisms/header';
-import Footer from '@organisms/footer';
+import ScrollToTop from '@atoms/ScrollToTop';
+import TopBar from '@organisms/TopBar';
+import Header from '@organisms/Header';
+import Footer from '@organisms/Footer';
 
-import Home from '@pages/home';
-import About from '@pages/about'; 
-import Menu from '@pages/menu';
-import Book from '@pages/book';
-import Blog from '@pages/blog';
-import Contact from '@pages/contact';
-import BlogDetail from '@pages/blogDetail';
+import Home from '@pages/Home';
+import About from '@pages/About'; 
+import Menu from '@pages/Menu';
+import Book from '@pages/Book';
+import Blog from '@pages/Blog';
+import Contact from '@pages/Contact';
+import BlogDetail from '@pages/BlogDetail';
 
 const Layout = () => {
   return (

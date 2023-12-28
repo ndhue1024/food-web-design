@@ -1,4 +1,4 @@
-import User from '@atoms/user';
+import User from '@atoms/User';
 import "./style.css"
 
 type TestimonialCardProps = {

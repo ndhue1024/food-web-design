@@ -1,4 +1,4 @@
-import Heading from '@atoms/heading'
+import Heading from '@atoms/Heading'
 import './style.css'
 
 const BlogDetailHero = () => {

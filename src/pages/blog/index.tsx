@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Box, Pagination } from "@mui/material";
-import Loader from "@atoms/loader";
-import Heading from "@atoms/heading";
-import BlogCard from "@atoms/card/blogCard";
+import Loader from "@atoms/Loader";
+import Heading from "@atoms/Heading";
+import BlogCard from "@atoms/BlogCard";
 import "./style.css";
 
 type BlogProps = {

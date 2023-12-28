@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
-import Heading from "@atoms/heading";
-import Button from "@atoms/button";
-import BlogCard from "@atoms/card/blogCard";
+import Heading from "@atoms/Heading";
+import Button from "@atoms/Button";
+import BlogCard from "@atoms/BlogCard";
 import "./style.css";
 
 const data = [

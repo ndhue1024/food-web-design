@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import Button from '@atoms/button';
+import Button from '@atoms/Button';
 import {
   ReorderOutlined,
   CloseOutlined

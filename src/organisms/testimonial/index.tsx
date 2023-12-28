@@ -1,5 +1,5 @@
-import Heading from '@atoms/heading'
-import TestimonialCard from '@molecules/testimonialCard'
+import Heading from '@atoms/Heading'
+import TestimonialCard from '@molecules/TestimonialCard'
 import './style.css'
 
 const data = [

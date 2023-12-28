@@ -1,4 +1,4 @@
-import IconContent from "@atoms/iconContent";
+import IconContent from "@atoms/IconContent";
 import {
   PhoneOutlined,
   EmailOutlined,

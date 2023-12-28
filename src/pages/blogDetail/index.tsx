@@ -1,5 +1,5 @@
-import BlogDetailHero from '@organisms/blogDetailPage/blogDetailHero'; 
-import BlogDetailContent from '@organisms/blogDetailPage/blogDetailContent';
+import BlogDetailHero from '@organisms/BlogDetailPage/BlogDetailHero'; 
+import BlogDetailContent from '@organisms/BlogDetailPage/BlogDetailContent';
 import './style.css';
 
 const BlogDetail = () => {

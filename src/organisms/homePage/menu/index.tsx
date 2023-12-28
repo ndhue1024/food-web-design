@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
-import Heading from '@atoms/heading'
-import Button from '@atoms/button'
+import Heading from '@atoms/Heading'
+import Button from '@atoms/Button'
 import './style.css'
 
 const data = [

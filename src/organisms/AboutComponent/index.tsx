@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import Heading from "@atoms/heading";
-import Button from "@atoms/button";
-import ContactCard from "@molecules/contactCard";
+import Heading from "@atoms/Heading";
+import Button from "@atoms/Button";
+import ContactCard from "@molecules/ContactCard";
 
 import "./style.css";
 

@@ -1,7 +1,7 @@
 import { FormEvent, useState } from "react";
-import Button from "@atoms/button";
-import Input from "@atoms/input";
-import SubmitSnackbar from "@atoms/snackbar";
+import Button from "@atoms/Button";
+import Input from "@atoms/Input";
+import SubmitSnackbar from "@atoms/Snackbar";
 import "./style.css";
 
 type Form = {
@@ -94,6 +94,14 @@ const ContactForm = () => {
     }));
   };
 
+  const handleTextAreaOnchange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setForm((prevForm) => ({
+      ...prevForm,
+      [name]: value,
+    }));
+  }
+
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (validateForm()) {
@@ -174,13 +182,7 @@ const ContactForm = () => {
               rows={5}
               value={form.message}
               name="message"
-              onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) => {
-                const { name, value } = e.target;
-                setForm((prevForm) => ({
-                  ...prevForm,
-                  [name]: value,
-                }));
-              }}
+              onChange={handleTextAreaOnchange}
             ></textarea>
             {errors.message && (
               <div className="input-error">{errors.message}*</div>

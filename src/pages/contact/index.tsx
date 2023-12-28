@@ -1,5 +1,5 @@
-import Heading from '@atoms/heading'
-import ContactForm from '@molecules/contactForm'
+import Heading from '@atoms/Heading'
+import ContactForm from '@molecules/ContactForm'
 import './style.css'
 
 const Contact = () => {

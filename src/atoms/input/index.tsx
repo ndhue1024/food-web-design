@@ -7,6 +7,7 @@ type InputProps = {
   placeholder?: string;
   value?: string;
   name?: string;
+  disabled?: boolean;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   Icon?: React.ElementType;
   min?: string;
@@ -17,6 +18,7 @@ const Input= ({
   label,
   value,
   name,
+  disabled,
   placeholder,
   onChange,
   Icon,
@@ -27,6 +29,7 @@ const Input= ({
       <label>{label}</label>
       <input 
         className="input" 
+        disabled={disabled}
         type={type} 
         value={value}
         placeholder={placeholder}

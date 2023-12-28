@@ -1,6 +1,6 @@
-import AboutContent1 from '@organisms/aboutPage/aboutContent1' 
-import AboutContent2 from '@organisms/aboutPage/aboutContent2' 
-import AboutComponent from '@organisms/about'
+import AboutContent1 from '@organisms/AboutPage/AboutContent1' 
+import AboutContent2 from '@organisms/AboutPage/AboutContent2' 
+import AboutComponent from '@organisms/AboutComponent'
 import './style.css'
 
 const About = () => {

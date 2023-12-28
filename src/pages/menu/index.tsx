@@ -1,5 +1,5 @@
-import MenuHero from '@organisms/menuPage/menuHero'
-import MenuBrand from '@organisms/menuPage/menuBrand'
+import MenuHero from '@organisms/MenuPage/MenuHero'
+import MenuBrand from '@organisms/MenuPage/MenuBrand'
 
 const Menu = () => {
   return (

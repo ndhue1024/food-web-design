@@ -1,5 +1,5 @@
-import Heading from '@atoms/heading'
-import BookingForm from '@molecules/bookingForm';
+import Heading from '@atoms/Heading'
+import BookingForm from '@molecules/BookingForm';
 import './style.css'
 
 const Book = () => {

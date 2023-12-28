@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Box, Pagination } from "@mui/material";
-import Heading from "@atoms/heading";
-import Button from "@atoms/button";
-import MenuCard from "@atoms/card/menuCard";
-import Loader from "@atoms/loader";
+import Heading from "@atoms/Heading";
+import Button from "@atoms/Button";
+import MenuCard from "@atoms/MenuCard";
+import Loader from "@atoms/Loader";
 import "./style.css";
 
 type MenuCardsProps = {

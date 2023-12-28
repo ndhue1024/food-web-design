@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
-import Heading from '@atoms/heading'
-import BlogCard from '@atoms/card/blogCard';
+import Heading from '@atoms/Heading'
+import BlogCard from '@atoms/BlogCard';
 import './style.css'
 
 interface BlogProps {
