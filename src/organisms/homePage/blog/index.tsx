@@ -1,5 +1,4 @@
 import { Link, useNavigate } from "react-router-dom";
-
 import Heading from "@atoms/heading";
 import Button from "@atoms/button";
 import BlogCard from "@atoms/card/blogCard";
@@ -30,6 +29,7 @@ const data = [
 
 const Blog = () => {
   const navigate = useNavigate();
+
   const renderBlog = () => {
     return data.map((blog, index) => (
       <Link to="/blog-detail" key={index+1}>
@@ -41,6 +41,7 @@ const Blog = () => {
       </Link>
     ))
   }
+  
   return (
     <section className="blog">
       <div className="heading">

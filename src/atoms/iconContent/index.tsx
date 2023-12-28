@@ -1,12 +1,16 @@
 import React from 'react'
 import './style.css'
 
-type ListItemProps = {
+type IconContentProps = {
   Icon: React.ElementType;
   content: string;
   variant: string;
 }
-const IconContent: React.FC<ListItemProps> = ({ Icon, content, variant }) => {
+const IconContent = ({
+  Icon,
+  content,
+  variant
+}: IconContentProps) => {
   return (
     <div className={variant}>
       {Icon && <Icon />}

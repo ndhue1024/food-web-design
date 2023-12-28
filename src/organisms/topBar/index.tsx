@@ -1,27 +1,29 @@
-import { Link } from "react-router-dom";
-import PhoneOutlinedIcon from "@mui/icons-material/PhoneOutlined";
-import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import IconContent from "@atoms/iconContent";
+import { Link } from "react-router-dom";
+import {
+  PhoneOutlined,
+  EmailOutlined
+} from "@mui/icons-material";
 import "./style.css";
 
 const TopBar = () => {
   return (
     <section className="top-bar">
       <div className="info">
-        <Link to="/">
+        <a href="tel:414-857-0107" target="_blank" rel="noreferrer">
           <IconContent
-            Icon={PhoneOutlinedIcon}
+            Icon={PhoneOutlined}
             content="(414) 857 - 0107"
             variant='icon-secondary'
           />
-        </Link>
-        <Link to="/">
+        </a>
+        <a href="mailto:happytummy@restaurant.com" target="_blank" rel="noreferrer">
           <IconContent
-            Icon={EmailOutlinedIcon}
+            Icon={EmailOutlined}
             content="happytummy@restaurant.com"
             variant='icon-secondary'
           />
-        </Link>
+        </a>
       </div>
       <div className="social">
         <Link to="/">

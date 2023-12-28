@@ -1,23 +1,21 @@
 import Heading from '@atoms/heading'
 import ContactForm from '@molecules/contactForm'
-
 import './style.css'
 
 const Contact = () => {
   return (
-    <>
       <section className="contact-page">
       <div className="hero">
-          <Heading
+        <Heading
           title="Contact Us"
-          text="We consider all the drivers of change gives you the components you need to change to create a truly happens."
-          />
+          text="We consider all the drivers of change gives you the components you  need to change to create a truly happens."
+        />
         <ContactForm />
       </div>
       <div className="info">
         <div className="call">
           <p className='title'>Call Us:</p>
-          <p className='text'>+1-234-567-8900</p>
+          <a href='tel:1-234-567-8900' className='text'>+1-234-567-8900</a>
         </div>
         <div className="hours">
           <p className='title'>Hours:</p>
@@ -31,7 +29,6 @@ const Contact = () => {
         </div>
       </div>
     </section>
-    </>
   )
 }
 

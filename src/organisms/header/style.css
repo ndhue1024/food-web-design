@@ -25,29 +25,32 @@ header .content{
   align-items: center;
   width: 60%;
 }
-nav ul {
+header nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 2.5rem;
 }
-nav ul li.active{
+header nav ul li.active{
   padding: 0.65rem 1.7rem;
   background-color: var(--color-9);
   border-radius: 2rem;
 }
 
-nav ul li.active:hover a {
+header nav ul li a {
+  transition: var(--transition-1);
+}
+
+header nav ul li.active:hover a {
   color:#2C2F24
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
   color: var(--primary-color);
-  transition: ease-in-out;
-  transition-duration: 0.3s;
+  transition: var(--transition-1);
 }
 
-nav ul li a {
+header nav ul li a {
   font-size: 1rem;
   font-weight: 600;
 }
@@ -87,12 +90,12 @@ header .close-icon {
   top: 0.6rem;
   cursor: pointer;
   text-align: right;
-  transition: ease-in-out 0.3s;
+  transition: var(--transition-1);
 }
 
 header .close-icon:hover {
   color:var(--primary-color);
-  transition: ease-in-out 0.3s;
+  transition: var(--transition-1);
 }
 
 .mobile-nav ul {
@@ -111,12 +114,12 @@ header .close-icon:hover {
 .mobile-nav ul li a{
   font-size: 0.85rem;
   font-weight: 600;
+  transition: var(--transition-1);
 }
 
 .mobile-nav ul li a:hover {
   color: var(--primary-color);
-  transition: ease-in-out;
-  transition-duration: 0.3s;
+  transition: var(--transition-1)
 }
 
 .mobile-nav .header-button {

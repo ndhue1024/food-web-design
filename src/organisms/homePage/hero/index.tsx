@@ -12,22 +12,22 @@ const Hero = () => {
         <p>Discover delectable cuisine and unforgettable moments in our welcoming, culinary haven.</p>
         <div className="button-container">
           <div className="button1">
-              <Button 
-                title="Book A Table"
-                onClick={() => navigate('/book')} 
-                variant='primary' 
-              />
+            <Button 
+              title="Book A Table"
+              onClick={() => navigate('/book')} 
+              variant='primary' 
+            />
           </div>
           <div className="button2">
-              <Button 
-                title="Explore Menu" 
-                onClick={() => navigate('/menu')}
-                variant='secondary' 
-              />
+            <Button 
+              title="Explore Menu" 
+              onClick={() => navigate('/menu')}
+              variant='secondary' 
+            />
           </div>
         </div>
       </div>
-        <div className="blur"></div>
+      <div className="blur"></div>
     </section>
   )
 }

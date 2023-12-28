@@ -1,18 +1,18 @@
-import React from 'react'
 import "./style.css";
 
 type MenuCardProps = {
   src: string;
   content1: string;
   content2: string;
-  content3?: string;
-};
-const MenuCard: React.FC<MenuCardProps> = ({
+  content3: string;
+}
+
+const MenuCard = ({
   src,
   content1,
   content2,
   content3
-}) => {
+}: MenuCardProps) => {
   return (
     <div className="card-box">
       <div className="card-container">

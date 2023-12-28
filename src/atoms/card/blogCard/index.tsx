@@ -1,4 +1,3 @@
-import React from 'react'
 import "./style.css";
 
 type BlogCardProps = {
@@ -7,12 +6,12 @@ type BlogCardProps = {
   content2: string;
   content3?: string;
 };
-const BlogCard: React.FC<BlogCardProps> = ({
+const BlogCard = ({
   src,
   content1,
   content2,
   content3
-}) => {
+} : BlogCardProps) => {
   return (
     <div className="card-box">
       <div className="card-container">

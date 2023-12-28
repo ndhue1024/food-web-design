@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Button from '@atoms/button';
-
-import ReorderOutlinedIcon from '@mui/icons-material/ReorderOutlined';
-import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
-
+import {
+  ReorderOutlined,
+  CloseOutlined
+} from "@mui/icons-material";
 import './style.css';
 
 const Header = () => {
@@ -48,9 +48,9 @@ const Header = () => {
         </div>
       </div>
       {/* MOBILE */}
-      <ReorderOutlinedIcon onClick={() => setIsOpen(true)} className='mobile-icon' />
+      <ReorderOutlined onClick={() => setIsOpen(true)} className='mobile-icon' />
       <div className={isOpen ? "mobile-nav block " : "mobile-nav hidden " }>
-        <CloseOutlinedIcon onClick={() => setIsOpen(false)} className='close-icon'/>
+        <CloseOutlined onClick={() => setIsOpen(false)} className='close-icon'/>
         <ul>
             <li className={location.pathname === "/" ? "active" : ""}>
               <Link to="/">Home</Link>

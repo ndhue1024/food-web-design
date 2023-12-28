@@ -4,16 +4,36 @@ import './style.css'
 type InputProps = {
   type: string;
   label: string;
-  value?: string;
   placeholder?: string;
+  value?: string;
+  name?: string;
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   Icon?: React.ElementType;
+  min?: string;
 }
 
-const Input: React.FC<InputProps> = ({ type, label, value, placeholder, Icon }) => {
+const Input= ({
+  type,
+  label,
+  value,
+  name,
+  placeholder,
+  onChange,
+  Icon,
+  min
+}: InputProps) => {
   return (
     <div className="input-group">
       <label>{label}</label>
-      <input className="input" type={type} placeholder={placeholder} defaultValue={value} />
+      <input 
+        className="input" 
+        type={type} 
+        value={value}
+        placeholder={placeholder}
+        name={name}
+        onChange={onChange}
+        min={min}
+      />
       {Icon && <Icon className="input-icon" />}
     </div>
   );

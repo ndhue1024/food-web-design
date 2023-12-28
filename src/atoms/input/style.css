@@ -11,12 +11,12 @@
 
 .input {
   font-family: var(--font-1);
+  background: var(--color-1);
+  width: 100%;
   border-radius: 4.5rem;
   border: var(--border-1)  ;
-  background: var(--color-1);
   padding: 1rem 1.5rem;
   margin-top: 0.5rem;
-  width: 100%;
   color: var(--secondary-color);
 }
 

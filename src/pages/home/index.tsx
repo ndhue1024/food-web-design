@@ -1,6 +1,6 @@
-import AboutComponent from '@organisms/about'
 import Hero from '@organisms/homePage/hero'
 import Menu from '@organisms/homePage/menu'
+import AboutComponent from '@organisms/about'
 import Service from '@organisms/homePage/service'
 import Content from '@organisms/homePage/content'
 import Testimonial from '@organisms/testimonial'

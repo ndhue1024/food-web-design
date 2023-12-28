@@ -1,4 +1,3 @@
-import React from 'react'
 import "./style.css"
 
 type TitleProps = {
@@ -6,7 +5,7 @@ type TitleProps = {
   text?: string;
 }
 
-const Heading: React.FC<TitleProps> = ({ title, text }) => {
+const Heading = ({ title, text }: TitleProps) => {
   return (
     <div className="title">
       <h1 className='main-title'> {title} </h1>

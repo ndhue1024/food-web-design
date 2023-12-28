@@ -1,11 +1,11 @@
-import React from 'react'
-import './style.css'
 import Heading from '@atoms/heading'
 import IconContent from '@atoms/iconContent';
-
-import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
-import ReceiptOutlinedIcon from '@mui/icons-material/ReceiptOutlined';
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import {
+  AccessTimeOutlined,
+  ReceiptOutlined,
+  ShoppingCartOutlined
+} from "@mui/icons-material";
+import './style.css'
 
 const Content = () => {
   return (
@@ -24,9 +24,19 @@ const Content = () => {
           <Heading title="Fastest Food Delivery in City" />
           <p className='text'>Our visual designer lets you quickly and of drag a down your way to customapps for both keep desktop. </p>
           <div className="list">
-          <IconContent Icon={AccessTimeOutlinedIcon} content="Delivery within 30 minutes" variant='icon-primary' />
-          <IconContent Icon={ReceiptOutlinedIcon} content="Best Offer & Prices" variant='icon-primary' />
-          <IconContent Icon={ShoppingCartOutlinedIcon} content="Online Services Available" variant='icon-primary' />
+          <IconContent
+            Icon={AccessTimeOutlined}
+            content="Delivery within 30 minutes"
+            variant='icon-primary'
+          />
+          <IconContent
+            Icon={ReceiptOutlined}
+            content="Best Offer & Prices"
+            variant='icon-primary' />
+          <IconContent
+            Icon={ShoppingCartOutlined}
+            content="Online Services Available"
+            variant='icon-primary' />
           </div>
         </div>
       </div>

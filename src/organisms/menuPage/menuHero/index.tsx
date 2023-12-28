@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import { Box, CircularProgress } from "@mui/material";
+import { Box, Pagination } from "@mui/material";
 import Heading from "@atoms/heading";
 import Button from "@atoms/button";
 import MenuCard from "@atoms/card/menuCard";
+import Loader from "@atoms/loader";
 import "./style.css";
 
 type MenuCardsProps = {
@@ -16,6 +17,17 @@ type MenuCardsProps = {
 const MenuHero = () => {
   const [cards, setCards] = useState<MenuCardsProps[]>([]);
   const [filter, setFilter] = useState("All");
+  const [page, setPage] = useState(1);
+  const [perPage, setPerPage] = useState(8);
+
+  const itemsByPage = () => {
+    const begin = (page === 1) ? 0 : ((page - 1) * perPage);
+    const end = begin + perPage;
+    return cards.slice(begin, end);
+  }
+  const handleChange = (e:any, p:any) => {
+    setPage(p);
+  }
 
   const handleFilter = (e: string) => {
     setFilter(e);
@@ -33,6 +45,20 @@ const MenuHero = () => {
 
   useEffect(() => {
     getCards();
+    const handlePage = () => {
+      if(window.innerWidth >= 1175) {
+        setPerPage(8)
+      }
+      if(window.innerWidth < 1175) {
+        setPerPage(6)
+      }
+      if(window.innerWidth < 991) {
+        setPerPage(4)
+      }
+    }
+    window.addEventListener('resize', handlePage)
+    handlePage();
+    return () => window.removeEventListener('resize', handlePage);
   }, []);
 
   return (
@@ -74,7 +100,7 @@ const MenuHero = () => {
         {cards.length !== 0 ? (
           <div className="cards">
             {
-              cards.map((card) => (
+              itemsByPage().map((card) => (
                 <div className="card" key={card.id}>
                   <MenuCard
                     src={card.img}
@@ -87,15 +113,18 @@ const MenuHero = () => {
             }
           </div>
         ) : (
-          <Box
-            display="flex"
-            justifyContent="center"
-            alignItems="center"
-            minHeight="50vh"
-          >
-            <CircularProgress color="inherit" />
-          </Box>
+          <Loader />
         )}
+        <Box display="flex" justifyContent="center" alignItems="center" marginTop="1rem">
+          <Pagination
+            count={Math.ceil(cards.length / perPage)}
+            size="medium"
+            variant="outlined"
+            shape="rounded" 
+            page={page}
+            onChange={handleChange}
+          />
+        </Box>
     </section>
   );
 };

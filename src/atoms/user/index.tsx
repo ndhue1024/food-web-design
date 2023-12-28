@@ -1,4 +1,3 @@
-import React from 'react'
 import './style.css'
 
 interface UserProps {
@@ -6,7 +5,12 @@ interface UserProps {
   name: string;
   address: string;
 }
-const User: React.FC<UserProps> = ({ src, name, address }) => {
+
+const User = ({
+  src,
+  name,
+  address
+}: UserProps) => {
   return (
     <div className='user-container'>
       <div className="avatar">

@@ -1,6 +1,6 @@
 .contact-page .hero .form {
   position: absolute;
-  top: 6%;
+  top: 0;
   left: 50%;
   transform: translate(-50%, 50%);
 
@@ -19,11 +19,23 @@
   gap: 1.25rem;
 }
 
-.contact-page .hero .form form > .input-group:nth-child(3), .contact-page .hero .form form > .input-group:nth-child(4), .contact-page .hero .form form > .input-group:nth-child(5) {
+.input-error {
+  font-size: 0.75rem;
+  color: rgb(216, 34, 34);
+  margin-top: 0.25rem;
+}
+
+.contact-page .hero .form form > div:nth-child(3), .contact-page .hero .form form > div:nth-child(4), .contact-page .hero .form form > .input-group:nth-child(5) {
   grid-column: auto / span 2;
 }
 
 .contact-page .hero .form form .input-group textarea {
   border-radius: 1rem;
   resize: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .input-error {
+    font-size: 0.6rem;
+  }
 }

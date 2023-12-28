@@ -1,18 +1,23 @@
-import React from 'react'
 import './style.css'
 
-type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
+type ButtonProps = {
   title: string;
   variant: string;
+  type?: "submit" | undefined;
   onClick?: () => void;
 }
 
-const Button: React.FC<ButtonProps> = ({ title, variant, onClick, ...props }) => {
+const Button = ({
+  title, 
+  variant, 
+  type,
+  onClick,
+} : ButtonProps) => {
   return (
     <button 
       onClick={onClick}
-      {...props}
       className={variant}
+      type={type}
     >
       {title}
     </button>

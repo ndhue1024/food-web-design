@@ -1,6 +1,5 @@
-import React from 'react'
-import "./style.css"
 import User from '@atoms/user';
+import "./style.css"
 
 type TestimonialCardProps = {
   title: string;
@@ -10,7 +9,13 @@ type TestimonialCardProps = {
   address: string;
 }
 
-const TestimonialCard: React.FC<TestimonialCardProps> = ({ title, text, src, name, address }) => {
+const TestimonialCard = ({
+  title,
+  text,
+  src,
+  name,
+  address
+}: TestimonialCardProps) => {
   return (
     <div className="card-item">
       <div className="card-item-container">

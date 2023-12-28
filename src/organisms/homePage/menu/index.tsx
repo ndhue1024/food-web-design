@@ -1,4 +1,3 @@
-import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import Heading from '@atoms/heading'
 import Button from '@atoms/button'
@@ -42,15 +41,16 @@ const Menu = () => {
         <p className="content">{item.content}</p>
         <div className="menu-button">
             <Button 
-              title='Explore Menu' 
-              variant='btn-no-border'
-              onClick={() => navigate('/menu')}
-            />
+            title='Explore Menu' 
+            variant='btn-no-border'
+            onClick={() => navigate('/menu')}
+          />
         </div>
       </div>
     </div>
     ))
   }
+  
   return (
     <section className='menu'>
       <Heading title='Browse Our Menu' />

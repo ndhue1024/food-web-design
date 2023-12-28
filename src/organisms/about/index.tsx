@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 import Heading from "@atoms/heading";
 import Button from "@atoms/button";
@@ -9,7 +8,7 @@ import "./style.css";
 type AboutProps = {
   img: string;
 }
-const AboutComponent: React.FC<AboutProps> = ({ img }) => {
+const AboutComponent = ({ img }: AboutProps) => {
   const navigate = useNavigate();
 
   return (
@@ -32,11 +31,11 @@ const AboutComponent: React.FC<AboutProps> = ({ img }) => {
             and dedication, strives to make every visit an unforgettable event.
           </p>
           <div className="about-button">
-              <Button 
-                title="More About Us"
-                onClick={() => navigate('/about')} 
-                variant="secondary" 
-              />
+            <Button 
+              title="More About Us"
+              onClick={() => navigate('/about')} 
+              variant="secondary" 
+            />
           </div>
         </div>
       </div>
